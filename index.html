@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trắc Nghiệm Hóa Sinh</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --primary:#4361ee;--primary-light:#eef2ff;--primary-dark:#3a56d4;
+  --success:#10b981;--success-light:#ecfdf5;--success-dark:#059669;
+  --error:#ef4444;--error-light:#fef2f2;--error-dark:#dc2626;
+  --warn:#f59e0b;--warn-light:#fffbeb;
+  --surface:#ffffff;--bg:#f1f5f9;--text:#1e293b;--text2:#64748b;--border:#e2e8f0;
+  --radius:16px;--shadow:0 1px 3px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.04);
+  --shadow-lg:0 4px 24px rgba(0,0,0,.12);
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:16px}
+.container{max-width:720px;margin:0 auto}
+
+/* Header */
+.header{background:linear-gradient(135deg,#4361ee 0%,#7c3aed 100%);color:#fff;border-radius:var(--radius);padding:28px 24px;margin-bottom:20px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.header::after{content:'';position:absolute;top:-40%;right:-10%;width:200px;height:200px;background:rgba(255,255,255,.08);border-radius:50%}
+.header h1{font-size:22px;font-weight:700;margin-bottom:4px}
+.header p{opacity:.85;font-size:14px}
+
+/* Progress bar */
+.progress-wrap{background:var(--surface);border-radius:var(--radius);padding:16px 20px;margin-bottom:16px;box-shadow:var(--shadow)}
+.progress-info{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:13px;font-weight:600;color:var(--text2)}
+.progress-info span:last-child{color:var(--primary)}
+.progress-bar{height:8px;background:var(--border);border-radius:8px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,#4361ee,#7c3aed);border-radius:8px;transition:width .4s ease}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.stat{background:var(--surface);border-radius:12px;padding:14px 12px;text-align:center;box-shadow:var(--shadow)}
+.stat .icon{width:36px;height:36px;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:6px;font-size:20px}
+.stat .icon.blue{background:var(--primary-light);color:var(--primary)}
+.stat .icon.green{background:var(--success-light);color:var(--success)}
+.stat .icon.red{background:var(--error-light);color:var(--error)}
+.stat .num{font-size:22px;font-weight:700;line-height:1}
+.stat .label{font-size:11px;color:var(--text2);margin-top:2px}
+
+/* Question card */
+.card{background:var(--surface);border-radius:var(--radius);padding:24px;margin-bottom:16px;box-shadow:var(--shadow);animation:fadeUp .3s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.q-number{display:inline-block;background:var(--primary);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:12px}
+.q-text{font-size:16px;font-weight:600;line-height:1.6;margin-bottom:18px}
+
+/* Options */
+.options{display:flex;flex-direction:column;gap:10px}
+.option{display:flex;align-items:center;gap:12px;padding:14px 16px;border:2px solid var(--border);border-radius:12px;cursor:pointer;transition:all .2s;font-size:15px;line-height:1.5;user-select:none}
+.option:hover:not(.disabled){border-color:var(--primary);background:var(--primary-light)}
+.option .letter{width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;background:var(--bg);color:var(--text2);flex-shrink:0;transition:all .2s}
+.option:hover:not(.disabled) .letter{background:var(--primary);color:#fff}
+.option.correct{border-color:var(--success);background:var(--success-light)}
+.option.correct .letter{background:var(--success);color:#fff}
+.option.wrong{border-color:var(--error);background:var(--error-light)}
+.option.wrong .letter{background:var(--error);color:#fff}
+.option.disabled{cursor:default;opacity:.7}
+.option.disabled.correct{opacity:1}
+
+/* Nav */
+.nav{display:flex;gap:10px;margin-bottom:16px}
+.nav button{flex:1;padding:14px;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;transition:all .2s}
+.btn-prev{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.btn-prev:hover{background:var(--bg)}
+.btn-next{background:var(--primary);color:#fff;box-shadow:0 4px 12px rgba(67,97,238,.3)}
+.btn-next:hover{background:var(--primary-dark)}
+.btn-next:disabled,.btn-prev:disabled{opacity:.4;cursor:not-allowed}
+
+/* Question grid */
+.q-grid{background:var(--surface);border-radius:var(--radius);padding:20px;margin-bottom:16px;box-shadow:var(--shadow)}
+.q-grid h3{font-size:14px;font-weight:600;margin-bottom:12px;color:var(--text2)}
+.grid{display:grid;grid-template-columns:repeat(10,1fr);gap:8px}
+.grid button{width:100%;border:2px solid var(--border);border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;background:var(--surface);color:var(--text);transition:all .15s}
+.grid button:hover{border-color:var(--primary);color:var(--primary)}
+.grid button.active{border-color:var(--primary);background:var(--primary);color:#fff}
+.grid button.answered-correct{border-color:var(--success);background:var(--success-light);color:var(--success-dark)}
+.grid button.answered-wrong{border-color:var(--error);background:var(--error-light);color:var(--error-dark)}
+
+/* Actions */
+.actions{display:flex;gap:10px;margin-bottom:40px}
+.actions button{flex:1;padding:14px;border:2px solid var(--border);border-radius:12px;background:var(--surface);font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;color:var(--text2);transition:all .2s}
+.actions button:hover{border-color:var(--error);color:var(--error)}
+.actions .material-icons-round{font-size:18px}
+
+/* Result */
+.result{background:var(--surface);border-radius:var(--radius);padding:32px 24px;text-align:center;box-shadow:var(--shadow-lg);margin-bottom:16px;animation:fadeUp .4s ease}
+.result .score-circle{width:120px;height:120px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:32px;font-weight:700;border:6px solid}
+.result .score-circle.pass{border-color:var(--success);color:var(--success);background:var(--success-light)}
+.result .score-circle.fail{border-color:var(--error);color:var(--error);background:var(--error-light)}
+.result h2{font-size:20px;margin-bottom:4px}
+.result p{color:var(--text2);font-size:14px}
+
+/* Toast */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1e293b;color:#fff;padding:12px 24px;border-radius:12px;font-size:13px;font-weight:500;opacity:0;transition:all .3s;z-index:999;display:flex;align-items:center;gap:8px}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* Modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:100;display:none;align-items:center;justify-content:center;padding:16px}
+.modal-overlay.show{display:flex}
+.modal{background:var(--surface);border-radius:var(--radius);padding:28px 24px;max-width:360px;width:100%;text-align:center;animation:fadeUp .3s ease}
+.modal h3{font-size:18px;margin-bottom:8px}
+.modal p{font-size:14px;color:var(--text2);margin-bottom:20px}
+.modal-btns{display:flex;gap:10px}
+.modal-btns button{flex:1;padding:12px;border:none;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer}
+.modal-btns .cancel{background:var(--bg);color:var(--text)}
+.modal-btns .confirm{background:var(--error);color:#fff}
+</style>
+</head>
+<body>
+
+<div class="container" id="app">
+  <div class="header">
+    <h1>Trắc Nghiệm Hóa Sinh</h1>
+    <p>Ngân hàng câu hỏi trắc nghiệm</p>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-info">
+      <span id="prog-text">Câu 1 / 5</span>
+      <span id="prog-pct">0%</span>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="prog-fill" style="width:0%"></div></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="icon blue"><span class="material-icons-round">quiz</span></div>
+      <div class="num" id="s-total">0</div>
+      <div class="label">Đã trả lời</div>
+    </div>
+    <div class="stat">
+      <div class="icon green"><span class="material-icons-round">check_circle</span></div>
+      <div class="num" id="s-correct">0</div>
+      <div class="label">Đúng</div>
+    </div>
+    <div class="stat">
+      <div class="icon red"><span class="material-icons-round">cancel</span></div>
+      <div class="num" id="s-wrong">0</div>
+      <div class="label">Sai</div>
+    </div>
+  </div>
+
+  <div id="question-area"></div>
+
+  <div class="nav">
+    <button class="btn-prev" id="btn-prev" onclick="go(-1)"><span class="material-icons-round">chevron_left</span> Trước</button>
+    <button class="btn-next" id="btn-next" onclick="go(1)">Tiếp <span class="material-icons-round">chevron_right</span></button>
+  </div>
+
+  <div class="q-grid">
+    <h3>Danh sách câu hỏi</h3>
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <div class="actions">
+    <button onclick="exportJSON()"><span class="material-icons-round">download</span> Xuất JSON</button>
+    <button onclick="showModal('restart')"><span class="material-icons-round">refresh</span> Làm lại</button>
+    <button onclick="showModal('reset')"><span class="material-icons-round">delete_forever</span> Xóa dữ liệu</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+    <div class="modal-btns">
+      <button class="cancel" onclick="hideModal()">Hủy</button>
+      <button class="confirm" id="modal-confirm">Xác nhận</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const STORAGE_KEY = 'hoasinh_quiz_progress';
+
+const questions = [
+  {id:1,text:"Thành phần chủ yếu của màng tế bào người là:",options:["Protein và lipid", "Glucid và lipid", "Lipid và acid nucleic", "Protein và acid nucleic"],answer:0},
+  {id:2,text:"Cấu trúc màng sinh chất có dạng mô hình khảm lỏng do ai đề xuất?",options:["Watson và Crick", "Singer và Nicolson", "Franklin và Wilkins", "Hooke và Leeuwenhoek"],answer:1},
+  {id:3,text:"Thành phần lipid chính của màng tế bào là:",options:["Cholesterol", "Phospholipid", "Glycolipid", "Sphingomyelin"],answer:1},
+  {id:4,text:"Bào quan nào chịu trách nhiệm chính cho hô hấp tế bào và tạo ATP?",options:["Ty thể", "Ribosome", "Lưới nội chất", "Bộ Golgi"],answer:0},
+  {id:5,text:"Ribosome có chức năng chính là:",options:["Tổng hợp lipid", "Tổng hợp protein", "Phân giải glucose", "Vận chuyển ion"],answer:1},
+  {id:6,text:"Bào quan nào chỉ có trong tế bào động vật, không có trong tế bào thực vật?",options:["Ty thể", "Trung thể (centrosome)", "Nhân", "Lưới nội chất trơn"],answer:1},
+  {id:7,text:"Lưới nội chất hạt (RER) có nhiều ở tế bào nào sau đây?",options:["Tế bào thần kinh", "Tế bào cơ", "Tế bào gan", "Tế bào hồng cầu"],answer:2},
+  {id:8,text:"Bộ Golgi có chức năng chính là:",options:["Phân giải glucose", "Tổng hợp protein", "Biến đổi, đóng gói và vận chuyển sản phẩm tế bào", "Tổng hợp ATP"],answer:2},
+  {id:9,text:"Nhân tế bào được bao bọc bởi:",options:["Màng đơn", "Màng kép có lỗ nhân", "Màng lipid đơn", "Không có màng"],answer:1},
+  {id:10,text:"Nucleolus (nhân con) có vai trò:",options:["Tổng hợp DNA", "Tổng hợp RNA ribosome", "Tổng hợp lipid", "Đóng gói protein"],answer:1},
+  {id:11,text:"Quá trình khuếch tán đơn giản qua màng tế bào:",options:["Cần năng lượng ATP", "Không cần năng lượng, theo chiều gradient nồng độ", "Chống lại gradient nồng độ", "Cần protein vận chuyển"],answer:1},
+  {id:12,text:"Kênh ion trong màng tế bào được cấu tạo chủ yếu từ:",options:["Lipid", "Protein xuyên màng", "Glucid", "Cholesterol"],answer:1},
+  {id:13,text:"Quá trình nhập bào (endocytosis) là:",options:["Đưa chất ra khỏi tế bào", "Đưa chất vào tế bào nhờ màng bao lại", "Vận chuyển chủ động", "Khuếch tán thụ động"],answer:1},
+  {id:14,text:"Bào quan nào tham gia tiêu hóa nội bào?",options:["Ribosome", "Lysosome", "Ty thể", "Golgi"],answer:1},
+  {id:15,text:"Tế bào cơ có nhiều ty thể vì:",options:["Ty thể tổng hợp protein", "Ty thể tạo năng lượng ATP phục vụ co cơ", "Ty thể dự trữ glucose", "Ty thể phân giải acid béo"],answer:1},
+  {id:16,text:"DNA của tế bào người nằm chủ yếu ở:",options:["Nhân", "Ty thể", "Ribosome", "Cả A và B đúng"],answer:3},
+  {id:17,text:"Sự tổng hợp protein xảy ra ở:",options:["Nhân", "Ribosome", "Bộ Golgi", "Ty thể"],answer:1},
+  {id:18,text:"Quá trình vận chuyển chủ động qua màng tế bào:",options:["Không tiêu tốn năng lượng", "Cần năng lượng ATP", "Không cần protein vận chuyển", "Chỉ xảy ra với nước"],answer:1},
+  {id:19,text:"Màng tế bào có tính chất “bán thấm chọn lọc” nghĩa là:",options:["Cho phép tất cả các chất đi qua tự do", "Ngăn hoàn toàn các chất đi qua", "Chỉ cho một số chất đi qua có chọn lọc", "Chỉ cho nước đi qua"],answer:2},
+  {id:20,text:"Khi tế bào người được đặt trong dung dịch ưu trương (hypertonic):",options:["Tế bào trương lên", "Tế bào vỡ ra", "Nước ra khỏi tế bào → tế bào co lại", "Không thay đổi"],answer:2},
+  {id:21,text:"Thành phần nào sau đây không có trong màng sinh chất?",options:["Phospholipid", "Protein xuyên màng", "RNA", "Cholesterol"],answer:2},
+  {id:22,text:"Mỗi tế bào người bình thường có bao nhiêu nhiễm sắc thể?",options:["22", "44", "46", "48"],answer:2},
+  {id:23,text:"Thành phần nào quyết định tính linh động của màng tế bào?",options:["Cholesterol", "Protein ngoại vi", "Glucid", "RNA"],answer:0},
+  {id:24,text:"Tế bào hồng cầu người không có bào quan nào sau đây?",options:["Ty thể", "Ribosome", "Nhân", "Tất cả các đáp án trên đều đúng"],answer:3},
+  {id:25,text:"Bào quan nào tham gia tổng hợp và chuyển hóa lipid?",options:["Lưới nội chất trơn", "Lưới nội chất hạt", "Ty thể", "Lysosome"],answer:0},
+  {id:26,text:"Protein được tổng hợp ở ribosome sẽ được chuyển tiếp đến bộ Golgi qua:",options:["Lưới nội chất trơn", "Lưới nội chất hạt", "Màng nhân", "Ty thể"],answer:1},
+  {id:27,text:"Nơi xảy ra quá trình sao chép (replication) DNA là:",options:["Nhân tế bào", "Ribosome", "Ty thể", "Bộ Golgi"],answer:0},
+  {id:28,text:"Trong quá trình dịch mã, mRNA có vai trò:",options:["Mang thông tin di truyền từ DNA ra ribosome", "Vận chuyển acid amin đến ribosome", "Cấu tạo ribosome", "Xúc tác phản ứng tổng hợp peptide"],answer:0},
+  {id:29,text:"tRNA có chức năng:",options:["Mang mã di truyền", "Tổng hợp protein", "Vận chuyển acid amin đến ribosome", "Gắn vào vùng khởi đầu của DNA"],answer:2},
+  {id:30,text:"Sự khác biệt chính giữa tế bào nhân thật (eukaryote) và tế bào nhân sơ  (prokaryote) là:",options:["Có màng sinh chất", "Có nhân được bao màng", "Có DNA", "Có ribosome"],answer:1},
+  {id:31,text:"Quá trình xuất bào (exocytosis) có ý nghĩa:",options:["Tế bào hấp thu chất dinh dưỡng", "Loại bỏ các chất thải, tiết sản phẩm ra ngoài", "Tổng hợp DNA", "Phân giải protein"],answer:1},
+  {id:32,text:"Ion Na⁺ và K⁺ được vận chuyển ngược chiều gradient nhờ:",options:["Kênh khuếch tán", "Bơm Na⁺/K⁺-ATPase", "Xuất bào", "Thực bào"],answer:1},
+  {id:33,text:"Quá trình thực bào (phagocytosis) thường xảy ra ở:",options:["Tế bào gan", "Tế bào cơ", "Tế bào bạch cầu", "Hồng cầu"],answer:2},
+  {id:34,text:"Khi tế bào được đặt trong dung dịch nhược trương (hypotonic):",options:["Nước đi ra khỏi tế bào → tế bào co lại", "Nước đi vào tế bào → tế bào trương lên", "Không có trao đổi nước", "Tế bào bị mất ion"],answer:1},
+  {id:35,text:"Enzyme trong lysosome hoạt động tối ưu ở:",options:["Môi trường kiềm", "Môi trường trung tính", "Môi trường acid", "Môi trường khử mạnh"],answer:2},
+  {id:36,text:"Quá trình tự thực bào (autophagy) giúp tế bào:",options:["Phân chia nhân", "Tái chế bào quan cũ, hư hại", "Tăng tổng hợp protein", "Sao chép DNA"],answer:1},
+  {id:37,text:"Giai đoạn nào của chu kỳ tế bào xảy ra nhân đôi DNA?",options:["G1", "S", "G2", "M"],answer:1},
+  {id:38,text:"Trong nguyên phân (mitosis), nhiễm sắc thể xếp hàng ở mặt phẳng xích đạo ở  kỳ:",options:["Kỳ đầu", "Kỳ giữa", "Kỳ sau", "Kỳ cuối"],answer:1},
+  {id:39,text:"Hiện tượng chết tế bào theo chương trình (apoptosis) khác với hoại tử (necrosis)  ở điểm:",options:["Apoptosis gây viêm mạnh hơn", "Apoptosis có kiểm soát và không gây viêm", "Apoptosis do tổn thương cấp tính", "Apoptosis làm tế bào trương phồng vỡ ra"],answer:1},
+  {id:40,text:"Bào quan nào tạo năng lượng ATP nhờ quá trình oxy hóa phosphoryl hóa?",options:["Ty thể", "Ribosome", "Lưới nội chất", "Lysosome"],answer:0},
+  {id:41,text:"Màng sinh chất có đặc tính “bán thấm chọn lọc” nghĩa là:",options:["Cho phép mọi chất khuếch tán tự do", "Chỉ cho nước đi qua", "Chỉ cho một số chất đi qua có chọn lọc", "Không cho bất kỳ chất nào đi qua"],answer:2},
+  {id:42,text:"Quá trình vận chuyển chất không cần năng lượng gọi là:",options:["Vận chuyển chủ động", "Vận chuyển thụ động", "Xuất bào", "Nhập bào"],answer:1},
+  {id:43,text:"Quá trình vận chuyển chất ngược chiều gradient nồng độ gọi là:",options:["Vận chuyển thụ động", "Khuếch tán", "Vận chuyển chủ động", "Thẩm thấu"],answer:2},
+  {id:44,text:"Yếu tố quyết định hướng khuếch tán của phân tử là:",options:["Kích thước phân tử", "Chênh lệch nồng độ", "Loại bào quan", "Môi trường pH"],answer:1},
+  {id:45,text:"Loại phân tử nào có thể khuếch tán trực tiếp qua lớp lipid kép của màng tế bào?",options:["Ion Na⁺", "Glucose", "O₂ và CO₂", "Protein"],answer:2},
+  {id:46,text:"Khuếch tán được tăng cường nhờ protein xuyên màng gọi là:",options:["Khuếch tán đơn giản", "Khuếch tán có chất mang (facilitated diffusion)", "Vận chuyển chủ động", "Thẩm thấu"],answer:1},
+  {id:47,text:"Kênh ion trong màng tế bào được cấu tạo chủ yếu bởi:",options:["Protein xuyên màng", "Glucid", "Lipid", "Acid nucleic"],answer:0},
+  {id:48,text:"Quá trình vận chuyển nước qua màng tế bào gọi là:",options:["Khuếch tán", "Thẩm thấu (osmosis)", "Chủ động thứ phát", "Xuất bào"],answer:1},
+  {id:49,text:"Khi tế bào đặt trong dung dịch ưu trương, hiện tượng xảy ra là:",options:["Tế bào trương lên", "Tế bào vỡ", "Tế bào co lại", "Không đổi"],answer:2},
+  {id:50,text:"Khi tế bào trong dung dịch nhược trương:",options:["Nước đi ra khỏi tế bào", "Nước đi vào → tế bào trương lên", "Ion đi ra khỏi tế bào", "Không có sự trao đổi"],answer:1},
+  {id:51,text:"Khuếch tán qua kênh protein thường áp dụng cho:",options:["Ion và phân tử phân cực", "Lipid", "O₂", "CO₂"],answer:0},
+  {id:52,text:"Kênh nước chuyên biệt của tế bào gọi là:",options:["Ion channel", "Aquaporin", "Porin", "Transporter"],answer:1},
+  {id:53,text:"Kênh ion có thể mở – đóng do tác nhân:",options:["Điện thế màng", "Ligand (chất gắn)", "Cơ học (căng giãn)", "Cả ba yếu tố trên"],answer:3},
+  {id:54,text:"Sự vận chuyển glucose qua màng tế bào cơ (GLUT4) là ví dụ của:",options:["Khuếch tán đơn giản", "Khuếch tán có chất mang phụ thuộc insulin", "Vận chuyển chủ động", "Thẩm thấu"],answer:1},
+  {id:55,text:"Kênh Na⁺ – K⁺ đóng vai trò chính trong:",options:["Truyền tín hiệu nội bào", "Duy trì điện thế nghỉ của tế bào", "Vận chuyển thụ động", "Hấp thu glucose"],answer:1},
+  {id:56,text:"Trong tế bào thần kinh, ion Na⁺ tập trung nhiều ở:",options:["Trong tế bào", "Ngoài tế bào", "Trong và ngoài như nhau", "Không xác định"],answer:1},
+  {id:57,text:"Protein vận chuyển có đặc tính nào sau đây?",options:["Bão hòa khi nồng độ chất quá cao", "Không chọn lọc", "Không phụ thuộc năng lượng", "Không có ái lực đặc hiệu"],answer:0},
+  {id:58,text:"Khuếch tán được gọi là “thụ động” vì:",options:["Di chuyển ngược gradient nồng độ", "Cần ATP", "Không tiêu tốn năng lượng", "Chỉ xảy ra trong nhân"],answer:2},
+  {id:59,text:"Hệ số khuếch tán tăng khi:",options:["Kích thước phân tử tăng", "Nhiệt độ tăng", "Chênh lệch nồng độ giảm", "Màng dày hơn"],answer:1},
+  {id:60,text:"Trong cơ thể người, phần lớn nước di chuyển qua màng theo cơ chế:",options:["Khuếch tán đơn giản", "Thẩm thấu qua aquaporin", "Vận chuyển chủ động", "Thực bào"],answer:1},
+  {id:61,text:"Vận chuyển chủ động nguyên phát sử dụng:",options:["ATP trực tiếp", "Năng lượng từ gradient ion", "Chất mang trung gian", "Không dùng năng lượng"],answer:0},
+  {id:62,text:"Vận chuyển chủ động thứ phát sử dụng:",options:["Năng lượng trực tiếp từ ATP", "Năng lượng từ chênh lệch ion (ví dụ Na⁺)", "Khuếch tán đơn giản", "Thẩm thấu"],answer:1},
+  {id:63,text:"Bơm Na⁺/K⁺-ATPase mỗi chu kỳ bơm:",options:["3 Na⁺ vào – 2 K⁺ ra", "2 Na⁺ ra – 3 K⁺ vào", "3 Na⁺ ra – 2 K⁺ vào", "1 Na⁺ ra – 1 K⁺ vào"],answer:2},
+  {id:64,text:"Bơm Na⁺/K⁺-ATPase có vai trò:",options:["Duy trì điện thế nghỉ", "Giữ áp suất thẩm thấu ổn định", "Tạo gradient nồng độ ion", "Tất cả các ý trên"],answer:3},
+  {id:65,text:"Đồng vận chuyển (symport) là:",options:["Hai chất đi cùng chiều qua màng", "Hai chất đi ngược chiều", "Chỉ một chất đi qua", "Không dùng năng lượng"],answer:0},
+  {id:66,text:"Đối vận chuyển (antiport) là:",options:["Hai chất đi cùng chiều", "Hai chất đi ngược chiều qua màng", "Chỉ một chất đi qua", "Không cần protein"],answer:1},
+  {id:67,text:"Quá trình hấp thu glucose ở ruột non phụ thuộc:",options:["Bơm Na⁺/K⁺-ATPase", "Gradient Na⁺", "Protein SGLT", "Cả A, B, C đúng"],answer:3},
+  {id:68,text:"Thuốc ức chế bơm Na⁺/K⁺-ATPase (ouabain, digitalis) làm:",options:["Giảm Na⁺ nội bào", "Tăng Na⁺ nội bào, tăng Ca²⁺ nội bào → co cơ mạnh hơn", "Giảm Ca²⁺ nội bào", "Giảm ATP"],answer:1},
+  {id:69,text:"Bơm Ca²⁺-ATPase có vai trò:",options:["Duy trì nồng độ Ca²⁺ thấp trong bào tương", "Tăng Ca²⁺ nội bào", "Tạo năng lượng ATP", "Hấp thu glucose"],answer:0},
+  {id:70,text:"Bơm H⁺/K⁺-ATPase hoạt động mạnh ở:",options:["Màng ty thể", "Màng tế bào thần kinh", "Tế bào thành dạ dày", "Màng nhân"],answer:2},
+  {id:71,text:"Quá trình đưa vật chất lớn vào tế bào bằng cách bao màng gọi là:",options:["Xuất bào", "Nhập bào (endocytosis)", "Khuếch tán", "Vận chuyển chủ động"],answer:1},
+  {id:72,text:"Có mấy hình thức nhập bào chính?",options:["1", "2", "3", "4"],answer:2},
+  {id:73,text:"Thực bào (phagocytosis) chủ yếu diễn ra ở:",options:["Tế bào cơ", "Bạch cầu mono, đại thực bào", "Hồng cầu", "Tế bào biểu mô"],answer:1},
+  {id:74,text:"Ẩm bào (pinocytosis) là:",options:["Nuốt hạt rắn", "Nuốt giọt dịch nhỏ", "Xuất protein ra ngoài", "Khuếch tán glucose"],answer:1},
+  {id:75,text:"Nhập bào qua trung gian thụ thể có đặc điểm:",options:["Không chọn lọc", "Chọn lọc, nhờ protein clathrin", "Tiêu tốn ít năng lượng", "Không cần protein"],answer:1},
+  {id:76,text:"Quá trình đưa chất ra khỏi tế bào gọi là:",options:["Nhập bào", "Xuất bào (exocytosis)", "Khuếch tán", "Thẩm thấu"],answer:1},
+  {id:77,text:"Tế bào tiết hormone hoặc enzyme ra ngoài nhờ cơ chế:",options:["Xuất bào", "Nhập bào", "Khuếch tán đơn giản", "Vận chuyển chủ động"],answer:0},
+  {id:78,text:"Sự dung hợp túi tiết với màng sinh chất trong xuất bào cần:",options:["Protein SNARE", "Cholesterol", "Aquaporin", "Histone"],answer:0},
+  {id:79,text:"Quá trình nhập và xuất bào đều cần:",options:["Năng lượng ATP", "Nước", "Ion Na⁺", "O₂"],answer:0},
+  {id:80,text:"Chức năng sinh lý chung của quá trình vận chuyển qua màng là:",options:["Duy trì hằng định nội môi tế bào", "Tăng áp suất thẩm thấu", "Giảm điện thế màng", "Ngăn trao đổi chất"],answer:0},
+  {id:81,text:"Glucid là hợp chất hữu cơ gồm các nguyên tố chính:",options:["C, H, N", "C, H, O", "C, O, N", "C, H, S"],answer:1},
+  {id:82,text:"Công thức chung của monosaccharid là:",options:["CₙH₂ₙOₙ", "CₙH₂ₙ₋₂Oₙ", "CₙH₂ₙ₊₂Oₙ", "CₙHₙO₂ₙ"],answer:0},
+  {id:83,text:"Glucose thuộc loại đường:",options:["Monosaccharid", "Disaccharid", "Polysaccharid", "Oligosaccharid"],answer:0},
+  {id:84,text:"Trong dung dịch, glucose chủ yếu tồn tại ở dạng:",options:["Mạch thẳng aldehyde", "Vòng α hoặc β-glucopyranose", "Dạng cetone", "Dạng acid"],answer:1},
+  {id:85,text:"Đường nào sau đây là đường khử?",options:["Sucrose", "Maltose", "Trehalose", "Tất cả đều không khử"],answer:1},
+  {id:86,text:"Liên kết giữa hai đơn vị glucose trong maltose là:",options:["α-1,4-glycosid", "β-1,4-glycosid", "α-1,6-glycosid", "β-1,6-glycosid"],answer:0},
+  {id:87,text:"Tinh bột gồm hai thành phần chính là:",options:["Amylose và Cellulose", "Amylose và Amylopectin", "Maltose và Glucose", "Glycogen và Cellulose"],answer:1},
+  {id:88,text:"Liên kết giữa các đơn vị glucose trong cellulose là:",options:["α-1,4", "β-1,4", "α-1,6", "β-1,6"],answer:1},
+  {id:89,text:"Polysaccharid dự trữ ở động vật là:",options:["Glycogen", "Tinh bột", "Cellulose", "Chitin"],answer:0},
+  {id:90,text:"Glycogen có cấu trúc tương tự tinh bột nhưng:",options:["Chuỗi ngắn hơn, phân nhánh nhiều hơn", "Chuỗi dài hơn, không nhánh", "Chứa nhiều fructose", "Không có liên kết α-1,6"],answer:0},
+  {id:91,text:"Phản ứng tráng bạc của glucose là do:",options:["Nhóm ceton", "Nhóm aldehyde", "Nhóm hydroxyl", "Nhóm carboxyl"],answer:1},
+  {id:92,text:"Phản ứng tạo màu xanh lam với dung dịch iod đặc trưng cho:",options:["Amylose", "Amylopectin", "Cellulose", "Glycogen"],answer:0},
+  {id:93,text:"Trong môi trường acid, sucrose bị thủy phân tạo ra:",options:["Glucose + Maltose", "Glucose + Fructose", "Glucose + Galactose", "Fructose + Galactose"],answer:1},
+  {id:94,text:"Sản phẩm của phản ứng oxi hóa nhẹ glucose là:",options:["Gluconic acid", "Glucuronic acid", "Glucaric acid", "Sorbitol"],answer:0},
+  {id:95,text:"Khi khử glucose, ta thu được:",options:["Sorbitol", "Fructose", "Mannose", "Maltose"],answer:0},
+  {id:96,text:"Phản ứng tạo este glucid với acid vô cơ (H₃PO₄) tạo ra dẫn xuất:",options:["Phosphat đường (glucose-6-phosphate)", "Amino đường", "Methyl glucoside", "Acid uronic"],answer:0},
+  {id:97,text:"Đường nào là đường không khử?",options:["Maltose", "Lactose", "Sucrose", "Glucose"],answer:2},
+  {id:98,text:"Phản ứng tạo osazone dùng để:",options:["Xác định đường khử", "Phân biệt các loại đường", "Xác định hàm lượng glucose", "Xác định pH"],answer:1},
+  {id:99,text:"Phản ứng giữa glucose và acid nitric tạo:",options:["Gluconic acid", "Glucaric acid", "Glucuronic acid", "Sorbitol"],answer:1},
+  {id:100,text:"Glucuronic acid có vai trò quan trọng trong:",options:["Quá trình giải độc gan", "Quá trình co cơ", "Tổng hợp lipid", "Chuyển hóa acid amin"],answer:0},
+  {id:101,text:"Quá trình phân giải glucose thành acid pyruvic gọi là:",options:["Đường phân (glycolysis)", "Tân tạo đường (gluconeogenesis)", "Chu trình Krebs", "Đường pentose phosphate"],answer:0},
+  {id:102,text:"Quá trình đường phân xảy ra chủ yếu ở:",options:["Nhân", "Ty thể", "Bào tương", "Màng sinh chất"],answer:2},
+  {id:103,text:"Sản phẩm cuối cùng của đường phân trong điều kiện yếm khí là:",options:["Pyruvat", "Lactat", "Acetyl-CoA", "CO₂"],answer:1},
+  {id:104,text:"Sản phẩm cuối cùng của đường phân trong điều kiện hiếu khí là:",options:["Pyruvat → Acetyl-CoA", "Lactat", "Glucose-6-phosphate", "Glyceraldehyde-3-phosphate"],answer:0},
+  {id:105,text:"Quá trình đường phân thu được:",options:["2 ATP", "4 ATP", "36 ATP", "1 ATP"],answer:0},
+  {id:106,text:"Chu trình Krebs xảy ra ở:",options:["Bào tương", "Ty thể", "Nhân", "Lưới nội chất"],answer:1},
+  {id:107,text:"Sản phẩm cuối cùng của quá trình oxy hóa hoàn toàn 1 phân tử glucose:",options:["CO₂ + H₂O + 38 ATP", "CO₂ + ATP + Lactate", "Glucose + Pyruvat", "ATP + H₂O"],answer:0},
+  {id:108,text:"Quá trình tân tạo đường (gluconeogenesis) chủ yếu xảy ra ở:",options:["Cơ vân", "Gan", "Não", "Tim"],answer:1},
+  {id:109,text:"Sản phẩm khởi đầu của quá trình tân tạo đường thường là:",options:["Pyruvat hoặc lactat", "Glycogen", "Glucose", "Fructose"],answer:0},
+  {id:110,text:"Chu trình Cori là sự liên hệ giữa:",options:["Gan và thận", "Gan và cơ", "Cơ và não", "Tim và phổi"],answer:1},
+  {id:111,text:"Enzyme giới hạn tốc độ trong đường phân là:",options:["Hexokinase", "Phosphofructokinase-1 (PFK-1)", "Pyruvate kinase", "Aldolase"],answer:1},
+  {id:112,text:"Enzyme khởi đầu cho quá trình tân tạo đường:",options:["Glucose-6-phosphatase", "Pyruvate carboxylase", "Hexokinase", "PFK-1"],answer:1},
+  {id:113,text:"Insulin có tác dụng:",options:["Tăng đường huyết", "Giảm đường huyết", "Không ảnh hưởng", "Giảm tổng hợp glycogen"],answer:1},
+  {id:114,text:"Glucagon có tác dụng:",options:["Tăng tổng hợp glycogen", "Tăng phân giải glycogen (glycogenolysis)", "Tăng hấp thu glucose", "Giảm đường huyết"],answer:1},
+  {id:115,text:"Glycogen dự trữ ở gan có vai trò:",options:["Duy trì đường huyết ổn định", "Dự trữ năng lượng cho cơ", "Chuyển hóa lipid", "Tổng hợp protein"],answer:0},
+  {id:116,text:"Ở cơ vân, glycogen được dùng để:",options:["Duy trì đường huyết", "Cung cấp năng lượng cho co cơ", "Tổng hợp lipid", "Chuyển hóa acid uric"],answer:1},
+  {id:117,text:"Bệnh tiểu đường (diabetes mellitus) đặc trưng bởi:",options:["Tăng glucose máu", "Giảm glucose máu", "Tăng protein máu", "Tăng lipid máu"],answer:0},
+  {id:118,text:"Enzyme glycogen phosphorylase có vai trò:",options:["Phân giải glycogen", "Tổng hợp glycogen", "Oxy hóa glucose", "Giảm đường huyết"],answer:0},
+  {id:119,text:"Trong tế bào, glucose được giữ lại nhờ phản ứng:",options:["Phosphoryl hóa thành glucose-6-phosphate", "Khử thành sorbitol", "Oxy hóa thành gluconic acid", "Acetyl hóa"],answer:0},
+  {id:120,text:"Enzyme chịu ảnh hưởng trực tiếp của insulin trong gan:",options:["Glucokinase", "Phosphorylase", "Pyruvate carboxylase", "Fumarase"],answer:0},
+  {id:121,text:"Bệnh nhân tiểu đường type I thường có tăng đường huyết do:",options:["Tăng tiết insulin", "Giảm tiết insulin do tổn thương tế bào β tụy", "Tăng nhạy cảm của tế bào với insulin", "Tăng dự trữ glycogen ở gan"],answer:1},
+  {id:122,text:"Ở bệnh nhân tiểu đường type II, nguyên nhân chủ yếu gây tăng glucose máu là:",options:["Giảm tiết insulin hoàn toàn", "Kháng insulin ở mô đích", "Tăng tổng hợp insulin", "Thiếu glucagon"],answer:1},
+  {id:123,text:"Một bệnh nhân nhịn ăn lâu ngày, gan vẫn có thể tạo glucose nhờ:",options:["Tân tạo đường từ acid amin", "Phân giải glycogen cơ", "Oxy hóa acid béo", "Tổng hợp từ acid lactic"],answer:0},
+  {id:124,text:"Khi gan bị tổn thương nặng, đường huyết thường giảm do:",options:["Giảm tổng hợp glycogen", "Giảm phân giải glycogen và tân tạo đường", "Giảm hấp thu glucose ở ruột", "Tăng sử dụng glucose ở mô ngoại biên"],answer:1},
+  {id:125,text:"Hạ đường huyết sau ăn thường gặp trong trường hợp:",options:["Cắt bỏ dạ dày → tăng tiết insulin phản ứng", "Tăng tiết glucagon", "Thiếu enzyme amylase", "Dùng corticoid kéo dài"],answer:0},
+  {id:126,text:"Ở bệnh nhân tiểu đường không kiểm soát, thể ceton trong máu tăng do:",options:["Giảm ly giải lipid", "Tăng chuyển hóa glucid", "Tăng oxy hóa acid béo ở gan", "Giảm tạo Acetyl-CoA"],answer:2},
+  {id:127,text:"Trong tiểu đường, nồng độ glucose niệu tăng khi:",options:["Glucose máu vượt ngưỡng tái hấp thu của thận (~180 mg/dL)", "Thận giảm lọc cầu thận", "Giảm tiết insulin nhẹ", "Có tổn thương gan"],answer:0},
+  {id:128,text:"Một bệnh nhân có glucose máu bình thường nhưng xuất hiện glucose niệu,  nguyên nhân có thể là:",options:["Ngưỡng tái hấp thu glucose của thận giảm", "Tăng tiết insulin", "Giảm phân giải glycogen", "Tăng tiết glucagon"],answer:0},
+  {id:129,text:"Khi thiếu hụt enzyme glucose-6-phosphatase (bệnh Von Gierke), hậu quả là:",options:["Tăng glucose máu", "Giảm glucose máu, gan to do ứ glycogen", "Tăng chuyển hóa acid béo", "Giảm tổng hợp glycogen"],answer:1},
+  {id:130,text:"Bệnh nhân có đột biến làm thiếu hụt enzyme pyruvate dehydrogenase sẽ dẫn  đến:",options:["Tích tụ pyruvat và tăng lactat máu", "Giảm tạo acetyl-CoA", "Giảm năng lượng tế bào", "Tất cả các ý trên"],answer:3},
+  {id:131,text:"Trong bệnh đái tháo đường không được điều trị, hiện tượng sau thường gặp:",options:["Giảm tân tạo đường ở gan", "Tăng sử dụng glucose ở mô", "Tăng ly giải lipid và tạo thể ceton", "Giảm phân giải glycogen"],answer:2},
+  {id:132,text:"Xét nghiệm nào dưới đây giúp đánh giá mức kiểm soát đường huyết lâu dài:",options:["Glucose huyết lúc đói", "Glucose niệu", "HbA1c", "Fructosamin"],answer:2},
+  {id:133,text:"Sự tăng thể ceton máu kéo dài có thể dẫn đến:",options:["Toan máu", "Kiềm máu", "Giảm thông khí", "Tăng pH máu"],answer:0},
+  {id:134,text:"Enzyme nào bị giảm hoạt tính khi thiếu insulin:",options:["Glucokinase", "Phosphorylase", "Fructose-1,6-bisphosphatase", "Pyruvate dehydrogenase"],answer:0},
+  {id:135,text:"Trong nhiễm toan ceton do đái tháo đường, nguyên nhân chính gây toan máu  là:",options:["Tăng acid lactic", "Tăng acid acetoacetic và β-hydroxybutyric", "Giảm thải CO₂", "Giảm bicarbonat máu"],answer:1},
+  {id:136,text:"Tại sao bệnh nhân đái tháo đường có thể bị sút cân nhanh dù ăn nhiều?",options:["Do tăng tiêu thụ năng lượng cho phân giải glucid", "Do giảm tổng hợp protein và lipid", "Do giảm tiết insulin gây tăng dị hóa", "Cả B và C đúng"],answer:3},
+  {id:137,text:"Glucosuria và ketonuria cùng xuất hiện thường gợi ý:",options:["Cường giáp", "Đái tháo đường mất bù", "Suy thận cấp", "Suy tuyến yên"],answer:1},
+  {id:138,text:"Ở bệnh nhân nghi ngờ đái tháo đường, nghiệm pháp dung nạp glucose (OGTT)  được dùng để:",options:["Đo insulin máu", "Đánh giá khả năng sử dụng glucose của cơ thể", "Xác định hoạt tính enzyme gan", "Phát hiện thể ceton"],answer:1},
+  {id:139,text:"Trong tiểu đường type I, nếu tiêm quá liều insulin, hậu quả có thể là:",options:["Hạ đường huyết", "Tăng đường huyết", "Toan máu", "Tăng huyết áp"],answer:0},
+  {id:140,text:"Trong cơn hạ đường huyết nặng, bệnh nhân có thể có triệu chứng:",options:["Vã mồ hôi, run tay, lú lẫn, hôn mê", "Tăng huyết áp, đỏ mặt, buồn nôn", "Khát nước, tiểu nhiều", "Phù, khó thở"],answer:0},
+  {id:141,text:"Protein là hợp chất cao phân tử được cấu tạo chủ yếu từ các nguyên tố",options:["C, H, O", "C, H, O, N và thường có S", "C, H, O, P", "C, H, O, Na"],answer:1},
+  {id:142,text:"Đơn vị cấu tạo cơ bản của protein là",options:["Glucose", "Acid amin", "Peptid", "Nucleotide"],answer:1},
+  {id:143,text:"Liên kết giữa hai acid amin là",options:["Liên kết este", "Liên kết peptid", "Liên kết phosphodieste", "Liên kết disulfide"],answer:1},
+  {id:144,text:"Trong cấu trúc bậc hai của protein, dạng phổ biến nhất là",options:["Vòng xoắn α và gấp nếp β", "Cấu trúc cầu", "Chuỗi thẳng", "Dạng màng"],answer:0},
+  {id:145,text:"Cấu trúc bậc ba của protein được ổn định bởi",options:["Liên kết hydro", "Tương tác kỵ nước, ion, cầu disulfide", "Liên kết peptid", "Liên kết photphat"],answer:1},
+  {id:146,text:"Cấu trúc bậc bốn của protein hình thành khi",options:["Một chuỗi polypeptid tự cuộn lại", "Nhiều chuỗi polypeptid liên kết với nhau", "Có sự gắn nhóm ngoại", "Protein bị biến tính"],answer:1},
+  {id:147,text:"Protein có thể bị biến tính do",options:["Nhiệt độ cao", "pH thay đổi", "Tác nhân hóa học như ure", "Tất cả các ý trên"],answer:3},
+  {id:148,text:"Quá trình biến tính protein có đặc điểm",options:["Làm mất cấu trúc bậc cao nhưng giữ nguyên liên kết peptid", "Làm gãy liên kết peptid", "Làm mất luôn cấu trúc bậc một", "Là quá trình thuận nghịch hoàn toàn"],answer:0},
+  {id:149,text:"Protein bị thủy phân hoàn toàn sẽ tạo ra",options:["Oligopeptid", "Acid amin", "Peptid vòng", "Ammoniac"],answer:1},
+  {id:150,text:"Phản ứng Biuret dùng để nhận biết",options:["Liên kết peptid trong protein", "Nhóm amin tự do", "Nhóm –SH", "Nhóm carboxyl"],answer:0},
+  {id:151,text:"Kết quả phản ứng Biuret dương tính cho màu",options:["Đỏ gạch", "Tím", "Xanh lam", "Vàng"],answer:1},
+  {id:152,text:"Phản ứng Millon dùng để phát hiện",options:["Tyrosine", "Tryptophan", "Cystine", "Lysine"],answer:0},
+  {id:153,text:"Phản ứng với nitroprussid natri đặc trưng cho nhóm",options:["–COOH", "–NH₂", "–SH", "–OH"],answer:2},
+  {id:154,text:"Protein đơn giản là protein",options:["Khi thủy phân chỉ cho acid amin", "Khi thủy phân cho acid amin và nhóm ngoại", "Có chứa nhóm phosphat", "Có chứa lipid"],answer:0},
+  {id:155,text:"Protein phức tạp là protein",options:["Chỉ chứa acid amin", "Có thêm nhóm ngoại như lipid, đường, nucleic acid", "Không tan trong nước", "Không có cấu trúc bậc bốn"],answer:1},
+  {id:156,text:"Albumin huyết thanh thuộc loại",options:["Protein cấu trúc", "Protein dự trữ", "Protein vận chuyển", "Enzyme"],answer:2},
+  {id:157,text:"Hemoglobin là loại protein",options:["Đơn giản", "Phức tạp (chromoprotein)", "Lipoprotein", "Glycoprotein"],answer:1},
+  {id:158,text:"Collagen thuộc nhóm protein",options:["Cấu trúc sợi", "Enzyme", "Vận chuyển", "Hormone"],answer:0},
+  {id:159,text:"Enzyme có bản chất hóa học chủ yếu là",options:["Lipid", "Protein", "Glucid", "Nucleoprotein"],answer:1},
+  {id:160,text:"Trong cơ thể, protein không được dự trữ nên khi thiếu năng lượng, chúng có  thể",options:["Chuyển thành glucose hoặc thể ceton", "Biến thành lipid dự trữ", "Tạo thành glycogen", "Không thể chuyển hóa"],answer:0},
+  {id:161,text:"Quá trình thoái hóa protein bắt đầu bằng",options:["Oxy hóa acid amin", "Khử amin hoặc chuyển amin", "Tạo ure", "Oxy hóa CO₂"],answer:1},
+  {id:162,text:"Phản ứng khử amin oxy hóa của acid amin tạo ra",options:["Acid alpha-ceto tương ứng và NH₃", "Ure", "Glucose", "Peptid"],answer:0},
+  {id:163,text:"Phản ứng chuyển amin có enzyme xúc tác thuộc nhóm",options:["Transaminase", "Dehydrogenase", "Hydrolase", "Lyase"],answer:0},
+  {id:164,text:"Chất nhận nhóm amin phổ biến nhất trong phản ứng chuyển amin là",options:["Pyruvat và α-cetoglutarat", "Oxaloacetat", "Succinyl-CoA", "Fumarat"],answer:0},
+  {id:165,text:"Quá trình khử độc NH₃ trong cơ thể chủ yếu diễn ra ở",options:["Não", "Gan", "Thận", "Cơ"],answer:1},
+  {id:166,text:"NH₃ trong cơ thể được khử độc chủ yếu bằng cách",options:["Tạo thành ure qua chu trình ure", "Thải qua phổi", "Oxy hóa trực tiếp", "Liên hợp với acid lactic"],answer:0},
+  {id:167,text:"Chất đầu tiên trong chu trình ure là",options:["Carbamoyl phosphate", "Citrulline", "Ornithine", "Arginine"],answer:0},
+  {id:168,text:"Chu trình ure xảy ra chủ yếu ở",options:["Tế bào chất của gan", "Ty thể và bào tương tế bào gan", "Thận", "Cơ"],answer:1},
+  {id:169,text:"Sản phẩm cuối cùng của chuyển hóa nitrogen là",options:["NH₃", "Ure", "Acid uric", "Creatinine"],answer:1},
+  {id:170,text:"Khi chức năng gan suy giảm, nồng độ chất nào tăng trong máu?",options:["Ure", "NH₃", "Arginine", "Creatine"],answer:1},
+  {id:171,text:"Tăng ure máu thường gặp trong",options:["Suy thận", "Suy gan", "Đái tháo đường type I", "Thiếu máu"],answer:0},
+  {id:172,text:"Acid amin thiết yếu là acid amin",options:["Cơ thể có thể tổng hợp", "Cơ thể không tổng hợp được, cần lấy từ thức ăn", "Chỉ có trong mô gan", "Có chứa lưu huỳnh"],answer:1},
+  {id:173,text:"Acid amin có chứa lưu huỳnh là",options:["Glycine", "Methionine và cysteine", "Serine", "Lysine"],answer:1},
+  {id:174,text:"Khi đói lâu ngày, acid amin có thể được sử dụng để",options:["Tổng hợp glucose (tân tạo đường)", "Tổng hợp lipid", "Tạo năng lượng cho cơ", "Cả A và C đúng"],answer:3},
+  {id:175,text:"Quá trình tổng hợp protein xảy ra ở",options:["Nhân tế bào", "Ribosome", "Ty thể", "Lưới nội chất trơn"],answer:1},
+  {id:176,text:"Trong quá trình tổng hợp protein, tRNA có vai trò",options:["Mang thông tin di truyền", "Vận chuyển acid amin đến ribosome", "Tổng hợp chuỗi polypeptid", "Xúc tác phản ứng tạo liên kết peptid"],answer:1},
+  {id:177,text:"Enzyme tham gia hoạt hóa acid amin trong tổng hợp protein là",options:["Aminoacyl-tRNA synthetase", "Peptidase", "Protease", "Transaminase"],answer:0},
+  {id:178,text:"Bệnh phenylketon niệu (PKU) do thiếu enzyme",options:["Tyrosinase", "Phenylalanine hydroxylase", "Transaminase", "Dehydrogenase"],answer:1},
+  {id:179,text:"Hậu quả của bệnh phenylketon niệu nếu không điều trị sớm là",options:["Rối loạn tiêu hóa", "Thiểu năng trí tuệ", "Tăng ure máu", "Tăng huyết áp"],answer:1},
+  {id:180,text:"Trong rối loạn chuyển hóa protein nặng (ví dụ suy dinh dưỡng), biểu hiện  thường gặp là",options:["Giảm albumin máu, phù", "Tăng ure máu", "Tăng đường huyết", "Giảm creatinine niệu"],answer:0},
+  {id:181,text:"Lipid là hợp chất hữu cơ không tan trong nước nhưng tan trong",options:["Dung dịch kiềm", "Dung môi hữu cơ", "Dung dịch muối", "Dung dịch acid"],answer:1},
+  {id:182,text:"Thành phần cơ bản của chất béo trung tính là",options:["Glycerol và acid béo", "Glycerol và phosphat", "Cholesterol và acid béo", "Phospholipid và cholesterol"],answer:0},
+  {id:183,text:"Glycerol là loại",options:["Monosaccharid", "Alcohol 3 chức", "Acid béo", "Amin"],answer:1},
+  {id:184,text:"Acid béo bão hòa không có",options:["Liên kết đôi", "Nhóm –COOH", "Nhóm –CH3", "Chuỗi carbon"],answer:0},
+  {id:185,text:"Acid oleic có công thức chung",options:["C18H36O2", "C18H34O2", "C16H32O2", "C18H30O2"],answer:1},
+  {id:186,text:"Lipid nào sau đây là lipid đơn giản?",options:["Phospholipid", "Triglycerid", "Glycolipid", "Sphingomyelin"],answer:1},
+  {id:187,text:"Lipid phức tạp chứa thêm thành phần nào ngoài glycerol và acid béo?",options:["Protein hoặc phosphat hoặc glucid", "Acid amin", "Purin", "Base nitơ"],answer:0},
+  {id:188,text:"Phospholipid là thành phần chủ yếu của",options:["Dịch nội bào", "Màng tế bào", "Nhân tế bào", "Ty thể"],answer:1},
+  {id:189,text:"Sphingomyelin thuộc nhóm",options:["Steroid", "Phospholipid", "Glycolipid", "Lipid trung tính"],answer:1},
+  {id:190,text:"Cholesterol thuộc nhóm",options:["Steroid", "Glycolipid", "Glycerid", "Waxes"],answer:0},
+  {id:191,text:"Chức năng chính của lipid trong cơ thể là",options:["Cung cấp năng lượng và cấu tạo màng", "Tổng hợp RNA", "Tăng tốc độ phản ứng sinh hóa", "Tạo năng lượng tức thời"],answer:0},
+  {id:192,text:"Lipid cung cấp bao nhiêu kcal trên 1 gam?",options:["4 kcal", "7 kcal", "9 kcal", "2 kcal"],answer:2},
+  {id:193,text:"Quá trình thủy phân triglycerid tạo ra",options:["3 acid béo và 1 glycerol", "2 acid béo và 1 glycerol", "3 glycerol", "1 acid béo và 3 glycerol"],answer:0},
+  {id:194,text:"Quá trình β-oxy hóa acid béo diễn ra chủ yếu ở",options:["Tế bào chất", "Ty thể", "Lưới nội chất", "Nhân"],answer:1},
+  {id:195,text:"Mỗi chu kỳ β-oxy hóa acid béo giải phóng",options:["1 phân tử acetyl-CoA", "2 phân tử acetyl-CoA", "1 phân tử pyruvat", "2 phân tử NADH"],answer:0},
+  {id:196,text:"Enzym xúc tác phản ứng đầu tiên trong β-oxy hóa acid béo là",options:["Acyl-CoA synthetase", "Acyl-CoA dehydrogenase", "Thiolase", "Enoyl-CoA hydratase"],answer:1},
+  {id:197,text:"Sản phẩm cuối cùng của β-oxy hóa acid béo là",options:["Pyruvat", "Acetyl-CoA", "Succinyl-CoA", "Malonyl-CoA"],answer:1},
+  {id:198,text:"Acetyl-CoA từ lipid có thể đi vào chu trình",options:["Glycolysis", "Krebs", "Pentose phosphate", "Gluconeogenesis"],answer:1},
+  {id:199,text:"Sự tổng hợp acid béo xảy ra chủ yếu ở",options:["Ty thể", "Tế bào chất", "Nhân", "Lưới nội chất trơn"],answer:1},
+  {id:200,text:"Đơn vị hoạt động cơ bản của tổng hợp acid béo là",options:["Acetyl-CoA", "Malonyl-CoA", "Pyruvat", "Citrat"],answer:1},
+  {id:201,text:"Enzym tổng hợp acid béo phụ thuộc coenzym nào?",options:["NADPH", "NADH", "FAD", "CoQ"],answer:0},
+  {id:202,text:"Sự oxy hóa acid béo diễn ra mạnh khi",options:["Thừa glucose", "Thiếu carbohydrate", "Sau bữa ăn", "Khi có insulin"],answer:1},
+  {id:203,text:"Ketone bodies được tạo ra chủ yếu ở",options:["Não", "Gan", "Cơ vân", "Thận"],answer:1},
+  {id:204,text:"Các thể ceton bao gồm",options:["Acetone, acetoacetate, β-hydroxybutyrate", "Acetyl-CoA, pyruvat, lactate", "Glucose, fructose, sucrose", "Glycerol, cholesterol, sphingomyelin"],answer:0},
+  {id:205,text:"Trong đó thể ceton không tan trong nước là",options:["Acetone", "Acetoacetate", "β-hydroxybutyrate", "Cả ba đều tan"],answer:0},
+  {id:206,text:"Sự tăng thể ceton trong máu gây nên tình trạng",options:["Nhiễm acid ceton", "Nhiễm kiềm chuyển hóa", "Tăng đường huyết", "Giảm ure máu"],answer:0},
+  {id:207,text:"Khi đói kéo dài, năng lượng cho não được cung cấp chủ yếu từ",options:["Glucose", "Acid amin", "Thể ceton", "Lactate"],answer:2},
+  {id:208,text:"Quá trình tổng hợp thể ceton xảy ra ở",options:["Tế bào gan", "Tế bào não", "Hồng cầu", "Cơ tim"],answer:0},
+  {id:209,text:"Lipoprotein vận chuyển cholesterol từ mô ngoại biên về gan là",options:["LDL", "HDL", "VLDL", "Chylomicron"],answer:1},
+  {id:210,text:"Lipoprotein vận chuyển triglycerid từ gan đến mô là",options:["LDL", "HDL", "VLDL", "Chylomicron"],answer:2},
+  {id:211,text:"Lipoprotein có tỷ trọng thấp, chứa nhiều cholesterol là",options:["LDL", "HDL", "VLDL", "IDL"],answer:0},
+  {id:212,text:"Lipoprotein vận chuyển lipid từ ruột vào máu là",options:["LDL", "HDL", "VLDL", "Chylomicron"],answer:3},
+  {id:213,text:"Cholesterol tự do có thể được este hóa nhờ enzym",options:["LCAT", "HMG-CoA reductase", "Thiolase", "CPT I"],answer:0},
+  {id:214,text:"Enzym quan trọng điều hòa tổng hợp cholesterol là",options:["HMG-CoA reductase", "Thiolase", "LCAT", "CPT II"],answer:0},
+  {id:215,text:"Thuốc hạ cholesterol nhóm statin ức chế enzym",options:["HMG-CoA reductase", "LCAT", "Lipoprotein lipase", "Acyl-CoA synthetase"],answer:0},
+  {id:216,text:"Acetyl-CoA từ lipid có thể tổng hợp thành",options:["Cholesterol", "Glucose", "Lactate", "Pyruvat"],answer:0},
+  {id:217,text:"Sự oxy hóa acid béo bị ức chế bởi",options:["Malonyl-CoA", "Acetyl-CoA", "NADPH", "Citrat"],answer:0},
+  {id:218,text:"Lipase tụy thủy phân triglycerid thành",options:["Acid béo và monoglycerid", "Acid béo và diglycerid", "Glycerol và diglycerid", "Glycerol và phosphat"],answer:0},
+  {id:219,text:"Quá trình hấp thu lipid ở ruột cần sự có mặt của",options:["Muối mật", "Enzym amylase", "Pepsin", "Lactase"],answer:0},
+  {id:220,text:"Tình trạng rối loạn chuyển hóa lipid có thể dẫn đến",options:["Xơ vữa động mạch", "Đái tháo nhạt", "Thiếu máu", "Loãng xương"],answer:0},
+  {id:221,text:"Acid nucleic là hợp chất cao phân tử được tạo bởi các đơn vị",options:["Monosaccharid", "Acid amin", "Nucleotide", "Monoglycerid"],answer:2},
+  {id:222,text:"Một nucleotide gồm có 3 thành phần chính là",options:["Base nitơ, đường, acid phosphoric", "Base nitơ, acid amin, đường", "Base nitơ, lipid, phosphat", "Base nitơ, acid béo, đường"],answer:0},
+  {id:223,text:"Đường trong thành phần của DNA là",options:["Fructose", "Deoxyribose", "Ribose", "Glucose"],answer:1},
+  {id:224,text:"Đường trong RNA là",options:["Glucose", "Ribose", "Deoxyribose", "Galactose"],answer:1},
+  {id:225,text:"Base nitơ được chia thành hai loại là",options:["Adenin và thymine", "Purin và pyrimidin", "Cytosin và guanin", "Uracil và thymine"],answer:1},
+  {id:226,text:"Hai base thuộc nhóm purin là",options:["Thymine và Uracil", "Guanin và Uracil", "Adenin và Guanin", "Thymine và Cytosin"],answer:2},
+  {id:227,text:"Hai base thuộc nhóm pyrimidin là",options:["Adenin và Thymine", "Thymine và Cytosin", "Guanin và Uracil", "Adenin và Guanin"],answer:1},
+  {id:228,text:"Trong DNA, base đặc trưng chỉ có ở DNA mà không có ở RNA là",options:["Cytosin", "Guanin", "Uracil", "Thymine"],answer:3},
+  {id:229,text:"Trong RNA, base đặc trưng chỉ có ở RNA mà không có ở DNA là",options:["Thymine", "Uracil", "Cytosin", "Guanin"],answer:1},
+  {id:230,text:"Liên kết giữa đường và base nitơ trong nucleotide là liên kết",options:["Phosphodieste", "Peptid", "N-glycosid", "Este"],answer:2},
+  {id:231,text:"Liên kết giữa hai nucleotide trong chuỗi polynucleotide là liên kết",options:["Phosphodieste", "Peptid", "N-glycosid", "Hydrogen"],answer:0},
+  {id:232,text:"Cặp base bổ sung trong DNA là",options:["A – T, G – C", "A – C, G – T", "A – U, G – C", "A – G, T – C"],answer:0},
+  {id:233,text:"Số liên kết hydro giữa A–T là",options:["4", "2", "1", "3"],answer:1},
+  {id:234,text:"Số liên kết hydro giữa G–C là",options:["2", "3", "4", "1"],answer:1},
+  {id:235,text:"Cấu trúc không gian của phân tử DNA được mô tả là",options:["Chuỗi kép xoắn đều", "Chuỗi đơn", "Chuỗi vòng kín", "Chuỗi phân nhánh"],answer:0},
+  {id:236,text:"Mô hình cấu trúc DNA được đề xuất bởi",options:["Watson và Crick", "Mendel và Morgan", "Pauling và Franklin", "Beadle và Tatum"],answer:0},
+  {id:237,text:"Đường kính của phân tử DNA xoắn kép khoảng",options:["10 nm", "2 nm", "1 nm", "5 nm"],answer:1},
+  {id:238,text:"Mỗi vòng xoắn DNA gồm khoảng",options:["5 cặp base", "20 cặp base", "10 cặp base", "15 cặp base"],answer:2},
+  {id:239,text:"Chiều xoắn của phân tử DNA sinh học thông thường là",options:["Trái sang phải (xoắn phải)", "Phải sang trái (xoắn trái)", "Ngẫu nhiên", "Không cố định"],answer:0},
+  {id:240,text:"Dạng phổ biến nhất của DNA trong tế bào là",options:["Dạng A", "Dạng C", "Dạng Z", "Dạng B"],answer:3},
+  {id:241,text:"DNA trong tế bào nhân thật tồn tại chủ yếu ở dạng",options:["Chuỗi vòng kép", "Chuỗi đơn", "Chuỗi thẳng xoắn kép", "Chuỗi xoắn lỏng"],answer:2},
+  {id:242,text:"DNA trong tế bào nhân sơ (vi khuẩn) thường có dạng",options:["Chuỗi vòng kép", "Chuỗi đơn", "Chuỗi thẳng kép", "Chuỗi xoắn lỏng"],answer:0},
+  {id:243,text:"RNA có thể tồn tại ở dạng",options:["mRNA, ribosome, DNA", "mRNA, tRNA, rRNA", "mRNA, DNA, histon", "mRNA, rRNA, histon"],answer:1},
+  {id:244,text:"RNA đảm nhiệm chức năng mang thông tin di truyền là",options:["tRNA", "rRNA", "sRNA", "mRNA"],answer:3},
+  {id:245,text:"RNA đảm nhiệm chức năng vận chuyển acid amin là",options:["mRNA", "snRNA", "rRNA", "tRNA"],answer:3},
+  {id:246,text:"RNA có vai trò cấu trúc và xúc tác trong ribosome là",options:["rRNA", "siRNA", "tRNA", "mRNA"],answer:0},
+  {id:247,text:"Liên kết giữa anticodon của tRNA và codon của mRNA là",options:["Liên kết este", "Liên kết hydro", "Liên kết cộng hóa trị", "Liên kết ion"],answer:1},
+  {id:248,text:"Chức năng chính của DNA là",options:["Vận chuyển acid amin", "Tổng hợp protein trực tiếp", "Tham gia cấu tạo ribosome", "Lưu trữ và truyền đạt thông tin di truyền"],answer:3},
+  {id:249,text:"Quá trình tổng hợp DNA từ DNA khuôn gọi là",options:["Phiên mã (transcription)", "Dịch mã (translation)", "Sao chép (replication)", "Oxy hóa"],answer:2},
+  {id:250,text:"Quá trình tổng hợp RNA từ DNA khuôn gọi là",options:["Dịch mã", "Sao chép", "Phiên mã (transcription)", "Nhân đôi"],answer:2},
+  {id:251,text:"Quá trình tổng hợp protein từ mRNA gọi là",options:["Phiên mã", "Sao chép", "Biến đổi sau dịch mã", "Dịch mã (translation)"],answer:3},
+  {id:252,text:"Enzym tham gia tổng hợp DNA là",options:["RNA polymerase", "DNA polymerase", "Ligase", "Helicase"],answer:1},
+  {id:253,text:"Enzym tháo xoắn chuỗi DNA trong quá trình sao chép là",options:["Topoisomerase", "Helicase", "Ligase", "Primase"],answer:1},
+  {id:254,text:"Enzym nối các đoạn Okazaki trong mạch trễ là",options:["Polymerase", "Ligase", "Primase", "Helicase"],answer:1},
+  {id:255,text:"Enzym tổng hợp đoạn mồi RNA trong quá trình sao chép là",options:["DNA polymerase I", "Helicase", "Primase", "Ligase"],answer:2},
+  {id:256,text:"Mạch DNA được tổng hợp theo chiều",options:["Ngẫu nhiên", "5’ → 3’", "3’ → 5’", "Cả hai chiều"],answer:1},
+  {id:257,text:"Nguyên tắc sao chép DNA là",options:["Bổ sung và toàn bảo tồn", "Tự phát", "Bổ sung và bán bảo tồn", "Bán bảo tồn và đối xứng"],answer:2},
+  {id:258,text:"Trong quá trình phiên mã, base A trên DNA sẽ liên kết với base nào trên RNA?",options:["T", "G", "U", "C"],answer:2},
+  {id:259,text:"Codon là bộ ba base trên",options:["DNA", "tRNA", "mRNA", "rRNA"],answer:2},
+  {id:260,text:"Anticodon là bộ ba base trên",options:["tRNA", "mRNA", "DNA", "rRNA"],answer:0},
+  {id:261,text:"Hemoglobin là một loại",options:["Enzym xúc tác", "Protein cấu trúc", "Protein vận chuyển", "Lipoprotein"],answer:2},
+  {id:262,text:"Hemoglobin có vai trò chủ yếu trong việc",options:["Vận chuyển CO₂", "Vận chuyển O₂", "Vận chuyển glucose", "Dự trữ năng lượng"],answer:1},
+  {id:263,text:"Thành phần chính của hemoglobin gồm",options:["Heme và globin", "Porphyrin và lipid", "Heme và enzym", "Globin và acid nucleic"],answer:0},
+  {id:264,text:"Heme là",options:["Một protein nhỏ", "Một hợp chất chứa sắt và porphyrin", "Một loại acid amin", "Một polysaccharid"],answer:1},
+  {id:265,text:"Nguyên tử kim loại trong nhân heme là",options:["Mg", "Cu", "Fe", "Zn"],answer:2},
+  {id:266,text:"Trong hemoglobin, sắt tồn tại ở dạng hóa trị",options:["I", "II", "III", "IV"],answer:1},
+  {id:267,text:"Cấu trúc của hemoglobin gồm",options:["Một chuỗi polypeptid duy nhất", "Hai chuỗi α và hai chuỗi β", "Ba chuỗi polypeptid", "Bốn chuỗi giống hệt nhau"],answer:1},
+  {id:268,text:"Globin trong hemoglobin là",options:["Phần không chứa sắt", "Phần chứa sắt", "Phần mang oxy", "Phần mang CO₂"],answer:0},
+  {id:269,text:"Oxy gắn vào hemoglobin tại vị trí",options:["Nhân porphyrin", "Sắt của heme", "Chuỗi polypeptid", "Gốc acid amin"],answer:1},
+  {id:270,text:"Dạng oxy hóa của hemoglobin khi gắn oxy là",options:["Oxyhemoglobin", "Deoxyhemoglobin", "Methemoglobin", "Carboxyhemoglobin"],answer:0},
+  {id:271,text:"Khi hemoglobin không gắn oxy, nó tồn tại ở dạng",options:["Deoxyhemoglobin", "Methemoglobin", "Oxyhemoglobin", "Carboxyhemoglobin"],answer:0},
+  {id:272,text:"Dạng hemoglobin bị oxy hóa sắt từ Fe²⁺ thành Fe³⁺ là",options:["Oxyhemoglobin", "Deoxyhemoglobin", "Methemoglobin", "Carboxyhemoglobin"],answer:2},
+  {id:273,text:"Hemoglobin gắn với CO tạo thành",options:["Methemoglobin", "Oxyhemoglobin", "Carboxyhemoglobin", "Carbaminohemoglobin"],answer:2},
+  {id:274,text:"Ái lực của hemoglobin với CO so với O₂ là",options:["Nhỏ hơn 10 lần", "Lớn hơn khoảng 200–250 lần", "Bằng nhau", "Nhỏ hơn 100 lần"],answer:1},
+  {id:275,text:"Khi CO gắn vào hemoglobin, hậu quả là",options:["Tăng vận chuyển O₂", "Giảm khả năng vận chuyển O₂", "Tăng ái lực với CO₂", "Không ảnh hưởng"],answer:1},
+  {id:276,text:"Dạng hemoglobin vận chuyển CO₂ ở mô là",options:["Carbaminohemoglobin", "Oxyhemoglobin", "Deoxyhemoglobin", "Carboxyhemoglobin"],answer:0},
+  {id:277,text:"Dạng hemoglobin chiếm chủ yếu ở người trưởng thành là",options:["HbF", "HbA", "HbS", "HbA₂"],answer:1},
+  {id:278,text:"Hemoglobin của bào thai (HbF) gồm các chuỗi",options:["2α + 2γ", "2α + 2β", "2β + 2γ", "4γ"],answer:0},
+  {id:279,text:"HbF có ái lực với oxy",options:["Cao hơn HbA", "Thấp hơn HbA", "Bằng HbA", "Không cố định"],answer:0},
+  {id:280,text:"Khi hemoglobin bị phá hủy, sắt được",options:["Đào thải qua nước tiểu", "Dự trữ dưới dạng ferritin hoặc hemosiderin", "Chuyển thành bilirubin", "Kết tủa trong huyết tương"],answer:1},
+  {id:281,text:"Khi hemoglobin bị phân giải, nhân porphyrin chuyển thành",options:["Biliverdin rồi bilirubin", "Ferritin", "Transferrin", "Urobilinogen"],answer:0},
+  {id:282,text:"Bilirubin tự do được vận chuyển trong máu nhờ",options:["Albumin", "Globulin", "Hemoglobin", "Transferrin"],answer:0},
+  {id:283,text:"Ở gan, bilirubin tự do được liên hợp với",options:["Glucose", "Glucuronic acid", "Sulfat", "Amino acid"],answer:1},
+  {id:284,text:"Dạng bilirubin liên hợp tan trong nước là",options:["Bilirubin tự do", "Bilirubin gián tiếp", "Bilirubin trực tiếp", "Biliverdin"],answer:2},
+  {id:285,text:"Bilirubin liên hợp được bài tiết vào",options:["Máu", "Mật", "Nước tiểu", "Dịch não tủy"],answer:1},
+  {id:286,text:"Ở ruột, bilirubin được vi khuẩn chuyển hóa thành",options:["Urobilinogen", "Biliverdin", "Hemosiderin", "Ferritin"],answer:0},
+  {id:287,text:"Một phần urobilinogen được tái hấp thu và thải ra nước tiểu dưới dạng",options:["Biliverdin", "Urobilin", "Bilirubin", "Stercobilin"],answer:1},
+  {id:288,text:"Phần lớn urobilinogen còn lại trong ruột bị oxy hóa thành",options:["Stercobilin", "Urobilin", "Biliverdin", "Ferritin"],answer:0},
+  {id:289,text:"Màu vàng của phân là do sự hiện diện của",options:["Bilirubin", "Biliverdin", "Stercobilin", "Urobilin"],answer:2},
+  {id:290,text:"Màu vàng của nước tiểu là do",options:["Bilirubin", "Urobilin", "Stercobilin", "Hemoglobin"],answer:1},
+  {id:291,text:"Tăng bilirubin tự do trong máu thường gặp trong",options:["Tắc mật", "Thiếu máu tan huyết", "Viêm gan", "Nhiễm trùng mật"],answer:1},
+  {id:292,text:"Tăng bilirubin liên hợp thường gặp trong",options:["Tắc mật hoặc viêm gan", "Thiếu máu tan huyết", "Mất máu cấp", "Thiếu sắt"],answer:0},
+  {id:293,text:"Bệnh vàng da là do",options:["Giảm bilirubin máu", "Tăng bilirubin máu", "Tăng urobilin", "Thiếu hemoglobin"],answer:1},
+  {id:294,text:"Ở người bình thường, bilirubin toàn phần trong huyết thanh dao động khoảng",options:["1–2 mg/dL", "0.2–1.0 mg/dL", "2–5 mg/dL", "5–10 mg/dL"],answer:1},
+  {id:295,text:"Chức năng sinh học quan trọng nhất của hemoglobin là",options:["Dự trữ O₂", "Vận chuyển O₂ và CO₂", "Dự trữ sắt", "Vận chuyển chất dinh dưỡng"],answer:1},
+  {id:296,text:"Khi pH máu giảm, ái lực của hemoglobin với O₂ sẽ",options:["Tăng", "Giảm", "Không đổi", "Tăng rồi giảm"],answer:1},
+  {id:297,text:"Hiện tượng giảm ái lực của hemoglobin với O₂ khi pH giảm gọi là",options:["Hiệu ứng Bohr", "Hiệu ứng Haldane", "Hiệu ứng Warburg", "Hiệu ứng Pasteur"],answer:0},
+  {id:298,text:"Hemoglobin bất thường trong bệnh hồng cầu hình liềm là",options:["HbC", "HbS", "HbA₂", "HbF"],answer:1},
+  {id:299,text:"Trong bệnh hồng cầu hình liềm, thay đổi acid amin xảy ra là",options:["Glutamic → Valin ở chuỗi β", "Valin → Glutamic ở chuỗi β", "Glycin → Alanin ở chuỗi α", "Serin → Leucin ở chuỗi β"],answer:0},
+  {id:300,text:"Khi Hb bị glycosyl hóa không enzym, sản phẩm được tạo thành là",options:["HbA₁c", "HbF", "HbS", "HbA₂"],answer:0}
+];
+
+const letters = ['A','B','C','D'];
+let current = 0;
+let answers = {}; // {qIndex: selectedOption}
+
+function load(){
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if(saved){
+    try{ const d=JSON.parse(saved); answers=d.answers||{}; current=d.current||0; }catch(e){}
+  }
+}
+
+function save(){
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({answers, current, timestamp: new Date().toISOString()}));
+}
+
+function render(){
+  const q = questions[current];
+  const answered = answers[current] !== undefined;
+  const isCorrect = answered && answers[current] === q.answer;
+
+  document.getElementById('question-area').innerHTML = `
+    <div class="card">
+      <span class="q-number">Câu ${q.id}</span>
+      <div class="q-text">${q.text}</div>
+      <div class="options">
+        ${q.options.map((o,i) => {
+          let cls = answered ? 'disabled' : '';
+          if(answered && i === q.answer) cls += ' correct';
+          if(answered && answers[current] === i && i !== q.answer) cls += ' wrong';
+          return `<div class="option ${cls}" onclick="pick(${i})">
+            <span class="letter">${letters[i]}</span>
+            <span>${o}</span>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`;
+
+  // Progress
+  const answeredCount = Object.keys(answers).length;
+  let correct=0, wrong=0;
+  for(const k in answers){
+    if(answers[k] === questions[k].answer) correct++;
+    else wrong++;
+  }
+
+  const pct = Math.round((answeredCount/questions.length)*100);
+  document.getElementById('prog-text').textContent = `Câu ${current+1} / ${questions.length}`;
+  document.getElementById('prog-pct').textContent = pct+'%';
+  document.getElementById('prog-fill').style.width = pct+'%';
+  document.getElementById('s-total').textContent = answeredCount;
+  document.getElementById('s-correct').textContent = correct;
+  document.getElementById('s-wrong').textContent = wrong;
+
+  document.getElementById('btn-prev').disabled = current === 0;
+  document.getElementById('btn-next').disabled = current === questions.length - 1;
+
+  // Grid
+  const grid = document.getElementById('grid');
+  grid.innerHTML = questions.map((q,i) => {
+    let cls = i === current ? 'active' : '';
+    if(answers[i] !== undefined){
+      cls = answers[i] === questions[i].answer ? 'answered-correct' : 'answered-wrong';
+      if(i === current) cls += ' active';
+    }
+    return `<button class="${cls}" onclick="jumpTo(${i})">${i+1}</button>`;
+  }).join('');
+
+  save();
+}
+
+function pick(opt){
+  if(answers[current] !== undefined) return;
+  answers[current] = opt;
+  render();
+  const isCorrect = opt === questions[current].answer;
+  toast(isCorrect ? 'Chính xác!' : 'Sai rồi! Đáp án đúng: ' + letters[questions[current].answer], isCorrect ? 'check_circle' : 'cancel');
+}
+
+function go(dir){
+  const next = current + dir;
+  if(next >= 0 && next < questions.length){
+    current = next;
+    render();
+  }
+}
+
+function jumpTo(i){
+  current = i;
+  render();
+}
+
+function toast(msg, icon='info'){
+  const t = document.getElementById('toast');
+  t.innerHTML = `<span class="material-icons-round">${icon}</span> ${msg}`;
+  t.classList.add('show');
+  setTimeout(()=> t.classList.remove('show'), 2500);
+}
+
+function exportJSON(){
+  const data = {
+    title: "Trắc Nghiệm Hóa Sinh",
+    exportedAt: new Date().toISOString(),
+    totalQuestions: questions.length,
+    answered: Object.keys(answers).length,
+    correct: Object.values(answers).filter((v,i) => answers[i] === questions[i].answer).length,
+    results: questions.map((q,i) => ({
+      question: q.id,
+      text: q.text,
+      selected: answers[i] !== undefined ? letters[answers[i]] : null,
+      correct: letters[q.answer],
+      isCorrect: answers[i] === q.answer
+    }))
+  };
+  const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'quiz_hoasinh_result.json';
+  a.click();
+  toast('Đã xuất file JSON!', 'download');
+}
+
+let modalAction = null;
+function showModal(action){
+  modalAction = action;
+  const m = document.getElementById('modal');
+  if(action === 'restart'){
+    document.getElementById('modal-title').textContent = 'Làm lại bài thi?';
+    document.getElementById('modal-desc').textContent = 'Tất cả câu trả lời sẽ bị xóa. Bạn sẽ bắt đầu lại từ đầu.';
+  } else {
+    document.getElementById('modal-title').textContent = 'Xóa toàn bộ dữ liệu?';
+    document.getElementById('modal-desc').textContent = 'Dữ liệu tiến trình sẽ bị xóa vĩnh viễn khỏi trình duyệt.';
+  }
+  m.classList.add('show');
+  document.getElementById('modal-confirm').onclick = ()=>{
+    answers = {};
+    current = 0;
+    if(action === 'reset') localStorage.removeItem(STORAGE_KEY);
+    render();
+    hideModal();
+    toast('Đã xóa thành công!', 'check_circle');
+  };
+}
+
+function hideModal(){ document.getElementById('modal').classList.remove('show'); }
+
+// Init
+load();
+render();
+</script>
+</body>
+</html>
