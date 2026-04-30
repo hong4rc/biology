@@ -1,0 +1,2339 @@
+{
+  "title": "Trắc nghiệm: TỔ CHỨC QUẢN LÝ Y TẾ",
+  "storageKey": "tcqlyt_quiz_progress",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Khoa học nghiên cứu tình trạng sức khỏe, thể lực, bệnh tật của cộng đồng, của xã hội; nghiên cứu các điều kiện sống, điều kiện làm việc và các yếu tố tự nhiên xã hội ảnh hưởng tới tình trạng trên, đề xuất các biện pháp nhằm cải thiện và phát huy các điều kiện có lợi và hạn chế các điều kiện có hại cho sức khỏe của cộng đồng và xã hội là:",
+      "options": [
+        "Y học xã hội",
+        "Y học lâm sàng",
+        "Tổ chức y tế",
+        "Y tế công cộng",
+        "Nhân học sức khỏe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 2,
+      "text": "Môn học y tế công cộng có rất sớm ở Hoa Kỳ do:",
+      "options": [
+        "Hubbey thực hiện",
+        "C. E. A. Winslow thực hiện",
+        "N.A.Semashco thực hiện",
+        "Vinogradop thực hiện",
+        "Grothan thực hiện"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "text": "Khoa học về nghệ thuật phòng bệnh, kéo dài tuổi thọ cuộc sống và cải thiện sức khỏe, thể chất, tinh thần của mọi người, phát triển bộ máy tổ chức xã hội để bảo đảm cho mọi người một mức sống phù hợp với sự giữ gìn sức khỏe là:",
+      "options": [
+        "Y học xã hội",
+        "Y học lâm sàng",
+        "Tổ chức y tế",
+        "Y tế công cộng",
+        "Nhân học sức khỏe"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 4,
+      "text": "Mục tiêu cuối cùng của các hoạt động Y tế công cộng là bảo đảm cho mọi người được:",
+      "options": [
+        "Hưởng quyền mạnh khỏe và sống lâu",
+        "Không mắc bệnh lây nhiễm",
+        "Không bị tàn phế do biến chứng của bệnh tật",
+        "Không bị stress tâm lý",
+        "Hưởng quyền tiếp cận dịch vụ chăm sóc sức khỏe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 5,
+      "text": "Tổ chức y tế là một bộ phận của Y học xã hội, là khoa học nghiên cứu nhiệm vụ, vạch kế hoạch, xây dựng cơ cấu tổ chức mạng lưới y tế, phân tích các hoạt động y tế, nhằm thực hiện:",
+      "options": [
+        "Công bằng trong chăm sóc y tế",
+        "Mục tiêu của y tế",
+        "Phân phối nguồn lực y tế",
+        "Sắp xếp và bố trí phù hợp mạng lưới y tế các tuyến",
+        "Hoàn thiện hệ thống thông tin y tế"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "text": "Xác định những vấn đề y tế của cộng đồng, xây dựng chính sách y tế có thể thực hiện được và phương hướng, đề án để giải quyết các vấn đề đó là nhiệm vụ của:",
+      "options": [
+        "Y học xã hội",
+        "Y tế công cộng",
+        "Quản lý y tế",
+        "Nhân học sức khỏe",
+        "Dịch tễ học"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 7,
+      "text": "Người cán bộ quản lý lãnh đạo y tế phải có kiến thức quản lý chuyên sâu vì lý do sau:",
+      "options": [
+        "Hiện nay hệ thống tổ chức y tế, hệ thống các dịch vụ y tế ngày càng phát triển",
+        "Hiện nay hệ thống tổ chức y tế ngày càng phát triển",
+        "Hiện nay hệ thống tổ chức y tế ngày càng phát triển",
+        "Hiện nay hệ thống y tế dự phòng ngày càng phát triển",
+        "Nhu cầu khám chữa bệnh ngày càng tăng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "text": "Công tác quản lý y tế không chỉ dựa trên khoa học tổ chức y tế mà còn yêu cầu sự đóng góp của các khoa học xã hội khác như:",
+      "options": [
+        "Quản lý hành chính y tế",
+        "Khoa học kinh tế xã hội",
+        "Kinh tế y tế",
+        "Xã hội học y học, đạo đức y học",
+        "Luật pháp y tế"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "text": "Y học xã hội là lý luận, là cơ sở khoa học của:",
+      "options": [
+        "Kinh tế y tế",
+        "Luật pháp y tế",
+        "Tổ chức y tế",
+        "Xã hội học y học",
+        "Dịch tễ học"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 10,
+      "text": "Tổ chức y tế là cơ sở thực tiễn của:",
+      "options": [
+        "Kinh tế y tế",
+        "Quản lý hành chính y tế",
+        "Khoa học kinh tế xã hội",
+        "Y học xã hội",
+        "Xã hội học y học, đạo đức y học"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 11,
+      "text": "Sự kết hợp Y học xã hội với tổ chức y tế và một bộ phận của vệ sinh dịch tễ sẽ đồng nghĩa với:",
+      "options": [
+        "Y học cộng đồng",
+        "Y tế công cộng",
+        "Y học dự phòng",
+        "Vệ sinh xã hội",
+        "Y học cộng đồng hoặc y tế công cộng"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 12,
+      "text": "Ngành Y học xã hội có liên quan chặt chẽ với các ngành khoa học tự nhiên và xã hội khác ngoài y tế như:",
+      "options": [
+        "Các yếu tố ảnh hưởng của văn hóa, kinh tế xã hội trong những điều kiện lịch sử nhất định",
+        "Y sinh học",
+        "Sinh vật học",
+        "Sinh học phân tử",
+        "Nhân học"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "text": "Y học Xã hội - Y tế Công cộng trở thành môn học ở đại học Berlin do Grothan làm chủ nhiệm bộ môn từ năm:",
+      "options": [
+        "1970",
+        "1920",
+        "1946",
+        "1945",
+        "1980"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 14,
+      "text": "Ở Liên xô cũ xuất hiện môn học Vệ sinh xã hội và tổ chức y tế tại đại học Moscow từ năm:",
+      "options": [
+        "1922",
+        "1943",
+        "1922",
+        "1930",
+        "1910"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 15,
+      "text": "Tại Oxford (Anh) đã giảng dạy môn học tổ chức y tế từ năm:",
+      "options": [
+        "1956",
+        "1942",
+        "1940",
+        "1956",
+        "1940"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 16,
+      "text": "Ở Việt Nam những khái niệm về y tế công cộng và vệ sinh xã hội đã có từ thời Tuệ Tĩnh (thế kỷ 14) và Hải Thượng Lãn Ông (thế kỷ 18) thể hiện bằng các quan điểm:",
+      "options": [
+        "Chữa bệnh không dùng thuốc",
+        "Chữa bệnh bằng thuốc Nam",
+        "Chữa bệnh bằng Y học cổ truyền",
+        "Dự phòng bệnh tật",
+        "Áp dụng chữa bệnh khí công"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 17,
+      "text": "Đối tượng nghiên cứu của y học xã hội và y tế công cộng là sức khỏe của nhân dân trong mối quan hệ với:",
+      "options": [
+        "Sức khỏe, thể lực, bệnh tật của cộng đồng",
+        "Thực trạng công tác y tế",
+        "Môi trường sống và các điều kiện kinh tế xã hội",
+        "Các điều kiện tự nhiên",
+        "Nhân học y tế"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 18,
+      "text": "Phương pháp nghiên cứu chung của Y học xã hội và y tế công cộng là, ngoại trừ:",
+      "options": [
+        "Phương pháp xã hội học",
+        "Phương pháp xã hội hóa dựa trên cơ sở lý luận của chủ nghĩa Mác Lênin",
+        "Phương pháp xã hội hóa dựa trên cơ sở lý luận của tư tưởng Hồ Chí Minh",
+        "Phương pháp cộng đồng dựa trên cơ sở lý luận của chủ nghĩa Mác Lênin và tư tưởng Hồ Chí Minh",
+        "Phương pháp nghiên cứu dịch tễ học lâm sàng"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 19,
+      "text": "Nghiên cứu tình trạng sức khỏe, bệnh tật, thể lực của nhân dân là đối tượng nghiên cứu của tất cả các ngành khoa học lâm sàng, cận lâm sàng và của nhiều ngành khoa học khác là:",
+      "options": [
+        "Mục tiêu nghiên cứu của Y học xã hội",
+        "Nội dung nghiên cứu của Y học xã hội",
+        "Phạm vi nghiên cứu của Y học xã hội",
+        "Phương pháp nghiên cứu của Y học xã hội",
+        "Chỉ tiêu nghiên cứu của Y học xã hội"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 20,
+      "text": "Ngành YHXH nghiên cứu tình trạng sức khỏe bệnh tật và thể lực nhân dân trong cái nhìn toàn diện, toàn cục theo xu thế phát triển chung và có liên quan tới sự phát triển của toàn xã hội theo khuynh hướng:",
+      "options": [
+        "Dự phòng tích cực",
+        "Kết hợp chữa bệnh bằng kỹ thuật cao",
+        "Tập trung ngân sách y tế ở tuyến TW",
+        "Tập trung ngân sách y tế ở tuyến cơ sở",
+        "Áp dụng thống kê y tế trong phương pháp"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 21,
+      "text": "Y học xã hội nghiên cứu về cơ sở khoa học của công tác y tế bao gồm các nội dung, ngoại trừ:",
+      "options": [
+        "Nhu cầu của nhân dân trong việc CSSK",
+        "Tổ chức công tác y tế",
+        "Sự lãnh đạo của công tác y tế",
+        "Cán bộ y tế + lịch sử y học, y tế",
+        "Mô hình sức khỏe bệnh tật"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 22,
+      "text": "Nghiên cứu lịch sử phát triển y học và y tế Việt Nam và các địa phương qua các giai đoạn lịch sử để rút ra các bài học kinh nghiệm, các qui luật và lý luận vận dụng vào việc:",
+      "options": [
+        "Đẩy mạnh công tác khám chữa bệnh",
+        "Phát huy y học phòng bệnh",
+        "Tăng cường có hiệu quả sức khỏe nhân dân",
+        "Tăng cường quan hệ quốc tế trong khám chữa bệnh",
+        "Giảm chi ngân sách y tế"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "text": "Nghiên cứu tiêu chuẩn cơ cấu, số lượng biên chế cán bộ trong toàn ngành và trong tất cả các cơ sở y tế; bồi dưỡng, đào tạo, qui hoạch và phát triển đội ngũ cán bộ quản lý và lãnh đạo ngành y tế là nội dung nghiên cứu về:",
+      "options": [
+        "Cơ sở khoa học của công tác y tế về tài chính y tế",
+        "Cơ sở khoa học của công tác y tế về thiết bị y tế",
+        "Cơ sở khoa học của công tác y tế về dược",
+        "Cơ sở khoa học của công tác y tế về nhân lực y tế",
+        "Cơ sở khoa học của công tác y tế về kinh tế y tế"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 24,
+      "text": "Ngành y tế tìm cách bảo đảm sức khỏe cho con người bằng nhiều con đường, con đường tìm đến sức khỏe thông qua cộng đồng đó là con đường của y học xã hội và y tế công cộng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 25,
+      "text": "Ngành y tế tìm cách bảo đảm sức khỏe cho con người bằng nhiều con đường, con đường tìm đến sức khỏe thông qua cơ thể sống và xác chết không phải là con đường của y học xã hội và y tế công cộng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "text": "Y học xã hội và y tế công cộng cũng coi trọng công tác lâm sàng nhưng công tác dự phòng là mục tiêu của y học xã hội và y tế công cộng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "text": "Sinh y học không coi trọng công tác dự phòng bằng công tác chữa bệnh.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "text": "Con đường đến với sức khỏe của y học lâm sàng là thông qua người bệnh.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "text": "Con đường đến với sức khỏe của y tế công cộng là thông qua cộng đồng và xã hội.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "text": "Đối tượng nghiên cứu của YHXH là sức khỏe của nhân dân trong mối quan hệ với môi trường sống và các điều kiện kinh tế xã hội.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 31,
+      "text": "Những thành tựu cơ bản của ngành y tế trong thời kỳ đổi mới:",
+      "options": [
+        "Củng cố được hệ thống tổ chức y tế cơ sở. Hoàn thiện hệ thống tổ chức y tế cơ sở. Đẩy mạnh công tác vệ sinh phòng bệnh. Sắp xếp lại mạng lưới khám bệnh và chữa bệnh.",
+        "Củng cố được hệ thống tổ chức y tế cơ sở.",
+        "Hoàn thiện hệ thống tổ chức y tế cơ sở.",
+        "Đẩy mạnh công tác vệ sinh phòng bệnh.",
+        "Sắp xếp lại mạng lưới khám bệnh và chữa bệnh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 32,
+      "text": "Những thành tựu cơ bản của ngành y tế trong thời kỳ đổi mới có ý nghĩa quyết định nhất:",
+      "options": [
+        "Củng cố và hoàn thiện hệ thống y tế quốc gia đặc biệt là y tế cơ sở.",
+        "Củng cố được hệ thống tổ chức y tế cơ sở.",
+        "Hoàn thiện hệ thống tổ chức y tế cơ sở.",
+        "Đẩy mạnh công tác vệ sinh phòng bệnh.",
+        "Sắp xếp lại mạng lưới khám bệnh và chữa bệnh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 33,
+      "text": "Thành tựu cơ bản của y tế trong thời kỳ đổi mới:",
+      "options": [
+        "Mở rộng dịch vụ cung cấp thuốc. Xóa bỏ bao cấp từng bước thực hiện cơ chế thị trường trong CSSK nhân dân. Phát triển y học cổ truyền tại cộng đồng. Hợp tác quốc tế với nhiều nước trên thế giới.",
+        "Mở rộng dịch vụ cung cấp thuốc.",
+        "Xóa bỏ bao cấp từng bước thực hiện cơ chế thị trường trong CSSK nhân dân.",
+        "Phát triển y học cổ truyền tại cộng đồng.",
+        "Hợp tác quốc tế với nhiều nước trên thế giới."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "text": "Thành tựu cơ bản của y tế trong thời kỳ đổi mới:",
+      "options": [
+        "Bước đầu thực hiện xã hội hóa y tế. Khống chế và đẩy lùi nhiều bệnh dịch nguy hiểm.",
+        "Khống chế và đẩy lùi nhiều bệnh dịch nguy hiểm.",
+        "Đẩy lùi và loại trừ bệnh sốt rét.",
+        "Bước đầu thực hiện xã hội hóa y tế.",
+        "Đẩy lùi và loại trừ bệnh sốt rét. Bước đầu thực hiện xã hội hóa y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 35,
+      "text": "Trong thời kỳ đổi mới mô hình bệnh tật của đất nước có nhiều biến đổi ngành y tế đã đối phó và đã quan tâm giải quyết:",
+      "options": [
+        "Phòng chống các bệnh không nhiễm khuẩn có bước phát triển mới. Xuất hiện nhiều các bệnh tim mạch và cao huyết áp. Xuất hiện các bệnh ung thư, tâm thần, cơ xương khớp, các bệnh nghề nghiệp. Xuất hiện các bệnh xã hội của thời kỳ mới, bệnh AIDS, các tai nạn giao thông...",
+        "Phòng chống các bệnh không nhiễm khuẩn có bước phát triển mới.",
+        "Xuất hiện nhiều các bệnh tim mạch và cao huyết áp.",
+        "Xuất hiện các bệnh ung thư, tâm thần, cơ xương khớp, các bệnh nghề nghiệp.",
+        "Xuất hiện các bệnh xã hội của thời kỳ mới, bệnh AIDS, các tai nạn giao thông."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 36,
+      "text": "Trong thời kỳ đổi mới các thành tựu cơ bản và rõ nhất:",
+      "options": [
+        "Sức khỏe nhân dân được cải thiện. Tuổi thọ trung bình tăng. Giảm rõ ràng các tỷ lệ chết trẻ em dưới 1 tuổi và dưới 5 tuổi, tỷ lệ chết mẹ. Trẻ sơ sinh có trọng lượng dưới 2.500g giảm.",
+        "Sức khỏe nhân dân được cải thiện.",
+        "Tuổi thọ trung bình tăng.",
+        "Giảm rõ ràng các tỷ lệ chết trẻ em dưới 1 tuổi và dưới 5 tuổi, tỷ lệ chết mẹ.",
+        "Trẻ sơ sinh có trọng lượng dưới 2.500g giảm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 37,
+      "text": "Thành tựu cơ bản của y tế trong thời kỳ đổi mới:",
+      "options": [
+        "Ngành dược ổn định và hiện đại hóa toàn bộ các dây chuyền sản xuất thuốc.",
+        "Các doanh nghiệp dược trung ương đều đạt tiêu chuẩn chất lượng GMP.",
+        "Bảo đảm phần lớn nhu cầu thuốc và trang thiết bị thiết yếu.",
+        "Không để thiếu thuốc.",
+        "Bảo đảm sản xuất thuốc trong nước với nhiều dạng bào chế phong phú."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 38,
+      "text": "Thành tựu cơ bản của ngành dược là tăng bình quân tiền thuốc của người dân lên nhiều lần:",
+      "options": [
+        "Tính tới năm 1994 đạt 3,2 USD so với thời kỳ 1986 - 1990.",
+        "Tính tới 1994 tăng lên 6 lần so với thời kỳ 1986 - 1990.",
+        "Tính tới 2000 tăng 10 lần so với 1986 - 1990.",
+        "Tính tới 2002 tăng 15 lần so với 1986 - 1990.",
+        "Tính tới 2000 đạt 6,0 USD so với thời kỳ 1986 - 1990."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 39,
+      "text": "Tồn tại cơ bản và cũng là cấp bách của y tế trong thời kỳ đổi mới:",
+      "options": [
+        "Công bằng xã hội trong việc thực hiện chính sách y tế.",
+        "Tình trạng ô nhiễm môi trường.",
+        "Mất cân đối cung cầu về y tế.",
+        "Mặt trái của cơ chế thị trường có nguy cơ ảnh hưởng tới Y đức.",
+        "Đội ngũ cán bộ nhất là bác sĩ tuyến y tế cơ sở thiếu nhiều."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 40,
+      "text": "Tồn tại cơ bản và cấp bách trong thời kỳ đổi mới của ngành dược:",
+      "options": [
+        "Chuyển đổi cơ chế chậm chạp. Chưa kiểm soát được nguồn nhập khẩu thuốc đặc biệt là khâu phi mậu dịch. Năng lực sản xuất hạn chế, công nghiệp dược lạc hậu. Công tác quản lý nhà nước trong ngành dược chưa có đủ khả năng quản lý thị trường thuốc ngày càng đa dạng.",
+        "Chuyển đổi cơ chế chậm chạp.",
+        "Chưa kiểm soát được nguồn nhập khẩu thuốc đặc biệt là khâu phi mậu dịch.",
+        "Năng lực sản xuất hạn chế, công nghiệp dược lạc hậu.",
+        "Công tác quản lý nhà nước trong ngành dược chưa có đủ khả năng quản lý thị trường thuốc ngày càng đa dạng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 41,
+      "text": "Mục tiêu tổng quát của y tế đến năm 2000 và 2002:",
+      "options": [
+        "Giảm tỷ lệ mắc bệnh. Tăng cường sức khỏe. Nâng cao thể lực. Tăng tuổi thọ.",
+        "Tăng cường sức khỏe.",
+        "Nâng cao thể lực.",
+        "Tăng tuổi thọ.",
+        "Giảm tỷ lệ mắc bệnh."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 42,
+      "text": "Biện pháp thực hiện mục tiêu tới 2002:",
+      "options": [
+        "Tăng cường đầu tư y tế cơ sở. Đổi mới quản lý bệnh viện. Tăng cường giáo dục y đức. Tăng khả năng đáp ứng nhu cầu ngày càng cao về khám chữa bệnh cho nhân dân.",
+        "Tăng cường đầu tư y tế cơ sở.",
+        "Đổi mới quản lý bệnh viện.",
+        "Tăng cường giáo dục y đức.",
+        "Tăng khả năng đáp ứng nhu cầu ngày càng cao về khám chữa bệnh cho nhân dân."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 43,
+      "text": "Mục tiêu tổng quát tới 2020:",
+      "options": [
+        "Đảm bảo công bằng, nâng chất lượng và hiệu quả chăm sóc y tế, đưa sức khỏe nhân dân đạt mức trung bình của các nước trong khu vực.",
+        "Đảm bảo công bằng, chất lượng và hiệu quả CSSKND.",
+        "Đáp ứng nhu cầu về chăm sóc sức khỏe nhân dân.",
+        "Bảo đảm công bằng trong chăm sóc sức khỏe.",
+        "Giải quyết cơ bản vấn đề chính sách."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "text": "Các chỉ tiêu cơ bản đến 2000 và 2020: Tuổi thọ trung bình người Việt Nam:",
+      "options": [
+        "68 tuổi vào năm 2000 và 75 tuổi vào năm 2020.",
+        "70 tuổi vào 2002 và 78 tuổi vào 2020.",
+        "70 tuổi vào năm 2002 và 80 tuổi vào năm 2020.",
+        "69 tuổi vào năm 2000 và 79 tuổi vào năm 2020.",
+        "70 tuổi vào năm 2000 và 80 tuổi vào năm 2020."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 45,
+      "text": "Biện pháp chủ yếu nhất để thực hiện mục tiêu tổng quát:",
+      "options": [
+        "Kiện toàn mạng lưới y tế đặc biệt là y tế xã phường, quận huyện.",
+        "Đào tạo nhân lực y tế.",
+        "Xã hội hóa y tế.",
+        "Phát triển y học cổ truyền.",
+        "Cung cấp đủ thuốc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 46,
+      "text": "Biện pháp cơ bản nhất để thực hiện kiện toàn và hoàn thiện mạng lưới y tế cơ sở:",
+      "options": [
+        "Chuẩn hóa y tế xã phường tới năm 2010.",
+        "Biên chế hóa đội ngũ cán bộ y tế phường xã.",
+        "Bảo đảm có đủ 100% y tế xã phường thị trấn có bác sĩ.",
+        "Coi trọng chính sách cán bộ y tế cơ sở.",
+        "Tăng cường đầu tư cho y tế vùng sâu vùng xa vùng dân tộc thiểu số."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 47,
+      "text": "Thực trạng y tế từ thời khủng hoảng kinh tế xã hội đến thời kỳ phục hồi được ghi nhận từ những năm nào (Thời kỳ này đã có 700 trạm y tế trở lại hoạt động):",
+      "options": [
+        "1990 - 1995.",
+        "1980 - 1982.",
+        "1982 - 1986.",
+        "1986 - 1990.",
+        "1995 - 2000."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 48,
+      "text": "Về cơ bản từ năm nào ngành y tế cơ bản đã xóa xã trắng về y tế (trong năm này toàn quốc đã có trên 10.000 xã có trạm y tế hoạt động):",
+      "options": [
+        "1996.",
+        "1995.",
+        "1994.",
+        "1997.",
+        "1998."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 49,
+      "text": "Toàn quốc đạt được 40% trạm y tế cơ sở có bác sĩ vào năm nào:",
+      "options": [
+        "2000.",
+        "1998.",
+        "1999.",
+        "1997.",
+        "2001."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 50,
+      "text": "Những tồn tại và khó khăn của ngành y tế cho tới những năm 2000 bao gồm:",
+      "options": [
+        "Chất lượng chăm sóc sức khỏe còn hạn chế. Nguy cơ tổn hại tới y tế cộng đồng. Không đáp ứng kịp thời nhu cầu chăm sóc sức khỏe của nhân dân. Mặt trái của cơ chế thị trường tác động bất lợi.",
+        "Chất lượng chăm sóc sức khỏe còn hạn chế.",
+        "Nguy cơ tổn hại tới y tế cộng đồng.",
+        "Không đáp ứng kịp thời nhu cầu chăm sóc sức khỏe của nhân dân.",
+        "Mặt trái của cơ chế thị trường tác động bất lợi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 51,
+      "text": "Chủ trương hợp tác quốc tế về y tế:",
+      "options": [
+        "Đa dạng hóa. Đa phương hóa. Tiếp thu và trao đổi thành tựu y học. Cùng nhau phát triển y học và y tế.",
+        "Đa dạng hóa.",
+        "Đa phương hóa.",
+        "Tiếp thu và trao đổi thành tựu y học.",
+        "Cùng nhau phát triển y học và y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 52,
+      "text": "Chủ trương hợp tác quốc tế về y tế:",
+      "options": [
+        "Đa dạng hóa. Đa phương hóa. Tiếp thu và trao đổi thành tựu y học. Cùng nhau phát triển y học và y tế.",
+        "Đa dạng hóa.",
+        "Đa phương hóa.",
+        "Tiếp thu và trao đổi thành tựu y học.",
+        "Cùng nhau phát triển y học và y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 53,
+      "text": "Các quan điểm chỉ đạo về y tế trong chiến lược y tế có nội dung cơ bản với các quan điểm nào trong các thời kỳ xây dựng ngành y tế Việt Nam:",
+      "options": [
+        "Quan điểm đổi mới (nghị quyết 4 đại hội 7).",
+        "Quan điểm truyền thống.",
+        "Phương châm y tế.",
+        "Nguyên tắc y tế.",
+        "Phương châm y tế. Nguyên tắc y tế."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 54,
+      "text": "Chương trình mục tiêu của ngành nhằm thực hiện chiến lược y tế tới 2020 gồm bao nhiêu chương trình:",
+      "options": [
+        "8 chương trình.",
+        "9 chương trình.",
+        "10 chương trình.",
+        "11 chương trình.",
+        "12 chương trình."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 55,
+      "text": "Các nhóm chương trình y tế quốc gia gồm có bao nhiêu chương trình:",
+      "options": [
+        "13 chương trình.",
+        "10 chương trình.",
+        "11 chương trình.",
+        "12 chương trình.",
+        "9 chương trình."
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 56,
+      "text": "Định hướng chiến lược công tác chăm sóc và bảo vệ sức khỏe nhân dân đến 2000 và 2020 tuân theo nghị quyết IV đại hội VII.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 57,
+      "text": "Từ 1975 đến 1986 có phong trào thực hiện 5 mục tiêu và 5 dứt điểm thì 5 mục tiêu có ý nghĩa chiến lược.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 58,
+      "text": "Từ 1975 đến 1986 có phong trào thực hiện 5 mục tiêu và 5 dứt điểm thì 5 dứt điểm có ý nghĩa chiến lược.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "text": "Chiến lược y tế từ 2000 - 2020 là mục tiêu y tế phục vụ sự nghiệp công nghiệp hóa hiện đại hóa đất nước.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 60,
+      "text": "Mục tiêu của ngành y tế từ năm 2000 đến 2020 là một bộ phận của mục tiêu quốc gia vì sự nghiệp dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 61,
+      "text": "Chủ trương đề xướng tuyên ngôn AlmaAta xuất phát từ:",
+      "options": [
+        "Các nước TBCN.",
+        "Các nước XHCN.",
+        "Các nước Châu Á.",
+        "Các nước châu Phi.",
+        "Các nước châu Mỹ Latin."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 62,
+      "text": "Tuyên ngôn AlmaAta khẳng định:",
+      "options": [
+        "Sức khỏe có thể đạt được cho mọi người.",
+        "Sức khỏe là quan trọng. Sức khỏe có thể đạt được cho mọi người. Sức khỏe là quyền cơ bản của công dân.",
+        "Sức khỏe là quyền cơ bản của công dân.",
+        "Sức khỏe là tình trạng không ốm đau khuyết tật và là trạng thái thoải mái hoàn toàn về thể chất, tâm thần và xã hội.",
+        "Sức khỏe là quan trọng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 63,
+      "text": "Tuyên ngôn AlmaAta chú trọng biện pháp:",
+      "options": [
+        "Phát triển Y tế gắn với tăng trưởng kinh tế và công bằng xã hội về CSSK.",
+        "Công bằng xã hội về CSSK.",
+        "Y tế phải tiếp cận với cộng đồng, công bằng xã hội về CSSK, Phát triển Y tế gắn với tăng trưởng kinh tế và dự phòng là cơ bản.",
+        "Dự phòng là cơ bản, Y tế phải tiếp cận với cộng đồng.",
+        "Công bằng xã hội về CSSK và Y tế phải tiếp cận với cộng đồng."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 64,
+      "text": "Chăm sóc sức khỏe ban đầu:",
+      "options": [
+        "Là những chăm sóc thiết yếu được xây dựng trên cơ sở các phương pháp khoa học và kỹ thuật thực hành đơn giản, dễ thực hiện, tiếp cận dễ dàng, chấp nhận được của cộng đồng qua các giai đoạn.",
+        "Là chức năng quan trọng của hệ thống y tế quốc gia.",
+        "Là bộ phận chính để đạt được mục tiêu \"Sức khỏe cho mọi người năm 2000\".",
+        "Chính là y tế cơ sở (Đ/v Việt Nam).",
+        "Là chìa khóa mở cánh cửa sức khỏe cho mọi người."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 65,
+      "text": "Tính nguyên tắc của CSSKBĐ:",
+      "options": [
+        "Tính công bằng. Tính dự phòng tích cực. Tính dự phòng tích cực. Tham gia của cộng đồng. Kỹ thuật thích hợp. Phối hợp liên ngành.",
+        "Tính dự phòng tích cực. Phối hợp liên ngành.",
+        "Tham gia của cộng đồng. Kỹ thuật thích hợp.",
+        "Kỹ thuật thích hợp.",
+        "Phối hợp liên ngành."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 66,
+      "text": "Nội dung CSSKBĐ của Việt Nam gồm:",
+      "options": [
+        "8 nội dung tối thiểu về CSSKBĐ của TCYTTG + 2 nội dung thêm vào của Việt Nam.",
+        "Gồm 10 nội dung: chấp nhận sự phù hợp các nội dung tối thiểu của TCYTTG với các nội dung quan trọng của Việt Nam.",
+        "8 nội dung tối thiểu của TCYTTG.",
+        "10 nội dung cơ bản về y tế ở cơ sở.",
+        "8 nội dung tối thiểu của TCYTTG, 10 nội dung cơ bản về y tế ở cơ sở."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 67,
+      "text": "Phương thức hoạt động chủ yếu CSSKBĐ:",
+      "options": [
+        "Lồng ghép. Phối hợp Hoạt động liên ngành và Xã hội hóa y tế.",
+        "Phối hợp.",
+        "Hoạt động liên ngành.",
+        "Lồng ghép, hoạt động liên ngành và Xã hội hóa y tế.",
+        "Phối hợp và Xã hội hóa y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 68,
+      "text": "Lồng ghép trong CSSKBĐ:",
+      "options": [
+        "Phối hợp các nội dung CSSKBĐ, với các chương trình y tế quốc gia và các chương trình y tế khác với các hoạt động quản lý y tế và quản lý xã hội vì mục tiêu y tế.",
+        "Phối hợp các hoạt động trong nội bộ ngành y tế nhằm thực hiện mục tiêu y tế.",
+        "Phối hợp các tổ chức xã hội nhằm thực hiện mục tiêu y tế.",
+        "Phối hợp hoạt động theo ngành dọc với hoạt động cơ sở.",
+        "Phối hợp các hoạt động y tế với các hoạt động xã hội vì mục tiêu y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 69,
+      "text": "Hoạt động liên ngành trong CSSKBĐ:",
+      "options": [
+        "Huy động các ngành dưới sự điều hành của nhà nước do y tế làm nòng cốt.",
+        "Huy động các ngành dưới sự điều hành của nhà nước.",
+        "Huy động các ngành dưới sự điều hành của cấp ủy.",
+        "Huy động các ngành dưới sự điều hành của cấp ủy do y tế làm nòng cốt.",
+        "Huy động các ngành dưới sự điều hành của y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 70,
+      "text": "Nguyên tắc cơ bản trong lồng ghép:",
+      "options": [
+        "Giáo dục vận động người dân tham gia. Tác động vào cộng đồng. Phối hợp nhiều phương pháp và phương tiện phù hợp với nhóm đối tượng. Xác định vai trò nòng cốt.",
+        "Giáo dục vận động người dân tham gia.",
+        "Tác động vào cộng đồng.",
+        "Phối hợp nhiều phương pháp và phương tiện phù hợp với nhóm đối tượng.",
+        "Xác định vai trò nòng cốt."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 71,
+      "text": "Y tế cơ sở của Việt Nam chính là:",
+      "options": [
+        "Y tế cộng đồng. Y tế thực hiện CSSKBĐ.",
+        "Y tế thực hiện đường lối chính sách của Đảng.",
+        "Y tế thôn bản.",
+        "Y tế cộng đồng.",
+        "Y tế thực hiện CSSKBĐ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 72,
+      "text": "Y tế tuyến chăm sóc sức khỏe ban đầu (gọi tắt là y tế tuyến ban đầu):",
+      "options": [
+        "Y tế gia đình.",
+        "Y tế cụm dân cư.",
+        "Y tế thôn bản.",
+        "Y tế xã phường thị trấn.",
+        "Y tế huyện quận."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 73,
+      "text": "Y tế tuyến tiền ban đầu:",
+      "options": [
+        "Y tế gia đình. Y tế cụm dân cư. Y tế thôn bản.",
+        "Y tế xã phường thị trấn.",
+        "Y tế cụm dân cư.",
+        "Y tế thôn bản.",
+        "Y tế gia đình."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 74,
+      "text": "Y tế tuyến hỗ trợ trực tiếp ban đầu:",
+      "options": [
+        "Y tế huyện quận, thị xã.",
+        "Y tế gia đình.",
+        "Y tế cụm dân cư.",
+        "Y tế thôn bản.",
+        "Y tế xã phường thị trấn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 75,
+      "text": "Kỹ thuật thực hiện trong CSSKBĐ là kỹ thuật:",
+      "options": [
+        "Đơn giản. Dễ thực hiện. Khoa học. Thực hành. Đơn giản.",
+        "Dễ thực hiện.",
+        "Khoa học.",
+        "Thực hành.",
+        "Khoa học. Thực hành."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 76,
+      "text": "Nguyên tắc bao phủ tiếp cận trong CSSKBĐ:",
+      "options": [
+        "Gần dân về cự ly. Sát dân (tới cá nhân và hộ gia đình). Thầy tại chỗ. Thuốc tại chỗ.",
+        "Gần dân về cự ly.",
+        "Sát dân (tới cá nhân và hộ gia đình).",
+        "Thầy tại chỗ.",
+        "Thuốc tại chỗ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 77,
+      "text": "Sức khỏe là:",
+      "options": [
+        "Trạng thái không bệnh tật.",
+        "Trạng thái thoải mái về thể chất, tâm thần và xã hội.",
+        "Khả năng thích nghi của cơ thể với môi trường sống.",
+        "Trạng thái thoải mái hoàn toàn về thể chất, tâm thần, xã hội + không bệnh tật + quyền cơ bản của con người.",
+        "Tình trạng không có khuyết tật."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 78,
+      "text": "Sức khỏe là quyền cơ bản:",
+      "options": [
+        "Quyền được bảo đảm về CSSK, nghĩa vụ bảo vệ SK mình, bảo vệ SK cộng đồng và bảo vệ môi trường.",
+        "Có quyền chọn sức khỏe cho mình, không cần đối với người khác.",
+        "Có quyền hủy hoại SK mình nếu thấy cần không cần nghỉ đến ảnh hưởng hay không đối với người khác.",
+        "Có quyền đòi hỏi có SK không cần nghĩa vụ.",
+        "Quyền được phân phối sản phẩm về sức khỏe dẫu rằng không có bổn phận làm ra sản phẩm SK."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 79,
+      "text": "Vươn tới tình trạng SK ngày càng tốt hơn:",
+      "options": [
+        "Là trách nhiệm của nhà nước XHCN. Là trách nhiệm của công dân. Là trách nhiệm của xã hội.",
+        "Là quyền tự do không được xâm phạm.",
+        "Là trách nhiệm của nhà nước XHCN.",
+        "Là trách nhiệm của công dân.",
+        "Là trách nhiệm của xã hội."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 80,
+      "text": "Khả năng vươn tới sức khỏe (không bệnh tật) ở chế độ XHCN đạt được ở người:",
+      "options": [
+        "Cho tất cả mọi người.",
+        "Người giàu.",
+        "Người nghèo.",
+        "Người thành thị.",
+        "Người nông thôn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 81,
+      "text": "Khả năng vươn tới SK (không bệnh tật) ở chế độ TBCN đạt được ở người:",
+      "options": [
+        "Người giàu.",
+        "Người nghèo.",
+        "Người thành thị.",
+        "Người nông thôn.",
+        "Cho tất cả mọi người."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 82,
+      "text": "Mục tiêu của công tác CSSKBĐ:",
+      "options": [
+        "Mọi người không có bệnh, có sức khỏe.",
+        "Chữa bệnh.",
+        "Phòng bệnh.",
+        "Vệ sinh phòng chống dịch.",
+        "Giáo dục sức khỏe."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 83,
+      "text": "Mục tiêu của bệnh viện chúng ta:",
+      "options": [
+        "Cứu chữa và chăm sóc bệnh nhân bằng mọi cách.",
+        "Có nhiều người bệnh để chữa.",
+        "Phát triển KHKT.",
+        "Thực hiện chuyên môn sâu.",
+        "Dự phòng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 84,
+      "text": "Mô hình tổ chức CSSKBĐ ở Việt Nam được xem là y tế thuộc khu vực:",
+      "options": [
+        "Y tế phổ cập.",
+        "Y tế chuyên sâu.",
+        "Y tế địa phương.",
+        "Y tế địa bàn.",
+        "Y tế ngành."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 85,
+      "text": "Quan điểm cơ bản của CSSKBĐ thuộc quan điểm nào trong hệ thống quan điểm y tế Việt Nam:",
+      "options": [
+        "Quan điểm dự phòng.",
+        "Quan điểm chính trị.",
+        "Quan điểm đông tây y kết hợp.",
+        "Quan điểm quần chúng.",
+        "Quan điểm xây dựng nguồn nhân lực y tế."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 86,
+      "text": "Y tế cộng đồng là:",
+      "options": [
+        "Y tế cơ sở xã phường, thị trấn.",
+        "Y tế cơ sở trạm trại, công nông trường xí nghiệp.",
+        "Y tế cơ quan.",
+        "Y tế thôn bản, cụm dân cư.",
+        "Y tế quận huyện."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 87,
+      "text": "Đơn vị nhỏ nhất của y tế trong hệ thống y tế quốc gia:",
+      "options": [
+        "Y tế xã phường thị trấn.",
+        "Y tế gia đình.",
+        "Y tế cụm dân cư.",
+        "Y tế thôn bản.",
+        "Y tế khu vực."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 88,
+      "text": "Cơ chế quản lý điều hành trong CSSKBĐ ở cơ sở:",
+      "options": [
+        "Cấp ủy lãnh đạo.",
+        "Chính quyền quản lý.",
+        "Mặt trận thực hiện.",
+        "Đoàn thể và quần chúng thi hành.",
+        "Y tế nòng cốt, tham mưu cho chính quyền (để quản lý điều hành) cho cấp ủy (để lãnh đạo) thực hiện mục tiêu y tế."
+      ],
+      "answer": 4
+    },
+    {
+      "id": 89,
+      "text": "Hệ thống chăm sóc y tế (chăm sóc sức khỏe) là:",
+      "options": [
+        "Hệ thống dọc của ngành y tế, coi trọng bệnh viện, thầy thuốc, nhân viên y tế.",
+        "Hệ thống tổng hợp có sự hợp tác liên ngành.",
+        "Hệ thống chữa bệnh là chủ yếu.",
+        "Hệ thống chú ý điều trị cho cá nhân.",
+        "Hệ thống dọc của một ngành coi trọng vai trò thầy thuốc."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 90,
+      "text": "Hệ thống chăm sóc sức khỏe ban đầu là:",
+      "options": [
+        "Hệ thống tổng hợp, phân bố đều, hợp tác liên ngành, coi trọng dự phòng, tăng cường bảo vệ sức khỏe cộng đồng kết hợp với chữa bệnh.",
+        "Hệ thống tổng hợp.",
+        "Coi trọng dự phòng.",
+        "Hệ thống dọc của ngành y tế.",
+        "Hệ thống kết hợp chú ý nhiều đến vùng khó khăn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 91,
+      "text": "Y tế cơ sở (Xã phường thị trấn) là y tế cộng đồng.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 92,
+      "text": "Y tế cơ sở (Xã phường thị trấn) là y tế CSSKBĐ.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 93,
+      "text": "Đối tượng của CSSKBĐ là cá nhân người bệnh.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 94,
+      "text": "Đối tượng của chăm sóc y tế là cộng đồng.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 95,
+      "text": "CSSKBĐ nặng về chữa bệnh làm cho vai trò người dân trở nên chủ động và tự giác.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 96,
+      "text": "CSSKBĐ phải là nội dung quan trọng của y tế cơ sở.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 97,
+      "text": "CSSKBĐ là chăm sóc thiết yếu của cộng đồng với phương pháp thực hành dễ thực hiện dễ chấp nhận đối với cộng đồng.",
+      "options": [
+        "Đúng.",
+        "Sai."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 98,
+      "text": "Ngành y tế nước ta đang sử dụng bảng phân loại quốc tế về bệnh tật lần thứ:",
+      "options": [
+        "10",
+        "9",
+        "8",
+        "11",
+        "12"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 99,
+      "text": "Phân loại quốc tế về bệnh tật lần thứ 10 được xây dựng vào năm:",
+      "options": [
+        "1983",
+        "1982",
+        "1981",
+        "1984",
+        "1985"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 100,
+      "text": "Nội dung bảng phân loại quốc tế về bệnh tật lần thứ 10 được xây dựng có:",
+      "options": [
+        "21 chương",
+        "20 chương",
+        "22 chương",
+        "23 chương",
+        "24 chương"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 101,
+      "text": "Phân chia chung các yếu tố tác động đến mô hình bệnh tật là:",
+      "options": [
+        "Các yếu tố biến đổi và các yếu tố không biến đổi",
+        "Các yếu tố không biến đổi",
+        "Các yếu tố về chính quyền",
+        "Các yếu tố biến đổi",
+        "Các yếu tố biến đổi, Các yếu tố không biến đổi, Các yếu tố về chính quyền"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "text": "Yếu tố nào là thuộc yếu tố không biến đổi về tác động đến mô hình bệnh tật:",
+      "options": [
+        "Học vấn",
+        "Tuổi + giới + di truyền",
+        "Chính sách y tế",
+        "Thuốc lá",
+        "Sức khoẻ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 103,
+      "text": "Yếu tố nào là thuộc yếu tố không biến đổi về tác động đến mô hình bệnh tật:",
+      "options": [
+        "Nước sạch",
+        "Thuốc lá",
+        "Chính trị",
+        "Giới",
+        "Học vấn"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 104,
+      "text": "Yếu tố nào là thuộc yếu tố cấu trúc thấp về sự tác động đến mô hình bệnh tật:",
+      "options": [
+        "Chế độ ăn",
+        "Hoà bình và ổn định chính trị",
+        "Nước sạch",
+        "Chế độ ăn, Hoà bình và ổn định chính trị",
+        "Nước sạch, Hoà bình và ổn định chính trị"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 105,
+      "text": "Yếu tố nào là thuộc yếu tố cấu trúc cao về sự tác động đến mô hình bệnh tật:",
+      "options": [
+        "Chế độ ăn",
+        "Hoà bình",
+        "Ổn định chính trị",
+        "Yếu tố di truyền",
+        "Tất cả các câu trên đều đúng"
+      ],
+      "answer": 3,
+      "uncertain": true
+    },
+    {
+      "id": 106,
+      "text": "Mô hình sức khoẻ của các nước trên thế giới chia làm các loại hình thái sau:",
+      "options": [
+        "3 loại",
+        "2 loại",
+        "4 loại",
+        "5 loại",
+        "6 loại"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 107,
+      "text": "Mô hình sức khoẻ của các nước trên thế giới chia làm các loại hình thái sau:",
+      "options": [
+        "Hình thái A và B",
+        "Hình thái A, B, C",
+        "Hình thái A, B, C và D",
+        "Hình thái A, B, C, D và E",
+        "Hình thái A, B, C, D, E và F"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 108,
+      "text": "Mô hình bệnh tật các nước chậm phát triển thuộc hình thái:",
+      "options": [
+        "Hình thái A",
+        "Hình thái B",
+        "Hình thái C",
+        "Hình thái D",
+        "Hình thái F"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 109,
+      "text": "Mô hình bệnh tật các nước đang phát triển thuộc hình thái:",
+      "options": [
+        "Hình thái B",
+        "Hình thái A",
+        "Hình thái C",
+        "Hình thái D",
+        "Hình thái F"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 110,
+      "text": "Mô hình bệnh tật các nước phát triển thuộc hình thái:",
+      "options": [
+        "Hình thái B",
+        "Hình thái C",
+        "Hình thái D",
+        "Hình thái E",
+        "Hình thái F"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 111,
+      "text": "Theo báo cáo của Tổ chức y tế thế giới năm 2002, bệnh không lây nhiễm chiếm tỷ lệ:",
+      "options": [
+        "58,5%",
+        "88,5%",
+        "68,5%",
+        "78,5%",
+        "65,8%"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 112,
+      "text": "Theo báo cáo của Tổ chức y tế thế giới năm 2002, bệnh nào sau đây có tỷ lệ tử vong cao nhất:",
+      "options": [
+        "Bệnh nhiễm trùng và ký sinh trùng",
+        "Bệnh lý chu sinh",
+        "Chấn thương",
+        "Lao",
+        "Ung thư"
+      ],
+      "answer": 4,
+      "uncertain": true
+    },
+    {
+      "id": 113,
+      "text": "Theo báo cáo thống kê của Bộ y tế năm 2002, tỷ lệ mắc về tai nạn, ngộ độc chấn thương là:",
+      "options": [
+        "9,18%",
+        "8,19%",
+        "7,12%",
+        "10,18%",
+        "11,19%"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 114,
+      "text": "Theo báo cáo thống kê của Bộ y tế năm 2001, bệnh có tỷ lệ mắc cao nhất tại các bệnh viện ở nước ta là:",
+      "options": [
+        "Chấn thương trong sọ",
+        "Viêm phế quản",
+        "Viêm dạ dày",
+        "Ung thư",
+        "Tiêu chảy"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 115,
+      "text": "Theo báo cáo thống kê của Bộ y tế năm 2001, bệnh có tỷ lệ chết cao nhất tại các bệnh viện ở nước ta là:",
+      "options": [
+        "Viêm phổi",
+        "Bệnh lao",
+        "Nhồi máu cơ tim",
+        "Tiêu chảy",
+        "Chảy máu não"
+      ],
+      "answer": 4,
+      "uncertain": true
+    },
+    {
+      "id": 116,
+      "text": "Nguyên nhân hàng đầu gây tử vong ở trẻ em ở các nước phát triển là bệnh:",
+      "options": [
+        "Tiêu chảy",
+        "Ho gà",
+        "Sởi",
+        "Viêm dạ dày",
+        "Bại liệt"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 117,
+      "text": "Đối với các nước phát triển, nguyên nhân tử vong đứng hàng thứ 3 sau bệnh tim mạch và ung thư là:",
+      "options": [
+        "Tai biến mạch máu não",
+        "Lao",
+        "Tiêu chảy",
+        "Viêm đa khớp",
+        "Sốt rét"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 118,
+      "text": "Chọn hình thức tổ chức y tế chủ đạo cho y tế các nước theo định hướng TBCN:",
+      "options": [
+        "Y tế tư nhân",
+        "Y tế nhà nước",
+        "Y tế có bảo hiểm",
+        "Y tế hỗn hợp",
+        "Y tế tập thể"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 119,
+      "text": "Chọn hình thức tổ chức y tế chủ đạo cho y tế các nước theo định hướng XHCN:",
+      "options": [
+        "Y tế nhà nước (do nhà nước quản lý)",
+        "Y tế tư nhân",
+        "Y tế có bảo hiểm",
+        "Y tế hỗn hợp",
+        "Y tế tập thể"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 120,
+      "text": "Chọn hình thức tổ chức y tế chủ đạo cho y tế các nước đang phát triển theo định hướng XHCN:",
+      "options": [
+        "Y tế nhà nước (do nhà nước quản lý)",
+        "Y tế tư nhân",
+        "Y tế có bảo hiểm",
+        "Y tế hỗn hợp",
+        "Y tế tập thể"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 121,
+      "text": "Chọn hình thức tổ chức y tế chủ đạo cho y tế các nước đang phát triển theo định hướng TBCN:",
+      "options": [
+        "Y tế tư nhân",
+        "Y tế nhà nước (do nhà nước quản lý)",
+        "Y tế có bảo hiểm",
+        "Y tế hỗn hợp",
+        "Y tế tập thể"
+      ],
+      "answer": 3,
+      "uncertain": true
+    },
+    {
+      "id": 122,
+      "text": "Chọn khuynh hướng cơ bản của y tế theo định hướng XHCN hiện nay:",
+      "options": [
+        "Coi trọng cả phòng bệnh và chữa bệnh, chú trọng công bằng xã hội",
+        "Coi trọng phòng bệnh, phòng bệnh ít tốn kém, có hiệu quả",
+        "Coi trọng chữa bệnh, phát triển KHKT và trang thiết bị hiện đại, đắt tiền",
+        "Coi trọng cả phòng bệnh và chữa bệnh, chú trọng phát triển kỹ thuật hiện đại",
+        "Coi trọng chữa bệnh, phát triển KHKT và trang thiết bị hiện đại, đắt tiền. Coi trọng cả phòng bệnh và chữa bệnh chú trọng phát triển kỹ thuật hiện đại"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 123,
+      "text": "Chọn khuynh hướng cơ bản của y tế theo định hướng TBCN:",
+      "options": [
+        "Coi trọng chữa bệnh, phát triển KHKT và trang thiết bị hiện đại, đắt tiền",
+        "Coi trọng phòng bệnh, phòng bệnh ít tốn kém, có hiệu quả",
+        "Coi trọng cả phòng bệnh và chữa bệnh, chú trọng công bằng xã hội",
+        "Coi trọng cả phòng bệnh và chữa bệnh, chú trọng phát triển kỹ thuật hiện đại",
+        "Coi trọng cả phòng bệnh và chữa bệnh, chú trọng phát triển kỹ thuật hiện đại, công bằng xã hội"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 124,
+      "text": "Chọn đặc điểm cơ bản của y tế theo định hướng XHCN:",
+      "options": [
+        "Phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng y xã hội học",
+        "Phát triển sinh y học hơn",
+        "Phát triển y xã hội học hơn",
+        "Phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng sinh y học",
+        "Phát triển y xã hội học hơn, phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng sinh y học"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 125,
+      "text": "Chọn đặc điểm cơ bản của y tế theo định hướng TBCN:",
+      "options": [
+        "Phát triển sinh y học hơn",
+        "Phát triển y xã hội học hơn",
+        "Phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng y xã hội học",
+        "Phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng sinh y học",
+        "Phát triển đồng thời cả y xã hội học và sinh y học nhưng coi trọng y xã hội học"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 126,
+      "text": "Mô hình tổ chức y tế Việt Nam đang thực hiện:",
+      "options": [
+        "Mô hình quản lý hành chính nhà nước 4 cấp",
+        "Mô hình phối hợp nhà nước và nhân dân cùng làm",
+        "Mô hình tổ chức theo khu vực dân cư",
+        "Mô hình kết hợp địa phương và nhà nước",
+        "Mô hình tổ chức theo khu vực dân cư"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 127,
+      "text": "Tế bào cơ bản của hệ thống y tế quốc gia là:",
+      "options": [
+        "Y tế cơ sở (y tế cơ quan, công nông lâm trường, xí nghiệp, trạm trai)",
+        "Y tế thông bản",
+        "Y tế huyện quận",
+        "Y tế địa phương (tỉnh, thành phố trực thuộc)",
+        "Y tế cơ sở (xã phường)"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 128,
+      "text": "Mô hình tổ chức y tế Việt Nam đang thực hiện:",
+      "options": [
+        "Mô hình tổ chức y tế hai khu vực",
+        "Mô hình phối hợp nhà nước và nhân dân cùng làm",
+        "Mô hình tổ chức theo khu vực dân cư",
+        "Mô hình kết hợp địa phương và nhà nước",
+        "Mô hình tổ chức theo khu vực dân cư"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 129,
+      "text": "Mô hình y tế chuyên sâu gồm:",
+      "options": [
+        "Y tế tuyến tỉnh trọng điểm + các cơ sở y tế TW",
+        "Y tế tuyến tỉnh trọng điểm",
+        "Y tế tuyến tỉnh trở lên",
+        "Y tế tuyến tỉnh + các bệnh viện chuyên khoa TW",
+        "Y tế tuyến tỉnh trọng điểm + Y tế tuyến tỉnh trở lên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 130,
+      "text": "Mô hình y tế phổ cập gồm:",
+      "options": [
+        "Y tế tuyến xã phường + tuyến quận huyện + tuyến tỉnh",
+        "Y tế huyện xã",
+        "Y tế quận phường",
+        "Y tế tuyến xã + tuyến huyện + tuyến tỉnh trọng điểm",
+        "Y tế cộng đồng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 131,
+      "text": "Ngoài mạng lưới y tế quốc gia ra, Mạng lưới y tế Việt Nam còn được hình thành theo thành phần kinh tế:",
+      "options": [
+        "Y tế nông thôn, Y tế thành thị, Y tế các ngành",
+        "Y tế an ninh",
+        "Y tế nông thôn",
+        "Y tế thành thị",
+        "Y tế các ngành"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 132,
+      "text": "Y tế cơ sở xã phường là:",
+      "options": [
+        "Tế bào cơ bản của hệ thống y tế quốc gia. Là tuyến đầu tiên tiếp xúc giữa cộng đồng với hệ thống y tế quốc gia đó. Là tuyến cuối cùng phản ánh những chủ trương, đường lối y tế với Đảng và nhà nước. Là nơi thực hiện các chủ trương, đường lối y tế của Đảng và nhà nước",
+        "Tế bào cơ bản của hệ thống y tế quốc gia",
+        "Là tuyến đầu tiên tiếp xúc giữa cộng đồng với hệ thống y tế quốc gia đó",
+        "Là tuyến cuối cùng phản ánh những chủ trương, đường lối y tế với Đảng và nhà nước",
+        "Là nơi thực hiện các chủ trương, đường lối y tế của Đảng và nhà nước"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 133,
+      "text": "Y tế huyện quận là:",
+      "options": [
+        "Y tế hỗ trợ tuyến trên của chăm sóc sức khỏe ban đầu",
+        "Y tế chăm sóc sức khỏe ban đầu",
+        "Y tế hỗ trợ tuyến dưới của chăm sóc sức khỏe ban đầu",
+        "Là bộ phận quan trọng của chăm sóc sức khỏe ban đầu",
+        "Y tế hỗ trợ tuyến dưới của chăm sóc sức khỏe ban đầu, là bộ phận quan trọng của chăm sóc sức khỏe ban đầu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 134,
+      "text": "Y tế cơ sở nào sau đây là y tế cơ sở trong hệ thống y tế quốc gia:",
+      "options": [
+        "Y tế xã, Y tế phường, Y tế thị trấn",
+        "Y tế cơ quan",
+        "Y tế phường",
+        "Y tế thị trấn",
+        "Y tế cơ quan, Y tế thị trấn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 135,
+      "text": "Y tế cơ sở nào sau đây là y tế cơ sở không nằm trong hệ thống y tế quốc gia:",
+      "options": [
+        "Y tế cơ quan, công nông lâm trường, xí nghiệp",
+        "Y tế xã",
+        "Y tế phường",
+        "Y tế thị trấn",
+        "Y tế phường, Y tế thị trấn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 136,
+      "text": "Y tế huyện hiện nay khác với y tế huyện thời kỳ 1975 - 1986:",
+      "options": [
+        "Là y tế sự nghiệp, là y tế quản lý nhà nước, là y tế quản lý kinh tế, tập trung thống nhất trên địa bàn huyện",
+        "Là y tế sự nghiệp",
+        "Là y tế quản lý nhà nước",
+        "Là y tế quản lý kinh tế",
+        "Tập trung thống nhất trên địa bàn huyện"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 137,
+      "text": "Tổ chức y tế địa phương theo nghị định 01-1998 CP khác với tổ chức y tế theo nghị định 15/CP ở chỗ:",
+      "options": [
+        "Hệ thống chức năng nghiệp vụ thuộc giám đốc sở có 15 đơn vị chính",
+        "Hệ thống chức năng nghiệp vụ thuộc giám đốc sở có 16 đơn vị chính",
+        "Hệ thống chức năng nghiệp vụ thuộc giám đốc sở có 14 đơn vị",
+        "Hệ thống chức năng nghiệp vụ thuộc giám đốc sở có 17 đơn vị",
+        "Hệ thống chức năng nghiệp vụ thuộc giám đốc sở không thay đổi"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 138,
+      "text": "Tổ chức y tế địa phương theo nghị định 01-1998 CP khác với tổ chức y tế theo nghị định 15/CP ở chỗ:",
+      "options": [
+        "Các phòng chức năng thuộc giám đốc sở gồm 7 phòng",
+        "Các phòng chức năng thuộc giám đốc sở gồm 9 phòng",
+        "Các phòng chức năng thuộc giám đốc sở gồm 8 phòng",
+        "Các phòng chức năng thuộc giám đốc sở gồm 10 phòng",
+        "Các phòng chức năng thuộc giám đốc sở không thay đổi"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 139,
+      "text": "Bảo hiểm y tế là một đơn vị của:",
+      "options": [
+        "Hệ thống bảo hiểm xã hội",
+        "Hệ thống y tế địa phương",
+        "Hệ thống y tế trung ương",
+        "Hệ thống y tế địa bàn",
+        "Không thuộc hệ thống nào cả"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 140,
+      "text": "Đơn vị kinh tế kỹ thuật trực thuộc sở y tế về chuyên môn trong giai đoạn hiện nay là:",
+      "options": [
+        "Công ty dược và vật tư y tế",
+        "Xí nghiệp liên hiệp dược",
+        "Công ty dược phẩm và mỹ phẩm",
+        "Công ty cổ phần y tế",
+        "Công ty cổ phần dược phẩm và mỹ phẩm"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 141,
+      "text": "Tổ chức y tế địa phương theo nghị định 01-1998 CP khác với tổ chức y tế theo nghị định 15/CP ở chỗ có thêm các đơn vị mới, đơn vị mới đó là:",
+      "options": [
+        "Trung tâm truyền thông GDSK",
+        "Trung tâm bảo vệ sức khỏe BMTE",
+        "Trung tâm y học dự phòng",
+        "Trung tâm kiểm nghiệm dược phẩm",
+        "Trung tâm chống lao"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 142,
+      "text": "Trong mô hình tổ chức y tế mới được thực hiện từ năm 1998 thì các xí nghiệp dược phẩm, công ty dược phẩm nằm ở đâu:",
+      "options": [
+        "Hệ thống quản lý nhà nước về dược",
+        "Hệ thống quản lý doanh nghiệp về dược",
+        "Hệ thống quản lý kỹ thuật về dược",
+        "Hệ thống thuộc tổng công ty dược phẩm Việt Nam",
+        "Không nằm ở chỗ nào cả"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 143,
+      "text": "Tổ chức y tế địa phương theo nghị định 01 -1998 CP khác với tổ chức y tế theo nghị định 15/CP ở chỗ có thêm các đơn vị mới được giao thêm nhiệm vụ mới, đơn vị đó là:",
+      "options": [
+        "Trung tâm kiểm nghiệm dược phẩm và mỹ phẩm",
+        "Trung tâm da liễu",
+        "Trung tâm phòng chống sốt rét",
+        "Trung tâm bảo vệ sức khỏe BMTE",
+        "Bảo hiểm y tế"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 144,
+      "text": "Hệ thống y tế quốc tế gồm:",
+      "options": [
+        "Ban chấp hành hội đồng tổ chức y tế thế giới",
+        "Tổng giám đốc tổ chức y tế thế giới",
+        "Giám đốc y tế các khu vực",
+        "Đại hội đồng tổ chức y tế thế giới",
+        "Gồm tất cả A, B, C, D"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 145,
+      "text": "Đại hội đồng tổ chức y tế thế giới được thành lập từ năm nào:",
+      "options": [
+        "1948",
+        "1945",
+        "1950",
+        "1947",
+        "1946"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 146,
+      "text": "Chọn câu đúng nhất trong nguyên tắc cơ bản số 1 về xây dựng và quản lý hệ thống tổ chức y tế của Việt Nam:",
+      "options": [
+        "Bảo đảm phục vụ nhân dân kịp thời, hiệu quả, đáp ứng nhu cầu nhân dân, sẵn thầy sẵn thuốc",
+        "Hiệu quả",
+        "Đáp ứng nhu cầu",
+        "Sẵn thầy sẵn thuốc",
+        "Tiếp cận rộng rãi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 147,
+      "text": "Chọn câu đúng nhất trong nguyên tắc cơ bản số 2 về xây dựng và quản lý hệ thống tổ chức y tế của Việt Nam:",
+      "options": [
+        "Quản lý sức khỏe toàn dân",
+        "Giải quyết vấn đề môi trường",
+        "Xây dựng hệ thống tổ chức theo hướng y học dự phòng xuất phát từ bản chất xã hội",
+        "Tăng cường chữa bệnh ngoại trú",
+        "Phát triển cơ sở phòng và chống bệnh xã hội"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 148,
+      "text": "Chọn câu đúng nhất trong nguyên tắc cơ bản số 3 về xây dựng và quản lý hệ thống tổ chức y tế của Việt Nam:",
+      "options": [
+        "Phù hợp về kinh tế, khoa học và năng lực cán bộ (gọi chung là phù hợp)",
+        "Tiết kiệm, không lãng phí",
+        "Không manh mún",
+        "Không quá lớn",
+        "Quan tâm lồng ghép và tăng cường dự phòng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 149,
+      "text": "Chọn câu đúng nhất trong nguyên tắc cơ bản số 4 về xây dựng và quản lý hệ thống tổ chức y tế của Việt Nam:",
+      "options": [
+        "Không ngừng nâng cao chất lượng phục vụ",
+        "Hạch toán kinh tế",
+        "Ứng dụng tiến bộ kỹ thuật",
+        "Kết hợp các phương thức: \"Phục vụ + đào tạo + nghiên cứu khoa học + GDSK\"",
+        "Kết hợp y học cổ truyền với y học hiện đại"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 150,
+      "text": "Y tế cơ sở nằm trong hệ thống y tế quốc gia là y tế:",
+      "options": [
+        "Y tế xã phường thị trấn (gọi chung là y tế cơ sở)",
+        "Y tế xã",
+        "Y tế phường",
+        "Y tế thị trấn",
+        "Y tế cơ quan, công nông, lâm trường, xí nghiệp, trạm trại…"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 151,
+      "text": "Phương thức hoạt động của y tế cơ sở rất phong phú, Y tế cơ sở thực hiện 10 nội dung chăm sóc sức khỏe ban đầu là thực hiện theo phương thức hoạt động nào:",
+      "options": [
+        "Phương thức hoạt động theo chức năng",
+        "Phương thức quản lý theo kế hoạch hóa",
+        "Phương thức hoạt động lồng ghép",
+        "Phương thức hoạt động theo xã hội hóa",
+        "Phương thức lồng ghép và xã hội hóa"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 152,
+      "text": "Phương thức hoạt động chủ yếu của y tế cơ sở là:",
+      "options": [
+        "Lồng ghép. Phối hợp. Hoạt động liên ngành. Lồng ghép, hoạt động liên ngành và xã hội hóa.",
+        "Lồng ghép",
+        "Phối hợp",
+        "Hoạt động liên ngành",
+        "Lồng ghép, hoạt động liên ngành và xã hội hóa"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 153,
+      "text": "Hoạt động liên ngành của y tế cơ sở là:",
+      "options": [
+        "Huy động các ban ngành ở xã phường dưới sự điều hành của Ủy ban nhân dân xã phường do trạm y tế làm nòng cốt.",
+        "Huy động các ban ngành ở xã phường dưới sự điều hành của trạm y tế xã phường.",
+        "Huy động các ban ngành ở xã phường dưới sự điều hành của Ủy ban nhân dân xã phường.",
+        "Huy động các ban ngành ở xã phường dưới sự điều hành của Đảng ủy xã phường.",
+        "Huy động các ban ngành ở xã phường dưới sự điều hành của Đảng ủy xã phường do trạm y tế làm nòng cốt."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 154,
+      "text": "Để bảo đảm cung cấp đủ nhân lực cho y tế cơ sở, đặc biệt là y tế cơ sở vùng khó khăn, cần phải tiến hành đào tạo theo phương thức:",
+      "options": [
+        "Đào tạo cử tuyển theo địa chỉ",
+        "Đào tạo từ xa",
+        "Đào tạo theo địa chỉ",
+        "Đào tạo chuyên tu",
+        "Đào tạo chính quy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 155,
+      "text": "Thực hiện biên chế hóa đội ngũ cán bộ y tế cơ sở cần căn cứ vào số lượng dân cư và phải căn cứ vào vùng dân cư:",
+      "options": [
+        "Vùng thành thị. Vùng trung du. Vùng núi Tây Nguyên. Vùng nông thôn.",
+        "Vùng thành thị.",
+        "Vùng trung du.",
+        "Vùng núi Tây Nguyên.",
+        "Vùng nông thôn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 156,
+      "text": "Xây dựng mạng lưới tiếp cận dân, theo tuyến, theo điểm dân cư, thực hiện tốt các chương trình y tế quốc gia và các nội dung CSSKBĐ thực hiện có hiệu quả các chính sách y tế gọi là nguyên tắc Phục vụ nhân dân kịp thời, hiệu quả.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 157,
+      "text": "Xây dựng mạng lưới tiếp cận dân, theo tuyến, theo điểm dân cư, thực hiện tốt các chương trình y tế quốc gia và các nội dung CSSKBĐ thực hiện có hiệu quả các chính sách y tế gọi là nguyên tắc Phù hợp.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "text": "Y tế cơ sở còn gọi là y tế cộng đồng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 159,
+      "text": "Y tế cơ sở còn gọi là y tế thực hiện CSSKBĐ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 160,
+      "text": "Y tế thôn bản là một tuyến y tế cơ sở tương ứng với một cấp cơ sở là cấp thôn và cấp bản.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 161,
+      "text": "Y tế tuyến tỉnh là y tế chuyên sâu.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 162,
+      "text": "Y tế quân đội nhân dân và công an nhân dân là một bộ phận của hệ thống tổ chức y tế quốc gia Việt Nam.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 163,
+      "text": "Y tế đường sắt, y tế giao thông vận tải, y tế tổng cục cao su... là y tế ngành.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 164,
+      "text": "Y tế xã phường thị trấn là y tế cơ sở trong hệ thống y tế quốc gia Việt Nam.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 165,
+      "text": "Y tế cơ sở công nông lâm trường xí nghiệp trạm trại là y tế cơ sở trong hệ thống y tế quốc gia Việt Nam.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 166,
+      "text": "Đa dạng hóa các hình thức y tế trong cơ chế thị trường là quan điểm mới hình thành trong giai đoạn đất nước ta bước vào thời kỳ kinh tế hàng hóa có sự quản lý của nhà nước.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 167,
+      "text": "Thực hiện lời dạy của Bác \"Lương y như từ mẫu\" trong đào tạo đội ngũ thầy thuốc là quan điểm y tế hình thành trong giai đoạn 1975 - 1986.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 1,
+      "uncertain": true
+    },
+    {
+      "id": 168,
+      "text": "Làm chính sách là xây dựng:",
+      "options": [
+        "Các mục tiêu, giải pháp nhằm giải quyết một vấn đề tồn tại",
+        "Các mục tiêu nhằm cải tiến thực trạng vấn đề",
+        "Các giải pháp nhằm giải quyết một vấn đề tồn tại",
+        "Các hoạt động can thiệp vấn đề tồn tại ở một địa phương",
+        "Các nội dung cụ thể để thực hiện can thiệp giải quyết vấn đề tồn tại"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 169,
+      "text": "Có 2 loại chính sách là:",
+      "options": [
+        "Chính sách có tầm chính trị cao và tầm chính trị thấp",
+        "Chính sách vĩ mô và vi mô",
+        "Chính sách có tầm chính trị cao, vĩ mô và tầm chính trị thấp, vi mô",
+        "Chính sách có tầm chính trị cao, khái quát và tầm chính trị thấp, cụ thể",
+        "Chính sách có tác động rộng, vĩ mô và tác động hẹp, vi mô"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 170,
+      "text": "Các chính sách về các lĩnh vực sau thuộc loại chính sách vĩ mô:",
+      "options": [
+        "Về y tế tư nhân, về tiền lương",
+        "Về cung cấp nước sạch, về y tế tư nhân",
+        "Về Y tế tư nhân, về việc tiêm chủng trẻ em",
+        "Về tiền lương, về tiêm chủng trẻ em",
+        "Về tiền lương, về cung cấp nước sạch"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 171,
+      "text": "Các chính sách về các lĩnh vực sau thuộc loại chính sách vi mô:",
+      "options": [
+        "Về y tế tư nhân, về tiền lương",
+        "Về cung cấp nước sạch, về y tế tư nhân",
+        "Về Y tế tư nhân, về việc tiêm chủng trẻ em",
+        "Về cung cấp nước sạch, về tiêm chủng trẻ em",
+        "Về tiền lương, về việc tiêm chủng trẻ em"
+      ],
+      "answer": 2,
+      "uncertain": true
+    },
+    {
+      "id": 172,
+      "text": "Chính sách mang bản sắc:",
+      "options": [
+        "Chính trị, chế độ xã hội đó",
+        "Dân tộc và tập quán mỗi địa phương",
+        "Kinh tế của xã hội đó",
+        "Đặc điểm dân tộc và kinh tế của xã hội",
+        "Chế độ và phong tục của mỗi địa phương"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 173,
+      "text": "Trong xây dựng và thực hiện chính sách y tế công cộng:",
+      "options": [
+        "Nhà nước đóng vai trò quyết định",
+        "Bộ y tế đóng vai trò quyết định",
+        "Các nhà hoạch định chính sách quyết định",
+        "Văn phòng Quốc hội quyết định",
+        "Nhà nước và Bộ y tế đóng vai trò quyết định"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 174,
+      "text": "Mục tiêu của bản chính sách y tế cần:",
+      "options": [
+        "Phù hợp với nền tảng chính trị, luật pháp",
+        "Phù hợp với chiến lược phát triển KT-VH-XH, nền tảng chính trị, luật pháp và tình hình sức khoẻ bệnh tật",
+        "Phù hợp với chiến lược phát triển KT-VH-XH, nền tảng chính trị",
+        "Phù hợp với luật pháp và tình hình sức khoẻ bệnh tật",
+        "Phù hợp với nền tảng chính trị, luật pháp và tình hình sức khoẻ bệnh tật"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 175,
+      "text": "Chính sách y tế đặt ra mục tiêu để:",
+      "options": [
+        "Giải quyết hoàn toàn vấn đề tồn tại trong hiện tại và tương lai",
+        "Giải quyết hoàn toàn vấn đề tồn tại trong tương lai",
+        "Giải quyết một phần vấn đề tồn tại trong một thời gian nhất định",
+        "Giải quyết một phần vấn đề tồn tại trong hiện tại và tương lai",
+        "Giải quyết vấn đề tồn tại trong một thời gian nhất định"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 176,
+      "text": "Mục tiêu của bản chính sách y tế cần căn cứ vào:",
+      "options": [
+        "Vấn đề sức khoẻ bệnh tật hiện tại và dự báo trong tương lai",
+        "Vấn đề sức khoẻ bệnh tật trong 5 năm vừa qua và dự báo trong tương lai",
+        "Vấn đề sức khoẻ bệnh tật đang có tác động lớn đến cộng đồng của một số địa phương đáng quan tâm",
+        "Vấn đề một số yếu tố nguy cơ đang ảnh hưởng đến một số cộng đồng ưu tiên quan tâm trong nước",
+        "Vấn đề sức khoẻ bệnh tật mà ngành y tế đang gặp trở ngại, không có khả năng để giải quyết"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 177,
+      "text": "Mục tiêu cơ bản của chính sách y tế phải được:",
+      "options": [
+        "Nêu rõ ràng, đo lường được, lượng giá được sau một khoảng thời gian",
+        "Nêu rõ ràng, chi tiết, đo lường được, đánh giá được đầy đủ, chính xác trong một khoảng thời gian",
+        "Nêu rõ ràng đầy đủ chi tiết và cụ thể, đánh giá được kết quả thực thi",
+        "Nêu khái quát được kết quả thực hiện sau một khoảng thời gian nhất định",
+        "Thể hiện kết quả tác động trên cộng đồng về vấn đề được giải quyết tại một số địa phương trong nước"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 178,
+      "text": "Các giải pháp thực hiện mục tiêu chính sách cần dựa trên:",
+      "options": [
+        "Khả năng cam kết bảo đảm nguồn lực",
+        "Khả năng huy động nguồn lực sẵn có tại các địa phương",
+        "Phương pháp sử dụng nguồn lực hiện tại của ngành y tế và huy động sự tham gia của cộng đồng",
+        "Nguồn ngân sách y tế thường xuyên hàng năm của Bộ y tế",
+        "Khả năng sử dụng và huy động nguồn lực sẵn có tại một số địa phương ưu tiên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 179,
+      "text": "Xây dựng giải pháp thực hiện mục tiêu chính sách cần:",
+      "options": [
+        "Bao quát tầm vĩ mô và cần có tầm vi mô để giải quyết vấn đề cụ thể",
+        "Tập trung ưu tiên toàn bộ cho tầm vĩ mô",
+        "Cần tập trung nhiều giải pháp cụ thể ở tầm vi mô cho nhiều địa phương để giải quyết vấn đề cụ thể một cách hoàn toàn",
+        "Tập trung ưu tiên cho tầm vĩ mô và có nhiều giải pháp cụ thể ở tầm vi mô cho toàn bộ mỗi địa phương khác nhau để giải quyết vấn đề cụ thể một cách triệt để",
+        "Tập trung ưu tiên cho tầm vi mô với nhiều giải pháp cụ thể cho toàn bộ mỗi địa phương khác nhau để giải quyết vấn đề cụ thể một cách triệt để"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 180,
+      "text": "Quan điểm đề xuất chính sách y tế về đặt hiệu quả lên trên hết có nghĩa là:",
+      "options": [
+        "Với chi phí thấp nhưng hiệu quả tác động trên sức khoẻ cao nhất",
+        "Với chi phí thấp nhưng kết quả hoàn thành nhiệm vụ của cán bộ y tế cao nhất",
+        "Với chi phí phù hợp nhưng cải thiện được một phần quan trọng của vấn đề có nguy cơ ảnh hưởng đến sức khoẻ cộng đồng",
+        "Với nguồn kinh phí được đầu tư cao nhất và giảm được ảnh hưởng đến sức khoẻ của cộng đồng",
+        "Với nguồn kinh phí được đầu tư cao nhất và giảm được ảnh hưởng đến sức khoẻ của cộng đồng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 181,
+      "text": "Quan điểm đề xuất chính sách y tế về đặt mục tiêu công bằng lên trên hết có nghĩa là:",
+      "options": [
+        "Ưu tiên dành cho các đối tượng nghèo, diện chính sách, vùng nghèo, vùng miền núi, vùng xa",
+        "Ưu tiên dành cho các đối tượng có nguy cơ cao về sức khoẻ bệnh tật",
+        "Quan tâm đến đối tượng bệnh nặng, hiểm nghèo",
+        "Ưu tiên cho các đối tượng mắc bệnh nhưng thiếu trang thiết bị y tế kỹ thuật cao",
+        "Ưu tiên dành cho các đối tượng có nguy cơ cao về sức khoẻ bệnh tật nhưng thiếu trang thiết bị y tế kỹ thuật cao để chẩn đoán xác định"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 182,
+      "text": "Quan điểm đề xuất chính sách y tế phù hợp với hoàn cảnh nước ta hiện nay là:",
+      "options": [
+        "Quan điểm hỗn hợp cả 2 giải pháp vĩ mô và vi mô",
+        "Quan điểm tập trung về giải pháp vĩ mô",
+        "Quan điểm tập trung về giải pháp vi mô",
+        "Quan điểm chú trọng đến xu hướng chuyển biến nhanh các yếu tố KT-CT-XH",
+        "Quan điểm chú trọng đến sự thay đổi nhanh về mô hình sức khoẻ bệnh tật trong cộng đồng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 183,
+      "text": "Lĩnh vực cần chú trọng trong nghiên cứu chính sách:",
+      "options": [
+        "Nghiên cứu cơ bản về chính sách y tế, các phương thức khám chữa bệnh và hiệu quả các dịch vụ y tế công cộng",
+        "Nghiên cứu cơ bản về chính sách y tế, các phương thức đầu tư tài chính và hiệu quả các chương trình y tế công cộng",
+        "Nghiên cứu nhu cầu khám chữa bệnh, các phương thức đầu tư tài chính và hiệu quả các chương trình y tế công cộng",
+        "Nghiên cứu về công bằng và hiệu quả chăm sóc y tế, các phương thức đầu tư tài chính",
+        "Nghiên cứu thực trạng, các phương thức đầu tư ngân sách y tế và kết quả thụ hưởng các chương trình y tế công cộng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 184,
+      "text": "Phân tích chính sách là:",
+      "options": [
+        "Hoạt động nối kết giữa nền chính trị và quá trình thực thi và đưa ra các quyết định",
+        "Hoạt động nối kết giữa thực trạng xã hội và kết quả sức khoẻ bệnh tật của người dân",
+        "Hoạt động nối kết giữa chế độ xã hội và quá trình đưa ra các quyết định về chính sách",
+        "Hoạt động nối kết giữa nhu cầu chăm sóc sức khoẻ người dân và chính trị xã hội",
+        "Hoạt động nối kết giữa khả năng cung ứng của ngành y tế và kết quả quá trình thực thi chính sách"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 185,
+      "text": "Chính sách y tế là một quá trình hành động có mục đích của một người hay của một tập thể nhân vật nhằm giải quyết một vấn đề của người đó quan tâm.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 186,
+      "text": "Sự phân phối các giá trị xã hội là quá trình xây dựng và điều chỉnh các chính sách xã hội.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 187,
+      "text": "Quan điểm đề xuất chính sách y tế phù hợp với hoàn cảnh nước ta hiện nay là Quan điểm hỗn hợp cả 2 giải pháp vĩ mô và vi mô.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 188,
+      "text": "Khái niệm công bằng trong CSSK:",
+      "options": [
+        "Mọi người được chăm sóc sức khỏe như nhau",
+        "Mọi người đều được hưởng đầy đủ các dịch vụ",
+        "Nhà nước đảm bảo cho mọi người được CSSK cơ bản, có chất lượng phù hợp với khả năng kinh tế xã hội của đất nước",
+        "Mọi người có quyền khám chữa bệnh khi ốm đau",
+        "Mọi người hưởng các dịch vụ theo yêu cầu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 189,
+      "text": "Đối với cộng đồng, bệnh viện có vai trò:",
+      "options": [
+        "Cơ sở khám chữa bệnh",
+        "Cơ sở dự phòng",
+        "Cơ sở đào tạo",
+        "Chỗ dựa về kỹ thuật, phòng bệnh, CSSKBĐ, tuyến trên của y tế cộng đồng",
+        "Phục vụ cho cộng đồng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 190,
+      "text": "Hệ thống y tế Việt Nam hiện nay hoạt động theo cơ chế:",
+      "options": [
+        "Bao cấp",
+        "Tư nhân",
+        "Dựa trên bảo hiểm y tế",
+        "Vừa nhà nước, vừa tư nhân vừa bảo hiểm y tế, vừa thu phí, miễn phí",
+        "Dịch vụ"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 191,
+      "text": "Đa dạng hóa loại hình dịch vụ, nhằm mục đích:",
+      "options": [
+        "Mở rộng các dịch vụ",
+        "Thuận tiện cho người dân",
+        "Phát triển nhiều loại hình dịch vụ",
+        "Có đầy đủ thuốc men và bác sĩ",
+        "Đáp ứng nhu cầu ngày càng cao và đa dạng của người bệnh trong điều kiện kinh tế xã hội của đất nước"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 192,
+      "text": "Thông thường, hiện nay các bệnh viện nhà nước căn cứ vào vấn đề gì để tìm nguồn nhân lực:",
+      "options": [
+        "Cấu trúc và trang thiết bị",
+        "Vốn đầu tư",
+        "Nhu cầu của bệnh viện",
+        "Loại hình và số giường bệnh",
+        "Số khoa phòng trong bệnh viện"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 193,
+      "text": "Chỉ tiêu nhân sự các bệnh viện công lập do:",
+      "options": [
+        "Do Giám đốc bệnh viện quyết định",
+        "Do hội đồng bệnh viện quyết định",
+        "Nhu cầu thực tiển của các khoa phòng",
+        "Bộ y tế quyết định",
+        "UBND Tỉnh quyết định đối với bệnh viện thuộc Tỉnh, Bộ Y Tế quyết định đối với bệnh viện thuộc Bộ"
+      ],
+      "answer": 4
+    },
+    {
+      "id": 194,
+      "text": "Nhân sự bệnh viện bán công do:",
+      "options": [
+        "Hội đồng quản trị quyết định",
+        "Giám đốc bệnh viện quyết định",
+        "Giám đốc sở y tế quyết định",
+        "Ủy ban nhân dân Tỉnh quyết định",
+        "Nhà tài trợ quyết định"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 195,
+      "text": "Trong các tiêu chuẩn căn cứ để phân hạng bệnh viện, tiêu chuẩn nào quan trọng nhất (điểm cao nhất):",
+      "options": [
+        "Vị trí, chức năng, nhiệm vụ",
+        "Chất lượng chẩn đoán, điều trị và chăm sóc",
+        "Quy mô công suất sử dụng giường bệnh",
+        "Trình độ cán bộ",
+        "A và C"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 196,
+      "text": "Căn cứ bảng điểm phân hạng bệnh viện, bệnh viện hạng 1 phải đạt số điểm là:",
+      "options": [
+        "95 - 100 điểm",
+        "90 - 100 điểm",
+        "91-100 điểm",
+        "90- 100 điểm",
+        "92 - 100 điểm"
+      ],
+      "answer": 0,
+      "uncertain": true
+    },
+    {
+      "id": 197,
+      "text": "Trình độ trưởng các khoa phòng của bệnh viện loại 1 phải đạt:",
+      "options": [
+        "30-50% trên đại học, 50-70% Đại học",
+        "Trên 50% trên đại học, dưới 50% đại học",
+        "50-70% trên đại học, 30-50% đại học",
+        "Trên 70% trên Đại học, dưới 30% đại học",
+        "Dưới 50% trên đại học, trên 50% Đại học"
+      ],
+      "answer": 2,
+      "uncertain": true
+    },
+    {
+      "id": 198,
+      "text": "Tại sao phải có quản lý bệnh viện:",
+      "options": [
+        "Sự gia tăng chuyên môn hóa ngành y tế và sự triển khai các kỷ thuật y tế tinh vi",
+        "Đầu tư lớn",
+        "Cơ chế thị trường tác động đến bệnh viện",
+        "A, B, C, đều đúng",
+        "B và C đúng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 199,
+      "text": "Mục đích quan trọng nhất của quản lý bệnh viện:",
+      "options": [
+        "Nâng cao chất lượng và hiệu quả của các dịch vụ y tế, công bằng trong khám chữa bệnh",
+        "Không có bệnh nhân tử vong",
+        "Hiệu quả kinh tế",
+        "Tăng thu nhập",
+        "Tất cả đều sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 200,
+      "text": "Quản lý bệnh viện là nhiệm vụ của:",
+      "options": [
+        "Tất cả cán bộ công nhân viên bệnh viện",
+        "Giám đốc và Phó giám đốc",
+        "Trưởng khoa, Trưởng phòng",
+        "Ban Giám đốc và cấp Uíy đảng Bệnh viện",
+        "Cấp ủy Đảng Bệnh viện"
+      ],
+      "answer": 0
+    }
+  ]
+}
