@@ -139,6 +139,29 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .modal-btns button{flex:1;padding:12px;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
 .modal-btns .cancel{background:var(--bg);color:var(--text)}
 .modal-btns .confirm{background:var(--error);color:#fff}
+
+/* ── Topbar action group + flag button ── */
+.topbar-actions{display:flex;gap:8px;flex-shrink:0}
+.btn-flag{margin-left:auto;width:34px;height:34px;border-radius:9px;border:none;background:var(--bg);color:var(--text2);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .18s;flex-shrink:0}
+.btn-flag:hover,.btn-flag.on{background:var(--warn-light);color:var(--warn)}
+.btn-flag .material-icons-round{font-size:20px}
+.grid button.flag{position:relative}
+.grid button.flag::after{content:'';position:absolute;top:3px;right:3px;width:5px;height:5px;border-radius:50%;background:var(--warn);box-shadow:0 0 0 1.5px var(--surface)}
+
+/* ── Completion summary ── */
+.done-emoji{font-size:42px;line-height:1;margin-bottom:8px}
+.done-score{font-size:34px;font-weight:800;color:var(--primary);line-height:1.1}
+.done-pct{font-size:14px;color:var(--text2);margin-top:2px}
+.done-breakdown{display:flex;gap:10px;justify-content:center;margin:18px 0 22px}
+.done-stat{flex:1;background:var(--bg);border-radius:12px;padding:10px 8px}
+.done-stat .n{font-size:20px;font-weight:700;line-height:1}
+.done-stat .l{font-size:11px;color:var(--text2);margin-top:3px}
+.done-stat.correct .n{color:var(--success-dark)}
+.done-stat.wrong .n{color:var(--error-dark)}
+.done-btns{display:flex;flex-direction:column;gap:8px}
+.done-btns button{padding:12px;border:none;border-radius:12px;font-size:14px;font-weight:600;cursor:pointer;font-family:inherit}
+.done-btns .primary{background:var(--primary);color:#fff}
+.done-btns .ghost{background:var(--bg);color:var(--text)}
 </style>
 </head>
 <body>
@@ -151,10 +174,16 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     </a>
     <span class="topbar-title" id="h-title">Trắc Nghiệm</span>
   </div>
-  <button class="btn-shuffle" id="shuffle-btn" onclick="toggleShuffle()" title="S">
-    <span class="material-icons-round">shuffle</span>
-    <span id="shuffle-label">Trộn</span>
-  </button>
+  <div class="topbar-actions">
+    <button class="btn-shuffle" id="auto-btn" onclick="toggleAuto()" title="Tự động chuyển câu sau khi trả lời">
+      <span class="material-icons-round">fast_forward</span>
+      <span id="auto-label">Tự chuyển</span>
+    </button>
+    <button class="btn-shuffle" id="shuffle-btn" onclick="toggleShuffle()" title="Trộn thứ tự câu (phím S)">
+      <span class="material-icons-round">shuffle</span>
+      <span id="shuffle-label">Trộn</span>
+    </button>
+  </div>
 </div>
 <div class="progress-strip"><div class="progress-strip-fill" id="prog-fill" style="width:0%"></div></div>
 
@@ -182,10 +211,11 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     </div>
     <div class="qmap-toolbar">
       <div class="qmap-filters">
-        <button class="qmap-filter active" onclick="setFilter('all',this)">Tất cả</button>
-        <button class="qmap-filter" onclick="setFilter('unanswered',this)">Chưa làm</button>
-        <button class="qmap-filter" onclick="setFilter('wrong',this)">Sai</button>
-        <button class="qmap-filter" onclick="setFilter('correct',this)">Đúng</button>
+        <button class="qmap-filter active" data-f="all" onclick="setFilter('all')">Tất cả</button>
+        <button class="qmap-filter" data-f="unanswered" onclick="setFilter('unanswered')">Chưa làm</button>
+        <button class="qmap-filter" data-f="wrong" onclick="setFilter('wrong')">Sai</button>
+        <button class="qmap-filter" data-f="correct" onclick="setFilter('correct')">Đúng</button>
+        <button class="qmap-filter" data-f="flagged" onclick="setFilter('flagged')">Đánh dấu</button>
       </div>
       <div class="qmap-search">
         <span class="material-icons-round">search</span>
@@ -218,6 +248,24 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 
 <div class="toast" id="toast"></div>
 
+<div class="modal-overlay" id="done-modal">
+  <div class="modal">
+    <div class="done-emoji">🎉</div>
+    <h3>Hoàn thành!</h3>
+    <div class="done-score" id="done-score">0 / 0</div>
+    <div class="done-pct" id="done-pct">0%</div>
+    <div class="done-breakdown">
+      <div class="done-stat correct"><div class="n" id="done-correct">0</div><div class="l">Đúng</div></div>
+      <div class="done-stat wrong"><div class="n" id="done-wrong">0</div><div class="l">Sai</div></div>
+    </div>
+    <div class="done-btns">
+      <button class="primary" id="done-review" onclick="reviewWrong()">Xem câu sai</button>
+      <button class="ghost" onclick="restartFromDone()">Làm lại từ đầu</button>
+      <button class="ghost" onclick="hideDone()">Đóng (xem lại)</button>
+    </div>
+  </div>
+</div>
+
 <div class="modal-overlay" id="modal">
   <div class="modal">
     <h3 id="modal-title"></h3>
@@ -238,13 +286,14 @@ let quizTitle = 'Trắc Nghiệm';
 let STORAGE_KEY = dataParam + '_quiz_progress';
 
 const letters = ['A','B','C','D','E'];
-let current = 0;
-let answers = {};
+let order = [];            // display position -> original question index
+let current = 0;           // current display position (index into `order`)
+let answers = {};          // keyed by ORIGINAL question index (stable across shuffle)
+let flags = {};            // keyed by ORIGINAL question index (bookmarked questions)
 let shuffleEnabled = false;
-let shuffleMaps = {};
+let autoAdvance = true;     // auto-jump to next question after answering
+let advanceTimer = null;
 let activeFilter = 'all';
-
-const COMPOUND_RE = /tất cả|cả.*đúng|cả.*sai|a và b|b và c|c và d|a,.*b|trên đều|đều đúng|đều sai|\bvà\b.*\bvà\b/i;
 
 const SUB_MAP = {'₀':'0','₁':'1','₂':'2','₃':'3','₄':'4','₅':'5','₆':'6','₇':'7','₈':'8','₉':'9','ₙ':'n','ₐ':'a','ₑ':'e','ₒ':'o','ₓ':'x','₋':'-','₊':'+'};
 const SUP_MAP = {'⁰':'0','¹':'1','²':'2','³':'3','⁴':'4','⁵':'5','⁶':'6','⁷':'7','⁸':'8','⁹':'9','ⁿ':'n','⁺':'+','⁻':'-'};
@@ -254,25 +303,17 @@ function fmt(text) {
     .replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁺⁻]+/g,     m => '<sup>' + [...m].map(c => SUP_MAP[c]??c).join('') + '</sup>');
 }
 
-function isShuffleable(q) {
-  if (q.options.length <= 2) return false;
-  return !q.options.some(o => COMPOUND_RE.test(o));
-}
-
-function buildShuffleMap(qIndex) {
-  const q = questions[qIndex];
-  if (!shuffleEnabled || !isShuffleable(q)) return q.options.map((_, i) => i);
-  const idx = q.options.map((_, i) => i);
-  for (let i = idx.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [idx[i], idx[j]] = [idx[j], idx[i]];
+// Build the question-display order. Identity when shuffle is off,
+// a Fisher–Yates permutation of question indices when on.
+function buildOrder(shuffle) {
+  const idx = questions.map((_, i) => i);
+  if (shuffle) {
+    for (let i = idx.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [idx[i], idx[j]] = [idx[j], idx[i]];
+    }
   }
   return idx;
-}
-
-function getShuffleMap(qIndex) {
-  if (!shuffleMaps[qIndex]) shuffleMaps[qIndex] = buildShuffleMap(qIndex);
-  return shuffleMaps[qIndex];
 }
 
 async function loadQuestions() {
@@ -291,15 +332,18 @@ function load() {
     try {
       const d = JSON.parse(saved);
       answers = d.answers || {};
+      flags = d.flags || {};
       current = d.current || 0;
-      shuffleMaps = d.shuffleMaps || {};
+      order = Array.isArray(d.order) ? d.order : [];
+      shuffleEnabled = !!d.shuffleEnabled;
+      autoAdvance = d.autoAdvance !== false;   // default on
     } catch(e) {}
   }
 }
 
 function save() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify({
-    answers, current, shuffleMaps,
+    answers, flags, current, order, shuffleEnabled, autoAdvance,
     timestamp: new Date().toISOString()
   }));
 }
@@ -308,50 +352,76 @@ function updateShuffleButton() {
   const btn = document.getElementById('shuffle-btn');
   const label = document.getElementById('shuffle-label');
   btn.classList.toggle('on', shuffleEnabled);
-  label.textContent = shuffleEnabled ? 'Trộn: Bật' : 'Trộn';
+  label.textContent = 'Trộn';   // state shown by the filled .on highlight + toast
 }
 
 function toggleShuffle() {
+  const currentQi = order[current];           // remember which question we're on
   shuffleEnabled = !shuffleEnabled;
-  for (let i = 0; i < questions.length; i++) {
-    if (answers[i] === undefined) delete shuffleMaps[i];
-  }
+  order = buildOrder(shuffleEnabled);
+  const pos = order.indexOf(currentQi);        // stay on the same question after re-ordering
+  current = pos >= 0 ? pos : 0;
   updateShuffleButton();
+  toast(shuffleEnabled ? 'Đã trộn thứ tự câu hỏi' : 'Thứ tự câu hỏi ban đầu', 'shuffle');
   render();
 }
 
-function setFilter(f, el) {
+function updateAutoButton() {
+  const btn = document.getElementById('auto-btn');
+  btn.classList.toggle('on', autoAdvance);
+  document.getElementById('auto-label').textContent = 'Tự chuyển';   // state shown by the filled .on highlight + toast
+}
+
+function toggleAuto() {
+  autoAdvance = !autoAdvance;
+  clearTimeout(advanceTimer);
+  updateAutoButton();
+  toast(autoAdvance ? 'Tự chuyển câu: Bật' : 'Tự chuyển câu: Tắt', 'fast_forward');
+  save();
+}
+
+function toggleFlag() {
+  const qi = order[current];
+  if (flags[qi]) delete flags[qi]; else flags[qi] = true;
+  render();
+  toast(flags[qi] ? 'Đã đánh dấu câu này' : 'Đã bỏ đánh dấu', 'bookmark');
+}
+
+function setFilter(f) {
   activeFilter = f;
-  document.querySelectorAll('.qmap-filter').forEach(b => b.classList.remove('active'));
-  el.classList.add('active');
+  document.querySelectorAll('.qmap-filter').forEach(b => b.classList.toggle('active', b.dataset.f === f));
   renderGrid();
 }
 
-function questionFilterClass(i) {
-  if (answers[i] === undefined) return 'unanswered';
-  return answers[i] === questions[i].answer ? 'correct' : 'wrong';
+function questionFilterClass(qi) {
+  if (answers[qi] === undefined) return 'unanswered';
+  return answers[qi] === questions[qi].answer ? 'correct' : 'wrong';
 }
 
 function render() {
-  const q = questions[current];
-  const answered = answers[current] !== undefined;
-  const map = getShuffleMap(current);
+  clearTimeout(advanceTimer);   // any nav/toggle cancels a pending auto-advance; pick() re-schedules
+  const qi = order[current];
+  const q = questions[qi];
+  const answered = answers[qi] !== undefined;
 
-  const optionsHtml = map.map((origIdx, di) => {
+  const optionsHtml = q.options.map((opt, oi) => {
     let cls = answered ? 'disabled' : '';
-    if (answered && origIdx === q.answer) cls += ' correct';
-    if (answered && answers[current] === origIdx && origIdx !== q.answer) cls += ' wrong';
-    return `<div class="option ${cls}" onclick="pick(${di})">
-      <div class="opt-letter">${letters[di]}</div>
-      <div class="opt-text">${fmt(q.options[origIdx])}</div>
+    if (answered && oi === q.answer) cls += ' correct';
+    if (answered && answers[qi] === oi && oi !== q.answer) cls += ' wrong';
+    return `<div class="option ${cls}" onclick="pick(${oi})">
+      <div class="opt-letter">${letters[oi]}</div>
+      <div class="opt-text">${fmt(opt)}</div>
     </div>`;
   }).join('');
 
   document.getElementById('question-area').innerHTML = `
     <div class="card">
       <div class="q-meta">
-        <span class="q-num">Câu ${q.id}</span>
+        <span class="q-num">Câu ${current + 1}</span>
         ${q.uncertain ? '<span class="q-warn"><span class="material-icons-round">warning_amber</span>Chưa chắc</span>' : ''}
+        <button class="btn-flag ${flags[qi] ? 'on' : ''}" onclick="toggleFlag()" title="Đánh dấu để xem lại">
+          <span class="material-icons-round">${flags[qi] ? 'bookmark' : 'bookmark_border'}</span>
+        </button>
       </div>
       <div class="q-text">${fmt(q.text)}</div>
       <div class="options">${optionsHtml}</div>
@@ -374,48 +444,72 @@ function render() {
 
   renderGrid();
   updateShuffleButton();
+  updateAutoButton();
   save();
 }
 
 function renderGrid() {
-  document.getElementById('grid').innerHTML = questions.map((_, i) => {
-    const fc = questionFilterClass(i);
-    const hidden = activeFilter !== 'all' && fc !== activeFilter;
+  // Grid is labelled by play position (1,2,3…) in ascending order so it's tidy.
+  // Each slot maps to whatever question sits at that position in `order`
+  // (shuffled or not). Clicking jumps to that position.
+  document.getElementById('grid').innerHTML = order.map((qi, p) => {
+    const fc = questionFilterClass(qi);
+    let hidden;
+    if (activeFilter === 'all') hidden = false;
+    else if (activeFilter === 'flagged') hidden = !flags[qi];
+    else hidden = fc !== activeFilter;
     let cls = '';
-    if (answers[i] !== undefined) cls = answers[i] === questions[i].answer ? 'ok' : 'no';
-    if (i === current) cls += ' cur';
+    if (answers[qi] !== undefined) cls = answers[qi] === questions[qi].answer ? 'ok' : 'no';
+    if (p === current) cls += ' cur';
+    if (flags[qi]) cls += ' flag';
     if (hidden) cls += ' hidden';
-    return `<button class="${cls.trim()}" onclick="jumpTo(${i})">${i + 1}</button>`;
+    return `<button class="${cls.trim()}" onclick="jumpTo(${p})">${p + 1}</button>`;
   }).join('');
 }
 
-function pick(di) {
-  if (answers[current] !== undefined) return;
-  const map = getShuffleMap(current);
-  const origIdx = map[di];
-  answers[current] = origIdx;
+function pick(oi) {
+  const qi = order[current];
+  if (answers[qi] !== undefined) return;
+  answers[qi] = oi;
   render();
-  const isCorrect = origIdx === questions[current].answer;
-  const correctLetter = letters[map.indexOf(questions[current].answer)];
+  const isCorrect = oi === questions[qi].answer;
+  const correctLetter = letters[questions[qi].answer];
   toast(isCorrect ? 'Chính xác!' : `Sai! Đáp án: ${correctLetter}`, isCorrect ? 'check_circle' : 'cancel');
+
+  if (Object.keys(answers).length === questions.length) { showDone(); return; }
+  if (autoAdvance) scheduleAdvance();
+}
+
+function scheduleAdvance() {
+  clearTimeout(advanceTimer);
+  advanceTimer = setTimeout(() => {
+    advanceTimer = null;
+    if (current < questions.length - 1) go(1);
+  }, 850);
 }
 
 function go(dir) {
+  clearTimeout(advanceTimer);
   const next = current + dir;
   if (next >= 0 && next < questions.length) { current = next; render(); }
 }
 
-function jumpTo(i) { current = i; document.getElementById('q-search').value = ''; render(); }
+function jumpTo(i) {
+  clearTimeout(advanceTimer);
+  current = i;
+  document.getElementById('q-search').value = '';
+  render();
+}
 
 function searchQuestion(val) {
   const n = parseInt(val);
   if (!val) { renderGrid(); return; }
-  document.getElementById('grid').innerHTML = questions.map((_, i) => {
-    const match = (i + 1) === n;
-    if (!match) return `<button class="hidden"></button>`;
-    let cls = answers[i] !== undefined ? (answers[i] === questions[i].answer ? 'ok' : 'no') : '';
-    if (i === current) cls += ' cur';
-    return `<button class="${cls.trim()}" onclick="jumpTo(${i})">${i + 1}</button>`;
+  document.getElementById('grid').innerHTML = order.map((qi, p) => {
+    if ((p + 1) !== n) return `<button class="hidden"></button>`;
+    let cls = answers[qi] !== undefined ? (answers[qi] === questions[qi].answer ? 'ok' : 'no') : '';
+    if (p === current) cls += ' cur';
+    if (flags[qi]) cls += ' flag';
+    return `<button class="${cls.trim()}" onclick="jumpTo(${p})">${p + 1}</button>`;
   }).join('');
 }
 
@@ -433,7 +527,9 @@ function exportJSON() {
     totalQuestions: questions.length,
     answered: Object.keys(answers).length,
     correct: Object.keys(answers).filter(k => answers[k] === questions[k].answer).length,
+    shuffled: shuffleEnabled,
     results: questions.map((q, i) => ({
+      position: order.indexOf(i) + 1,   // slot shown in the app (Câu N), reflects shuffle
       question: q.id, text: q.text,
       selected: answers[i] !== undefined ? letters[answers[i]] : null,
       correct: letters[q.answer],
@@ -462,12 +558,13 @@ function showModal(action) {
   document.getElementById('modal').classList.add('show');
   document.getElementById('modal-confirm').onclick = () => {
     if (action === 'retry-wrong') {
-      const firstWrong = Object.keys(answers).filter(k => answers[k] !== questions[k].answer);
-      firstWrong.forEach(k => { delete answers[k]; delete shuffleMaps[k]; });
-      if (firstWrong.length) current = Math.min(...firstWrong.map(Number));
+      const wrongKeys = Object.keys(answers).filter(k => answers[k] !== questions[k].answer);
+      wrongKeys.forEach(k => { delete answers[k]; });
+      const p = order.findIndex(qi => wrongKeys.includes(String(qi)));  // first wrong in display order
+      if (p >= 0) current = p;
     } else {
-      answers = {}; current = 0; shuffleMaps = {};
-      if (action === 'reset') localStorage.removeItem(STORAGE_KEY);
+      answers = {}; current = 0;
+      if (action === 'reset') { flags = {}; localStorage.removeItem(STORAGE_KEY); }
     }
     render(); hideModal();
     toast(action === 'retry-wrong' ? `Đã xóa ${wrongCount} câu sai!` : 'Đã xóa thành công!', 'check_circle');
@@ -476,18 +573,51 @@ function showModal(action) {
 
 function hideModal() { document.getElementById('modal').classList.remove('show'); }
 
+function showDone() {
+  const total = questions.length;
+  let correct = 0;
+  for (const k in answers) if (answers[k] === questions[k].answer) correct++;
+  const wrong = total - correct;
+  document.getElementById('done-score').textContent = `${correct} / ${total}`;
+  document.getElementById('done-pct').textContent = Math.round((correct / total) * 100) + '% chính xác';
+  document.getElementById('done-correct').textContent = correct;
+  document.getElementById('done-wrong').textContent = wrong;
+  document.getElementById('done-review').style.display = wrong > 0 ? '' : 'none';
+  document.getElementById('done-modal').classList.add('show');
+}
+
+function hideDone() { document.getElementById('done-modal').classList.remove('show'); }
+
+function reviewWrong() {
+  hideDone();
+  setFilter('wrong');
+  const p = order.findIndex(qi => answers[qi] !== undefined && answers[qi] !== questions[qi].answer);
+  if (p >= 0) { current = p; render(); }
+}
+
+function restartFromDone() {
+  hideDone();
+  answers = {}; current = 0;
+  render();
+  toast('Đã làm lại từ đầu!', 'refresh');
+}
+
 document.addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
   if (e.key === 's' || e.key === 'S') toggleShuffle();
   if (e.key === 'ArrowRight') go(1);
   if (e.key === 'ArrowLeft') go(-1);
   const n = parseInt(e.key);
-  if (n >= 1 && n <= (questions[current]?.options.length || 0)) pick(n - 1);
+  if (n >= 1 && n <= (questions[order[current]]?.options.length || 0)) pick(n - 1);
 });
 
 async function init() {
   await loadQuestions();
   load();
+  if (!Array.isArray(order) || order.length !== questions.length) {
+    order = buildOrder(shuffleEnabled);   // first run or stale/missing saved order
+  }
+  if (current < 0 || current >= questions.length) current = 0;
   render();
 }
 init();
