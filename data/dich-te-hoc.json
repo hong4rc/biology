@@ -1,0 +1,2635 @@
+{
+  "title": "Trắc Nghiệm Dịch Tễ Học",
+  "storageKey": "dichtehoc_quiz_progress",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Đối tượng trong các nghiên cứu Dịch tễ học thường là:",
+      "options": [
+        "Một người bệnh;",
+        "Một hiện tượng sức khỏe/cộng đồng;",
+        "Xác định một hiện tượng sức khỏe/cộng đồng;",
+        "Nguyên nhân làm xuất hiện và lan tràn bệnh/cộng đồng;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 2,
+      "text": "Việc chẩn đoán trong các nghiên cứu Dịch tễ học thường là:",
+      "options": [
+        "Xác định một trường hợp mắc bệnh;",
+        "Xác định một hiện tượng sức khỏe/cộng đồng;",
+        "Xác định nguyên nhân làm xuất hiện và lan tràn bệnh/cộng đồng;",
+        "Nghiên cứu một hiện tượng sức khỏe/cộng đồng;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 3,
+      "text": "Tìm nguyên nhân trong các nghiên cứu Dịch tễ học thường là:",
+      "options": [
+        "Tìm nguyên nhân gây bệnh cho một cá thể;",
+        "Tìm nguyên nhân làm xuất hiện và lan tràn bệnh/cộng đồng;",
+        "Tìm cách phân tích kết quả của chương trình can thiệp;",
+        "Tìm các yếu tố nguy cơ;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "text": "Việc điều trị trong Dịch tễ học là:",
+      "options": [
+        "Điều trị cho một người bệnh bằng phác đồ",
+        "Một chương trình y tế can thiệp, giám sát, thanh toán bệnh hàng loạt/cộng đồng;",
+        "Một chương trình nâng cao sức khỏe;",
+        "Chương trình nước sạch;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "text": "Việc đánh giá kết quả trong các nghiên cứu Dịch tễ học thường là:",
+      "options": [
+        "Đánh giá sự cải thiện sức khỏe của một người bệnh sau điều trị;",
+        "Phân tích sự thành công của chương trình can thiệp, giám sát Dịch tễ học tiếp tục;",
+        "Đánh giá hiệu lực của chương trình;",
+        "Đánh giá độ nhậy của chương trình;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 6,
+      "text": "Một trong những nguyên nhân của ung thư khí phế quản là:",
+      "options": [
+        "Hút nhiều thuốc lá;",
+        "Nghiện rượu;",
+        "Viêm phổi trước đây;",
+        "Phơi nhiễm nghề nghiệp;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "text": "Một trong những nguyên nhân của ung thư khí phế quản là:",
+      "options": [
+        "Ô nhiễm không khí;",
+        "Nghiện rượu;",
+        "Viêm phổi trước đây;",
+        "Phơi nhiễm nghề nghiệp;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "text": "Một trong những nguyên nhân của ung thư khí phế quản là:",
+      "options": [
+        "Phơi nhiễm với các chất gây ung thư;",
+        "Nghiện rượu;",
+        "Viêm phổi trước đây;",
+        "Phơi nhiễm nghề nghiệp;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 9,
+      "text": "Một trong những hậu quả của hút nhiều thuốc lá có thể là:",
+      "options": [
+        "Viêm phế quản mãn, u lympho không Hodgkin;",
+        "Ung thư mạc treo, ung thư phổi;",
+        "U lympho không Hodgkin;",
+        "Viêm phế quản mãn, ung thư phổi;"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 10,
+      "text": "Một trong những hậu quả của hút nhiều thuốc lá có thể là:",
+      "options": [
+        "Viêm phế quản mãn, thiếu máu cục bộ tim;",
+        "Ung thư mạc treo, ung thư phổi;",
+        "Bệnh Hodgkin;",
+        "U lympho không Hodgkin;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 11,
+      "text": "Quá trình phát triển tự nhiên của bệnh gồm 5 giai đoạn: 1. Khỏe; 2. Phơi nhiễm; 3. Tiền lâm sàng; 4. Lâm sàng; 5. Diễn biến tiếp tục. Các nghiên cứu mô tả liên quan tới các giai đoạn:",
+      "options": [
+        "1, 2, 3;",
+        "2, 3, 4;",
+        "3, 4, 5;",
+        "1, 2, 3, 4, 5;"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 12,
+      "text": "Quá trình phát triển tự nhiên của bệnh gồm 5 giai đoạn: 1. Khỏe; 2. Phơi nhiễm; 3. Tiền lâm sàng; 4. Lâm sàng; 5. Diễn biến tiếp tục. Các nghiên cứu tìm nguyên nhân gây bệnh phải liên quan tới các giai đoạn:",
+      "options": [
+        "1, 2, 3;",
+        "2, 3, 4;",
+        "1, 2, 3, 4, 5;",
+        "2, 3, 4, 5;"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 13,
+      "text": "Quá trình phát triển tự nhiên của bệnh gồm 5 giai đoạn: 1. Khỏe; 2. Phơi nhiễm; 3. Tiền lâm sàng; 4. Lâm sàng; 5. Diễn biến tiếp tục. Nghiên cứu các hằng số sinh học liên quan tới các giai đoạn:",
+      "options": [
+        "1",
+        "3",
+        "1 và 2;",
+        "2 và 3;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 14,
+      "text": "Quá trình phát triển tự nhiên của bệnh gồm 5 giai đoạn: 1. Khỏe; 2. Phơi nhiễm; 3. Tiền lâm sàng; 4. Lâm sàng; 5. Diễn biến tiếp tục. Nghiên cứu tìm các phương pháp phát hiện và chẩn đoán sớm liên quan tới các giai đoạn:",
+      "options": [
+        "1, 2;",
+        "2, 3;",
+        "3, 4;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 15,
+      "text": "Điền vào chỗ trống từ thích hợp: Định nghĩa DTH của B.Mac. Mahon và T.F. Pugh (1970): “DTH là khoa học nghiên cứu sự phân bố của bệnh trong quần thể loài người và những ........... qui định sự phân bố đó.”",
+      "options": [
+        "Yếu tố;",
+        "Nguyên nhân;",
+        "Vấn đề;",
+        "Tác nhân;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 16,
+      "text": "Định nghĩa DTH của J.N. Morris(1975):” DTH là khoa học ......... của y học dự phòng và y tế công cộng.”",
+      "options": [
+        "Chủ yếu;",
+        "Cơ bản;",
+        "Cơ sở;",
+        "Hàng đầu;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 17,
+      "text": "Định nghĩa DTH của R.R. Neutra(1978): “ DTH là một khoa học khảo sát hoặc một ..........”",
+      "options": [
+        "Kỹ thuật đặc biệt;",
+        "Loại thống kê ứng dụng;",
+        "Phương pháp luận",
+        "Công cụ thu thập thông tin;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 18,
+      "text": "Định nghĩa DTH của P.E. Enterline (1979) ” Để hiểu biết đầy đủ trong các nghiên cứu về các vấn đề sức khỏe ở người phải dựa vào các ............. đặc biệt, nhất là DTH”",
+      "options": [
+        "Lý luận;",
+        "Nguyên lý;",
+        "Phương tiện;",
+        "Kĩ thuật;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 19,
+      "text": "Định nghĩa DTH của M. Jénicek (1984):”DTH là một khoa học lí luận, một phương pháp ........... trong y học và các khoa học khác về sức khỏe, dùng để mô tả các hiện tượng sức khỏe, giải thích nguyên nhân qui định các hiện tượng sức khỏe đó, và nghiên cứu, tìm các biện pháp can thiệp hữu hiệu nhất.”",
+      "options": [
+        "Toán học;",
+        "Thông dụng;",
+        "Hữu ích;",
+        "Khách quan."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 20,
+      "text": "Nếu các hoạt động dự phòng cấp một có kết quả thì sẽ làm giảm:",
+      "options": [
+        "Tỷ lệ hiện mắc điểm;",
+        "Tỷ lệ hiện mắc;",
+        "Tỷ lệ mới mắc;",
+        "Thời gian phát triển trung bình của bệnh;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 21,
+      "text": "Nếu các hoạt động dự phòng cấp hai có kết quả thì sẽ làm giảm:",
+      "options": [
+        "Thời gian phát triển trung bình của bệnh",
+        "Tỷ lệ mới mắc;",
+        "Tỷ lệ hiện mắc",
+        "Tỷ lệ hiện mắc điểm;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 22,
+      "text": "Để đo lường kết quả hoạt động của dự phòng cấp một thì phải dùng:",
+      "options": [
+        "Tỷ lệ hiện mắc điểm;",
+        "Tỷ lệ hiện mắc;",
+        "Tỷ lệ mới mắc;",
+        "Thời gian phát triển trung bình của bệnh;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 23,
+      "text": "Tiến hành phát hiện bệnh sớm là dự phòng cấp:",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "I và II."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 24,
+      "text": "Điều trị là dự phòng:",
+      "options": [
+        "Cấp I;",
+        "Cấp II;",
+        "Cấp III;",
+        "Ban đầu;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "text": "Các hoạt động y tế nhằm nâng cao yếu tố bảo vệ không đặc hiệu là dự phòng:",
+      "options": [
+        "Cấp I;",
+        "Cấp II;",
+        "Cấp III;",
+        "Cấp I và Cấp II."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 26,
+      "text": "Các hoạt động y tế nhằm loại bỏ yếu tố nguy cơ là dự phòng:",
+      "options": [
+        "Cấp I;",
+        "Cấp II;",
+        "Cấp III;",
+        "Cấp I và Cấp II."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 27,
+      "text": "Thực hiện tiêm chủng vaccin cho một quần thể là dự phòng:",
+      "options": [
+        "Cấp I",
+        "Cấp II;",
+        "Cấp I và Cấp II.",
+        "Ban đầu;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 28,
+      "text": "Quá trình phát triển tự nhiên của bệnh gồm 5 giai đoạn: 1. Khỏe; 2. Phơi nhiễm; 3. Tiền lâm sàng; 4. Lâm sàng; 5. Diễn biến tiếp tục. Dự phòng cấp một là can thiệp vào giai đoạn:",
+      "options": [
+        "1",
+        "1 và 2",
+        "2 và 3;",
+        "2"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 29,
+      "text": "Các hoạt động y tế nhằm vào thời kỳ \"các biểu hiện thuận lợi cho sự tác động của các yếu tố căn nguyên\" là dự phòng:",
+      "options": [
+        "Ban đầu;",
+        "Cấp I;",
+        "Cấp II;",
+        "Cấp III;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 30,
+      "text": "Các hoạt động y tế nhằm tác động vào Các yếu tố căn nguyên đặc hiệu là dự phòng:",
+      "options": [
+        "Ban đầu;",
+        "Cấp I",
+        "Cấp II;",
+        "Cấp III;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 31,
+      "text": "Các hoạt động y tế ở \"Giai đoạn sớm của bệnh\" là dự phòng:",
+      "options": [
+        "Ban đầu;",
+        "Cấp I;",
+        "Cấp II;",
+        "Cấp III;"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 32,
+      "text": "Các hoạt động y tế ở Giai đoạn muộn của bệnh là dự phòng:",
+      "options": [
+        "Ban đầu",
+        "Cấp I",
+        "Cấp II",
+        "Cấp III"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 33,
+      "text": "Quần thể đích của dự phòng ban đầu là:",
+      "options": [
+        "Quần thể toàn bộ",
+        "Nhóm đặc biệt",
+        "Quần thể toàn bộ, nhóm đặc biệt;",
+        "Người khỏe mạnh;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "text": "Quần thể đích của dự phòng cấp I:",
+      "options": [
+        "Quần thể toàn bộ;",
+        "Nhóm đặc biệt;",
+        "Người khỏe mạnh;",
+        "Quần thể toàn bộ, nhóm đặc biệt, người khỏe mạnh;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 35,
+      "text": "Để có được số hiện mắc phải tiến hành:",
+      "options": [
+        "Điều tra dọc;",
+        "Điều tra ngang;",
+        "Điều tra nửa dọc;",
+        "Nghiên cứu bệnh chứng;"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "text": "Tỷ lệ hiện mắc quan sát giảm xuống khi:",
+      "options": [
+        "Rút ngắn thời gian bị bệnh",
+        "Kéo dài thời gian bị bệnh;",
+        "Tăng số mới mắc;",
+        "Sự tới cuả người nhạy cảm;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 37,
+      "text": "Đâu không phải mục tiêu của dịch tễ học là :",
+      "options": [
+        "Xác định mức độ bệnh tật trong dân số",
+        "Xác định nguyên nhân",
+        "Đo lường mức độ xuất hiện thường xuyên của bệnh",
+        "Dự đoán nguy cơ mắc bệnh của một cá thể"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 38,
+      "text": "Với một bệnh có sự tiến triển tương đối ổn định, có thể dẫn tới một tỷ lệ nhất định về số điều trị khỏi, số mãn tính, số chết , thì có sự tương quan giữa tỷ lệ chết (M), tỷ lệ mới mắc (I) , tỷ lệ tử vong (L) thể hiện bằng công thức:",
+      "options": [
+        "L = I / M ;",
+        "L = M x I ;",
+        "I = M / L;",
+        "I = L / M."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 39,
+      "text": "Kết quả của một nghiên cứu cắt ngang là:",
+      "options": [
+        "Số mới mắc, tỷ lệ hiện mắc;",
+        "Số hiện mắc, tỷ lệ mới mắc,",
+        "Thời gian phát triển trung bình của bệnh;",
+        "Số hiện mắc, tỷ lệ hiện mắc;"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 40,
+      "text": "Kết quả của một nghiên cứu dọc là:",
+      "options": [
+        "Số mới mắc, tỷ lệ hiện mắc;",
+        "Số hiện mắc, tỷ lệ mới mắc",
+        "Thời gian phát triển trung bình của bệnh;",
+        "Số mới mắc, tỷ lệ mới mắc;"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 41,
+      "text": "Nguy cơ bị một bệnh có thể ước lượng bằng:",
+      "options": [
+        "Tỷ lệ mới mắc;",
+        "Tỷ lệ mới mắc nhân với thời gian phát triển trung bình của bệnh;",
+        "Tỷ lệ mới mắc chia cho thời gian phát triển trung bình của bệnh;",
+        "Tỷ lệ hiện mắc;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 42,
+      "text": "Tỷ suất mắc bệnh thay đổi theo nhóm tuổi là do, ngoại trừ:",
+      "options": [
+        "Tính nhạy cảm và tính miễn dịch của bệnh",
+        "Tăng sự tiếp xúc với yếu tố độc hại.",
+        "Các đặc điểm di truyền của cha mẹ",
+        "Khác biệt về lối sống và thói quen."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 43,
+      "text": "Các bệnh lây theo đường hô hấp có các đặc tính sau đây:",
+      "options": [
+        "Các tác nhân gây bệnh đường hô hấp được bài tiết theo chất tiết của đường hô hấp.",
+        "Các tác nhân gây bệnh lây theo đường hô hấp không sống lâu ở môi trường ngoài.",
+        "Các giọt nước bọt có kích thước nhỏ thì rơi xuống đất nhanh tạo thành bụi.",
+        "Yếu tố truyền nhiễm của bệnh hô hấp là không khí, vật dụng (bát, đĩa), bụi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 44,
+      "text": "Các biện pháp phòng chống áp dụng đối với bệnh lây truyền qua đường hô hấp gồm:",
+      "options": [
+        "Uống thuốc dự phòng khi tiếp xúc với người bệnh và người nhà của họ.",
+        "Khử trùng tốt chất thải (đờm dãi, nước bọt, chất nôn), khử trùng các đồ dùng cá nhân của bệnh nhân",
+        "Tiêu diệt các vector truyền bệnh để hạn chế sự lây lan từ người bệnh sang người lành.",
+        "Diệt khuẩn nơi ở, thực hiện các biện pháp vệ sinh thường thức như ăn chín, uống sôi."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "text": "Một số yếu tố nguy cơ gây bệnh tăng huyết áp, chọn câu sai:",
+      "options": [
+        "Yếu tố gia đình",
+        "Thói quen ăn mặn",
+        "Tuổi",
+        "Tiền sử sản khoa"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 46,
+      "text": "Nguồn số liệu sử dụng giám sát dịch tễ học là, chọn câu sai:",
+      "options": [
+        "Báo cáo mắc bệnh",
+        "Báo cáo tử vong",
+        "Báo cáo dịch",
+        "Sổ sách hộ tịch"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 47,
+      "text": "Tìm một câu không phù hợp với thiết kế nghiên cứu mô tả:",
+      "options": [
+        "Nghiên cứu sinh học",
+        "Báo cáo ca bệnh",
+        "Báo cáo hàng loạt ca bệnh",
+        "Nghiên cứu cắt ngang"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 48,
+      "text": "Hai mục tiêu chính của nghiên cứu mô tả là:",
+      "options": [
+        "Điều trị và phòng bệnh",
+        "Xác định tỷ lệ bệnh và hình thành giả thuyết",
+        "Can thiệp và đánh giá",
+        "Mô tả và kiểm định"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 49,
+      "text": "Trong nghiên cứu mô tả, việc xác định quần thể nghiên cứu là quan trọng vì:",
+      "options": [
+        "Quyết định cỡ mẫu",
+        "Quyết định phương pháp thống kê",
+        "Là mẫu số để tính các tỷ lệ",
+        "Giảm sai số chọn mẫu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 50,
+      "text": "Quần thể nghiên cứu trong dịch tễ học mô tả còn được gọi là:",
+      "options": [
+        "Quần thể bệnh",
+        "Quần thể can thiệp",
+        "Quần thể có nguy cơ",
+        "Quần thể đối chứng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 51,
+      "text": "Định nghĩa bệnh trong nghiên cứu mô tả cần đảm bảo:",
+      "options": [
+        "Linh hoạt theo từng nghiên cứu",
+        "Phù hợp với điều kiện địa phương",
+        "Rõ ràng, chính xác và có thể so sánh",
+        "Đơn giản, dễ hiểu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 52,
+      "text": "Mô tả yếu tố nguy cơ trong nghiên cứu mô tả nhằm mục đích chính là:",
+      "options": [
+        "Điều trị bệnh",
+        "Hình thành giả thuyết nhân quả",
+        "Đánh giá hiệu quả can thiệp",
+        "Phân loại bệnh"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 53,
+      "text": "Ba câu hỏi cơ bản mà dịch tễ học mô tả cần trả lời là:",
+      "options": [
+        "Bệnh gì – do đâu – điều trị thế nào",
+        "Ai – ở đâu – khi nào",
+        "Nguyên nhân – hậu quả – can thiệp",
+        "Phơi nhiễm – bệnh – kết quả"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 54,
+      "text": "Mô tả hiện tượng sức khỏe theo “Ai” liên quan đến:",
+      "options": [
+        "Thời gian",
+        "Không gian",
+        "Đặc trưng con người",
+        "Yếu tố môi trường"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 55,
+      "text": "Tuổi đời là đặc trưng quan trọng vì:",
+      "options": [
+        "Không thay đổi theo thời gian",
+        "Liên quan đến nhiều chỉ số sinh học và nguy cơ bệnh",
+        "Quyết định giới tính",
+        "Phản ánh trình độ học vấn"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 56,
+      "text": "Sự khác biệt tỷ lệ mắc bệnh giữa nam và nữ có thể do:",
+      "options": [
+        "Chỉ do di truyền",
+        "Chỉ do môi trường",
+        "Yếu tố sinh học, nghề nghiệp và xã hội",
+        "Do sai số đo lường"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 57,
+      "text": "Khi nhà nghiên cứu chưa chắc chắn về mối liên quan nhân quả, thì nên chọn loại thiết kế nghiên cứu nào sau đây là phù hợp:",
+      "options": [
+        "Nghiên cứu mô tả",
+        "Nghiên cứu bệnh chứng",
+        "Nghiên cứu đoàn hệ",
+        "Nghiên cứu can thiệp"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 58,
+      "text": "Mô tả chùm bệnh thường có ý nghĩa:",
+      "options": [
+        "Kiểm định giả thuyết",
+        "Can thiệp cộng đồng",
+        "Gợi ý sự xuất hiện của dịch",
+        "Điều trị cá thể"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 59,
+      "text": "Ở Nhật, tỷ lệ mắc bệnh mạch vành thấp nhưng tỷ lệ Cao huyết áp và rối loạn mạch não cao hơn so với các nước công nghiệp khác; Ở Nhật, Đức, Aixlen đều có tỷ lệ ung thư dạ dày rất cao. Giải thích hợp lý hơn cả là:",
+      "options": [
+        "Sự xuất hiện và biến mất của các yếu tố căn nguyên",
+        "Mức độ ô nhiễm không khí khác nhau",
+        "Khác nhau về chất đất, thói quen về ăn uống",
+        "Cấu trúc tuổi của các quần thể khác nhau"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 60,
+      "text": "Nghiên cứu tỷ lệ hiện mắc (P) đồng nghĩa với:",
+      "options": [
+        "Nghiên cứu sinh thái",
+        "Nghiên cứu cắt ngang",
+        "Nghiên cứu bệnh chứng",
+        "Nghiên cứu thuần tập"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 61,
+      "text": "Kết quả của một nghiên cứu ngang là:",
+      "options": [
+        "Số mới mắc, tỷ lệ hiện mắc",
+        "Số hiện mắc, tỷ lệ mới mắc",
+        "Thời gian phát triển trung bình của bệnh",
+        "Số hiện mắc, tỷ lệ hiện mắc"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 62,
+      "text": "Căn cứ vào nguồn truyền nhiễm có thể chia các bệnh lây qua đường tiêu hóa thành mấy phân nhóm:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 63,
+      "text": "Bệnh thương hàn thuộc phân nhóm nào khi căn cứ vào nguồn truyền nhiễm các bệnh lây qua đường tiêu hóa?",
+      "options": [
+        "Bệnh truyền từ súc vật sang người.",
+        "Bệnh truyền từ người sang người.",
+        "Bệnh truyền từ người sang súc vật.",
+        "Cả A,B,C đều đúng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 64,
+      "text": "Trong bệnh nhiễm trùng, tỷ lệ tấn công được dùng để đánh giá:",
+      "options": [
+        "Khả năng lây lan của tác nhân gây bệnh",
+        "Độc tính của vi sinh vật",
+        "Khả năng gây bệnh của vi sinh vật",
+        "Khả năng xâm nhiễm của vi sinh vật."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 65,
+      "text": "Đối với các bệnh lây qua đường tiêu hóa thì nguồn truyền nhiễm nguy hiểm là:",
+      "options": [
+        "Người bệnh ở thời kỳ phát bệnh.",
+        "Người khỏi bệnh mang trùng.",
+        "Người lanh mang trùng.",
+        "Người mang trùng mạn tính."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 66,
+      "text": "Nguồn truyền nhiễm của các bệnh lây qua đường máu (viêm gan B, C, nhiễm HIV) là:",
+      "options": [
+        "Máu chứa tác nhân gây bệnh",
+        "Bơm kim tiêm nhiễm vi sinh vật gây bệnh",
+        "Động vật mắc bệnh",
+        "Người mang trùng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 67,
+      "text": "Biện pháp dự phòng cấp 1 để phòng chống bệnh sốt xuất huyết dengue là:",
+      "options": [
+        "Điều trị triệt để cho người bệnh",
+        "Khai báo trường hợp bệnh đầu tiên",
+        "Diệt muỗi và loại trừ các ổ bọ gậy",
+        "Tiêm chủng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 68,
+      "text": "Biện pháp dự phòng cấp 1 để phòng chống các bệnh lây qua đường máu là:",
+      "options": [
+        "Điều trị triệt để người mắc bệnh",
+        "Tiệt khuẩn dụng cụ tiêm truyền và diệt côn trùng hút máu tương ứng",
+        "Tiêm vắc xin",
+        "Uống thuốc phòng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 69,
+      "text": "Biện pháp tác động vào nguồn truyền nhiễm để phòng bệnh lây từ người sang người qua đường máu là:",
+      "options": [
+        "Diệt động vật mắc bệnh",
+        "Diệt côn trùng tiết túc hút máu tương ứng",
+        "Phát hiện sớm người mắc bệnh, cách ly và điều trị triệt để.",
+        "Diệt khuẩn các dụng cụ tiêm truyền"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 70,
+      "text": "Biện pháp tác động vào khối cảm thụ để phòng chống bệnh dengue xuất huyết là:",
+      "options": [
+        "Phát hiện sớm các trường hợp bệnh",
+        "Giám sát huyết thanh học những trường hợp nghi ngờ",
+        "Uống thuốc dự phòng",
+        "Tuyên truyền giáo dục cộng đồng cách phòng bệnh."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 71,
+      "text": "Một số bệnh lây qua đường máu có tình trạng người khỏi bệnh mang trùng và người lành mang trùng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 72,
+      "text": "Sau khi mắc bệnh sốt xuất huyết dengue, người khỏi bệnh còn mang virus dengue trong một thời gian.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 73,
+      "text": "Sau khi mắc bệnh sốt xuất huyết dengue, người bệnh có miễn dịch đối với typ virus đã gây bệnh.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 74,
+      "text": "Biện pháp có hiệu quả nhất để phòng chống bệnh sốt xuất huyết dengue là diệt muỗi trưởng thành bằng phun hóa chất.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 75,
+      "text": "Bệnh lây qua đường da, niêm mạc do súc vật truyền sang người là:",
+      "options": [
+        "Bệnh dịch hạch",
+        "Bệnh dại",
+        "Uốn ván",
+        "Thủy đậu"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 76,
+      "text": "Người mắc bệnh dại là do tiếp xúc với:",
+      "options": [
+        "Nước tiểu của súc vật",
+        "Phân của súc vật",
+        "Vật dụng bị nhiễm nước bọt của súc vật",
+        "Nước bọt của súc vật bị dại qua vết cắn, cào"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 77,
+      "text": "Chỉ định tiêm đồng thời cả văc xin và huyết thanh kháng dại ngay sau khi bị chó cắn trong trường hợp:",
+      "options": [
+        "Vết cắn nhẹ ở cẳng chân",
+        "Vết cắn nhẹ ở mặt và tại thời điểm cắn con vật khỏe mạnh.",
+        "Vết cắn nhẹ, xa thần kinh trung ương và con vật đã bị giết.",
+        "Vết cắn nhẹ, xa thần kinh trung ương nhưng không theo dõi được con vật"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 78,
+      "text": "Trường hợp bị chó cắn, vết cắn nhẹ, xa thần kinh trung ương và tại thời điểm cắn con vật bình thường thì không cần tiêm vắc xin nếu theo dõi được chó khỏe mạnh trong vòng:",
+      "options": [
+        "3 ngày",
+        "5 ngày",
+        "5 - 10 ngày",
+        "10 - 15 ngày"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 79,
+      "text": "Đối tượng nào sau đây được chỉ định tiêm vaccin phòng dại sau khi bị súc vật dại cắn:",
+      "options": [
+        "Phụ nữ có thai hoặc cho con bú",
+        "Mọi người bị súc vật dại cắn",
+        "Thanh thiếu niên",
+        "Người già"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 80,
+      "text": "Súc vật bị dại bắt đầu bài xuất virus dại theo nước bọt khoảng................. trước khi xuất hiện triệu chứng đầu tiên.",
+      "options": [
+        "4 ngày",
+        "2 - 4 ngày",
+        "4 - 6 ngày",
+        "4 - 12 ngày"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 81,
+      "text": "Bệnh dại được truyền từ súc vật sang người qua đường:",
+      "options": [
+        "Máu",
+        "Da, niêm mạc",
+        "Hô hấp",
+        "Tiêu hóa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 82,
+      "text": "Biện pháp phòng chống bệnh lây qua da, niêm mạc do súc vật truyền sang người không đúng là:",
+      "options": [
+        "Tiêm phòng cho súc vật",
+        "Giết mổ thịt các động vật ốm",
+        "Trang bị quần áo bảo hộ, tránh xây xát da cho người tiếp xúc nghề nghiệp với súc vật",
+        "Phát hiện sớm người mắc bệnh để điều trị"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 83,
+      "text": "Những người có thể mắc bệnh lây qua đường da, niêm mạc do súc vật truyền là:",
+      "options": [
+        "Người chăn nuôi gia súc",
+        "Nông dân",
+        "Nhân viên thú y",
+        "Tất cả mọi người"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 84,
+      "text": "Biện pháp tác động vào nguồn lây để phòng bệnh lây qua da, niêm mạc do súc vật truyền sang người là:",
+      "options": [
+        "Diệt súc vật mắc bệnh hoặc cách ly, điều trị",
+        "Hạn chế tiếp xúc với súc vật ốm",
+        "Xử lý nguồn nước ô nhiễm chất thải súc vật",
+        "Vệ sinh chuồng trại"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 85,
+      "text": "Thời gian ủ bệnh của bệnh dại ở người ngắn hay dài phụ thuộc vào:",
+      "options": [
+        "Tình trạng sức khỏe của người bị cắn",
+        "Tình trạng nặng nhẹ và vị trí vết thương",
+        "Loại súc vật cắn",
+        "Điều trị kháng sinh"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 86,
+      "text": "Biện pháp dự phòng cấp 2 đối với các bệnh lây qua da, niêm mạc do súc vật truyền sang người là:",
+      "options": [
+        "Hạn chế tiếp xúc trực tiếp với động vật ốm",
+        "Phát hiện sớm người mắc bệnh để điều trị",
+        "Diệt động vật mắc bệnh",
+        "Xử lý nguồn nước ô nhiễm chất thải động vật"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 87,
+      "text": "Vi rut dại qua vết cắn vào cơ thể người sẽ:",
+      "options": [
+        "Theo dây thần kinh đến hệ thần kinh",
+        "Phát triển tại vết thương sau đó theo dây thần kinh đến tuyến nước bọt",
+        "Theo máu vào cơ thể gây nhiễm độc",
+        "Theo dây thần kinh hướng tâm đến hệ thần kinh trung ương"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 88,
+      "text": "Tiêm huyết thanh kháng dại không nên chậm quá .......... sau khi bị cắn.",
+      "options": [
+        "3 ngày",
+        "5 ngày",
+        "7 ngày",
+        "9 ngày"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 89,
+      "text": "Biện pháp phòng chống bệnh dại là:",
+      "options": [
+        "Tiêm vắc xin phòng dại",
+        "Cách ly người bị súc vật nghi dại cắn",
+        "Tiêm vắc xin phòng dại cho người bị súc vật nghi dại cắn",
+        "Diệt động vật gậm nhấm mang mầm bệnh"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 90,
+      "text": "Biện pháp tác động vào nguồn lây để phòng chống bệnh dại là:",
+      "options": [
+        "Tiêm huyết thanh kháng dại cho súc vật",
+        "Dùng kháng sinh cho người bị chó cắn",
+        "Diệt súc vật bị dại",
+        "Nhốt súc vật bị dại vào chuồng riêng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 91,
+      "text": "Biện pháp để phòng bệnh lây qua da, niêm mạc do súc vật truyền sang người không phù hợp là:",
+      "options": [
+        "Xử lý nguồn nước ô nhiễm chất thải động vật",
+        "Khử trùng tẩy uế các chất thải của người và động vật ốm.",
+        "Phát hiện sớm người mắc bệnh, cách ly, điều trị.",
+        "Diệt côn trùng tiết túc truyền bệnh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 92,
+      "text": "Xử trí trường hợp bị chó cắn, vết cắn ở mặt và tại thời điểm cắn con chó khỏe mạnh là:",
+      "options": [
+        "Tiêm vắc xin trừ dại",
+        "Tiêm huyết thanh kháng dại",
+        "Tiêm đồng thời cả vắc xin và huyết thanh kháng dại",
+        "Theo dõi con chó"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 93,
+      "text": "Phương pháp có hiệu quả nhất để phòng chống nhiễm HIV/AIDS là:",
+      "options": [
+        "Phát hiện, cách ly, điều trị sớm người nhiễm HIV/AIDS",
+        "Thực hiện tốt kiểm dịch biên giới",
+        "Khống chế mại dâm",
+        "Giáo dục thay đổi hành vi và xây dựng hành vi an toàn"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 94,
+      "text": "Phụ nữ nhiễm HIV/AIDS:",
+      "options": [
+        "Không nên có con vì đây là bệnh di truyền, con có thể mắc từ mẹ HIV(+).",
+        "Vẫn có thể sinh con nhưng con sau khi sinh ra phải cách ly khỏi mẹ để tránh lây cho con",
+        "Không nên có thai vì HIV từ mẹ có thể xâm nhập vào con qua nhau thai",
+        "Không nên có thai vì HIV từ mẹ có thể xâm nhập vào con qua nhau thai, trong khi đẻ và qua bú mẹ."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 95,
+      "text": "Ca nhiễm HIV đầu tiên được phát hiện ở Việt Nam vào năm:",
+      "options": [
+        "1982",
+        "1985",
+        "1987",
+        "1990"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 96,
+      "text": "Biện pháp phòng lây nhiễm HIV không đúng là:",
+      "options": [
+        "Phát hiện sớm, cách ly người nhiễm HIV tại trại riêng",
+        "Tư vấn cho người nhiễm HIV có ý thức đừng làm lây lan cho người khác",
+        "Tổ chức chăm sóc, điều trị nâng đỡ người nhiễm HIV/AIDS",
+        "Hỗ trợ kinh tế, xã hội cho người bệnh và gia đình họ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 97,
+      "text": "Biện pháp phòng lây nhiễm HIV là:",
+      "options": [
+        "Không ở chung với người nhiễm HIV",
+        "Không dùng chung cốc chén và bát đũa với người nhiễm HIV",
+        "Không dùng chung bơm kim tiêm",
+        "Hạn chế giao tiếp với người nhiễm HIV"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 98,
+      "text": "Biện pháp tác động vào nguồn truyền nhiễm để phòng lây truyền HIV là:",
+      "options": [
+        "Bài trừ nghiện chích ma túy",
+        "Loại bỏ máu nhiễm HIV",
+        "Tư vấn cho người nhiễm HIV cách bảo vệ cho gia đình và cộng đồng",
+        "Tiệt khuẩn đồ dùng của bệnh nhân AIDS"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 99,
+      "text": "Tiêm chủng là một biện pháp tạo cho cơ thể loại miễn dịch:",
+      "options": [
+        "Chủ động;",
+        "Thụ động;",
+        "Chủ động tự nhiên;",
+        "Chủ động thu được;"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 100,
+      "text": "Tiêm vaccine sởi cho một đứa trẻ là tạo cho đứa trẻ đó loại miễn dịch:",
+      "options": [
+        "Chủ động thu được",
+        "Chủ động.",
+        "Thụ động",
+        "Chủ động tự nhiên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 101,
+      "text": "Vaccine đầu tiên sử dụng để phòng bệnh:",
+      "options": [
+        "Đậu mùa",
+        "Cúm.",
+        "Dại",
+        "Tả"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "text": "Căn bệnh đầu tiên trên thế giới được loại trừ nhờ vaccine là:",
+      "options": [
+        "Dại.",
+        "Cúm",
+        "Đậu mùa.",
+        "Bại liệt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 103,
+      "text": "Bệnh nào sau đây là bệnh nhiễm trùng nhưng không lây?",
+      "options": [
+        "Sởi",
+        "Lao",
+        "Uốn ván",
+        "Thủy đậu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 104,
+      "text": "Bệnh nhiễm trùng trong bệnh viện khác với cộng đồng vì:",
+      "options": [
+        "Ít nguy hiểm hơn",
+        "Cơ chế lây truyền và kiểm soát khác nhau",
+        "Không cần kiểm soát dịch",
+        "Ít gặp hơn"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 105,
+      "text": "Bệnh nhiễm trùng “chậm” là bệnh có:",
+      "options": [
+        "Thời kỳ lây ngắn",
+        "Thời kỳ ủ bệnh dài",
+        "Không có triệu chứng",
+        "Không gây tử vong"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 106,
+      "text": "Xác định sự phân bố bệnh tật nhằm trả lời câu hỏi, chọn câu sai:",
+      "options": [
+        "Ai mắc bệnh này.",
+        "Bệnh này xuất hiện khi nào.",
+        "Bệnh này xuất hiện ở đâu.",
+        "Tại sao bệnh đó xảy ra."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 107,
+      "text": "Tỷ suất bệnh mới trong quần thể là 5/1000 người-năm, điều này có nghĩa:",
+      "options": [
+        "Tỷ lệ hiện mắc trong quần thể tại một thời điểm là 0.005.",
+        "Tỷ lệ mới mắc trong thời khoảng là 0.005.",
+        "Cứ 1000 người quan sát trong một năm có 5 người phát triển thành bệnh.",
+        "Cứ 1000 người quan sát thì có 5 người mắc bệnh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 108,
+      "text": "Nhiễm trùng ngoại sinh là:",
+      "options": [
+        "Vi sinh vật tồn tại sẵn trong cơ thể",
+        "Vi sinh vật xâm nhập từ bên ngoài vào cơ thể",
+        "Nhiễm trùng không triệu chứng",
+        "Nhiễm trùng mãn tính"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 109,
+      "text": "Tác nhân gây bệnh trong bệnh nhiễm trùng là:",
+      "options": [
+        "Yếu tố hóa học",
+        "Yếu tố vật lý",
+        "Vi sinh vật gây bệnh",
+        "Yếu tố xã hội"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 110,
+      "text": "Đặc trưng nào không thuộc đặc trưng dịch tễ của tác nhân?",
+      "options": [
+        "Khả năng lây lan",
+        "Khả năng gây bệnh",
+        "Độc tính",
+        "Tình trạng dinh dưỡng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 111,
+      "text": "Nhiễm trùng là gì?",
+      "options": [
+        "Sự xâm nhiễm của vi sinh vật gây bệnh vào các cơ quan khác nhau trong cơ thể",
+        "Sự xâm nhập của vi sinh vật gây bệnh vào bên trong một cơ thể ký chủ",
+        "Sự gây bệnh cho ký chủ bởi vi sinh vật ký sinh",
+        "Sự truyền một bệnh nhiễm trùng cho một cơ thể ký chủ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 112,
+      "text": "Truyền nhiễm là gì?",
+      "options": [
+        "Sự gây bệnh cho ký chủ bởi vi sinh vật ký sinh",
+        "Sự xâm nhập của vi sinh vật gây bệnh vào trong cơ thể ký chủ",
+        "Sự xâm nhiễm của vi sinh vật gây bệnh vào các cơ quan trong cơ thể",
+        "Sự truyền một bệnh nhiễm trùng nào đó từ cơ thể này sang cơ thể khác"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 113,
+      "text": "Bệnh nhiễm trùng gọi là nhanh khi thời kỳ ủ bệnh ngắn.",
+      "options": [
+        "< 2 ngày",
+        "< 2 tuần",
+        "< 1 tháng",
+        "< 2 tháng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 114,
+      "text": "Trong bệnh nhiễm trùng, tỷ lệ tấn công được được dùng để đánh giá:",
+      "options": [
+        "Khả năng lây lan của tác nhân gây bệnh",
+        "Độc tính của vi sinh vật",
+        "Khả năng gây bệnh của vi sinh vật",
+        "Khả năng xâm nhiễm của vi sinh vật"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 115,
+      "text": "Đặc trưng dịch tễ học của tác nhân trong bệnh sởi là:",
+      "options": [
+        "Khả năng lây lan thấp, khả năng gây bệnh cao, độc tính thấp",
+        "Khả năng lây lan cao, khả năng gây bệnh thấp, độc tính cao",
+        "Khả năng lây lan cao, khả năng gây bệnh cao, độc tính thấp",
+        "Khả năng lây lan thấp, khả năng gây bệnh cao, độc tính thấp"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 116,
+      "text": "Đặc trưng dịch tễ học của tác nhân trong bệnh bại liệt là:",
+      "options": [
+        "Khả năng lây lan thấp, khả năng gây bệnh cao, độc tính thấp",
+        "Khả năng lây lan cao, khả năng gây bệnh thấp, độc tính trung bình",
+        "Khả năng lây lan cao, khả năng gây bệnh cao, độc tính thấp",
+        "Khả năng lây lan thấp, khả năng gây bệnh cao, độc tính thấp"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 117,
+      "text": "Đặc trưng dịch tễ học của tác nhân trong bệnh thủy đậu là:",
+      "options": [
+        "Khả năng gây bệnh cao, độc tính thấp",
+        "Khả năng lây lan cao, khả năng gây bệnh thấp, độc tính trung bình",
+        "Khả năng gây bệnh thấp, độc tính thấp",
+        "Khả năng lây lan cao, khả năng gây bệnh cao, độc tính thấp"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 118,
+      "text": "Nguồn truyền nhiễm có ý nghĩa quan trọng về mặt dịch tễ học, vì có thể là điểm khởi đầu của một vụ dịch, là:",
+      "options": [
+        "Người lành mang trùng",
+        "Người bệnh nhiễm trùng mãn tính",
+        "Người bệnh trong thời kỳ ủ bệnh",
+        "Người khỏi bệnh mang trùng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 119,
+      "text": "Nội dung nào được liệt kê sau đây không phải là nguồn truyền nhiễm.",
+      "options": [
+        "Người bệnh",
+        "Người mang trùng",
+        "Ổ chứa động vật",
+        "Tiết túc"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 120,
+      "text": "Biện pháp tác động vào nguồn truyền nhiễm để phòng bệnh lây qua đường tiêu hóa là:",
+      "options": [
+        "Tiêm phòng cho súc vật",
+        "Kiểm tra vệ sinh các nguồn nước",
+        "Xử lý phân đúng qui cách",
+        "Phát hiện sớm người mắc bệnh, cách ly và điều trị triệt để"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 121,
+      "text": "Biện pháp tác động vào khối cảm thụ để phòng bệnh lây qua đường tiêu hóa là:",
+      "options": [
+        "Uống thuốc phòng",
+        "Giáo dục vệ sinh cho nhân dân",
+        "Xây dựng tiện nghi vệ sinh ở các khu dân cư",
+        "Theo dõi những người khỏi bệnh mang trùng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 122,
+      "text": "Những người có thể mắc các bệnh lây qua đường tiêu hóa là:",
+      "options": [
+        "Trẻ em",
+        "Người già",
+        "Phụ nữ",
+        "Tất cả mọi người"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 123,
+      "text": "Bệnh lây qua đường tiêu hóa có thể giải phóng tác nhân gây bệnh ra môi trường bên ngoài qua nước tiểu là:",
+      "options": [
+        "Tả",
+        "Lỵ",
+        "Thương hàn",
+        "Bại liệt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 124,
+      "text": "Nguồn lây có ý nghĩa quan trọng trong phát sinh dịch đối với bệnh tả là:",
+      "options": [
+        "Người bệnh",
+        "Người mang trùng",
+        "Người mang trùng mạn tính",
+        "Nguồn nước bị nhiễm vi khuẩn tả"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 125,
+      "text": "Về mặt lâm sàng nguồn lây nguy hiểm nhất của bệnh tả, lỵ thương hàn là:",
+      "options": [
+        "Người bệnh",
+        "Người mang trùng",
+        "Nguồn nước bị nhiễm vi khuẩn tả",
+        "Thực phẩm bị nhiễm vi khuẩn tả"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 126,
+      "text": "Biện pháp tác động vào đường truyền nhiễm để phòng chống bệnh lây qua đường tiêu hóa là:",
+      "options": [
+        "Phát hiện sớm người mắc bệnh để cách ly",
+        "Giáo dục vệ sinh phòng bệnh cho nhân dân",
+        "Điều trị cho người mang trùng mạn tính",
+        "Xử lý nguồn nước bị ô nhiễm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 127,
+      "text": "Tỷ lệ lưu hành khác với tỷ lệ hiện mắc ở điểm nào?",
+      "options": [
+        "Tỷ lệ lưu hành chỉ tính số ca mắc bệnh có khả năng lây truyền, trong khi tỷ lệ hiện mắc tính tất cả các ca mắc bệnh.",
+        "Tỷ lệ lưu hành tính số ca mắc bệnh tại một thời điểm cụ thể, trong khi tỷ lệ hiện mắc tính số ca mắc bệnh trong một khoảng thời gian nhất định.",
+        "Tỷ lệ lưu hành tính số ca mắc bệnh trên một đơn vị dân số nhất định, trong khi tỷ lệ hiện mắc không tính đến đơn vị dân số.",
+        "Tỷ lệ lưu hành không có ý nghĩa thực tiễn, trong khi tỷ lệ hiện mắc có ý nghĩa thực tiễn quan trọng."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 128,
+      "text": "Mục tiêu quan trọng nhất của nghiên cứu dịch tễ học mô tả là:",
+      "options": [
+        "Kiểm định giả thuyết nhân quả",
+        "Điều trị bệnh",
+        "Hình thành giả thuyết dịch tễ học",
+        "Đánh giá hiệu quả can thiệp"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 129,
+      "text": "Cơ chế truyền nhiễm của một bệnh nhiễm trùng đặc trưng bằng đường truyền nhiễm, với lối ra của tác nhân gây bệnh khỏi cơ thể ký chủ và lối vào của tác nhân đó ở ký chủ mới, cùng với phương thức tồn tại của tác nhân ở bên ngoài cơ thể ký chủ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 130,
+      "text": "Một vụ dịch thường được định nghĩa là:",
+      "options": [
+        "Bệnh thường xãy ra trong cộng đồng mặc dù tỷ lệ không cao",
+        "Bệnh thường xãy ra trong cộng đồng và có tỷ lệ cao",
+        "Sự xuất hiện bệnh vượt quá mức trước đó vẫn thường gặp trong một cộng đồng hoặc một khu vực",
+        "Bệnh xảy ra với tỉ lệû vượt quá 10/1000 dân"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 131,
+      "text": "Điều tra dịch nhằm mục đích:",
+      "options": [
+        "Để giải quyết bệnh nhiễm trùng thường xảy ra trong cộng đồng",
+        "Tìm hiểu các yếu tố kinh tế, văn hóa, hành vi có liên quan đến sức khỏe",
+        "Xác định vấn đề dịch tễ học ưu tiên",
+        "Xác định vụ dịch, tìm nguyên nhân và biện pháp giải quyết"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 132,
+      "text": "Ổ dịch có thể quan niệm là:",
+      "options": [
+        "Khu vực đang có bệnh nhân",
+        "Khu vực đang có người hoặc động vật mang trùng",
+        "Nơi có nhiều người mắc bệnh hơn so với các nơi khác",
+        "Nơi có nguồn truyền nhiễm có khả năng lan truyền bệnh cho những người khác"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 133,
+      "text": "Nội dung của công tác điều tra xử lý dịch là:",
+      "options": [
+        "Xác định sự tồn tại và mức độ của vụ dịch, xác định nguyên nhân của vụ dịch, phương thức lan truyền và đề xuất biện pháp kiểm sóat",
+        "Xác định sự tồn tại và mức độ của vụ dịch",
+        "Xác định các trường hợp nhi ngờ, có khả năng và trường hợp chắc chắn",
+        "Xác định tổng số người bị nhiễm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 134,
+      "text": "Mô tả một vụ dịch theo thời gian có thể:",
+      "options": [
+        "Nói lên khả năng gây bệnh của tác nhân",
+        "Cho biết khả năng lây lan",
+        "Cho biêt khả năng lây lan, khả năng gây bệnh và độc tính",
+        "Cho biết diễn biến của vụ dịch theo thời gian"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 135,
+      "text": "Đồ thị biểu diễn số trường hợp bệnh theo thời gian khởi phát là đồ thị:",
+      "options": [
+        "Ghi số mới mắc theo thời gian",
+        "Ghi số trường hợp được báo cáo theo thời gian",
+        "Ghi số trường hợp nghi ngờ theo thời gian",
+        "Theo dõi sự bùng phát của vụ dịch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 136,
+      "text": "Biểu đồ mô tả vụ dịch theo không gian kết hợp với thời gian có thể phân tích được các điểm sau đây của vụ dịch, ngoại trừ:",
+      "options": [
+        "Mức độ lây lan",
+        "Nguồn xuất phát",
+        "Đường truyền nhiễm",
+        "Khối cảm thụ bệnh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 137,
+      "text": "Mô tả đặc trưng vụ dịch theo con người là mô tả:",
+      "options": [
+        "Đặc trưng về miễn dịch của các cá thể",
+        "Các trường hợp mắc bệnh và tử vong theo tuổi, giới, nghề nghiệp, nơi cư trú",
+        "Thời gian mắc bệnh của mỗi người",
+        "Ai mắc bệnh và tử vong khi nào"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 138,
+      "text": "Những chiến lược chính kiểm soát dịch bệnh truyền nhiễm là tác động và nguồn truyền nhiễm, ngăn chận đưòng truyền, bảo vệ khối cảm nhiễm, những nội dung nào sau đây là thuộc biện pháp ngăn chận đường truyền.",
+      "options": [
+        "Phát hiện sớm, điều trị người bệnh và người mang mầm bệnh",
+        "Cách ly nguồn bệnh, giám sát người nghi ngờ",
+        "Tẩy uế, kiểm soát vector",
+        "Kiểm soát ổ chứa động vật."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 139,
+      "text": "Thời kỳ lây lan quan trọng nhất trong đa số các bệnh nhiễm trùng là:",
+      "options": [
+        "Thời kỳ ủ bệnh",
+        "Thời ký tiền triệu chứng",
+        "Thời kỳ toàn phát",
+        "Thời kỳ hạ sốt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 140,
+      "text": "Nhiều tác nhân gây bệnh nhiễm trùng lan truyền qua không khí vì:",
+      "options": [
+        "Những tác nhân đó có khả năng đề kháng cao với ngoại cảnh",
+        "Môi trường không khí thuận lợi cho tác nhân",
+        "Tác nhân có lối ra khỏi cơ thể ký chủ là đường hô hấp",
+        "Miễn dịch tầp thể của cộng đồng thấp"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 141,
+      "text": "Các vụ dịch bệnh nhiễm trùng đường ruột xảy ra hàng loạt trong một thời gian nhất định và không theo khu vực địa lý, thường lan truyền qua:",
+      "options": [
+        "Nguồn nước",
+        "Thực phẩm",
+        "Đất bị nhiễm chất thải của người bệnh",
+        "Ruồi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 142,
+      "text": "Thức ăn là yếu tố truyền nhiễm độc nhất trong nhóm bệnh:",
+      "options": [
+        "Thương hàn",
+        "Lỵ tả",
+        "Cúm ở loài chim",
+        "Nhiễm trùng nhiễm độc thức ăn do các vi trùng gây bệnh là Salmonella, Staphylococci và Clostridium botulinum"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 143,
+      "text": "Các bệnh do tiết túc truyền có đặc điểm kết hợp với các yếu tố sau đây, ngoại trừ:",
+      "options": [
+        "Hoạt động của ngành y tế",
+        "Điều kiện sống và trình độ văn hóa của cộng đồng",
+        "Khí hậu thời tiết",
+        "Điều kiện dinh dưỡng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 144,
+      "text": "Mức độ miễn dịch tập thể đối với một bệnh nhiễm trùng có ý nghĩa:",
+      "options": [
+        "Quan trọng vì có liên quan đến việc bảo vệ tập thể đó đề phòng sự phát triển một vụ dịch và người ta áp dụng lý thuyết nầy trong tiêm chủng",
+        "Không quan trọng vì dễ làm cho giới chức y tế chủ quan trong việc phòng chống dịch",
+        "Quan trọng vì vậy phải tiến hành tiêm chủng để gây miễn dịch toàn dân",
+        "Không quan trọng vì sự phát triển một vụ dịch tùy thuộc nhiều yếu tố"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 145,
+      "text": "Bệnh lưu hành (endemic) là:",
+      "options": [
+        "Sự xuất hiện khác thường của một bệnh trong cộng đồng",
+        "Sự tái phát nhiều vụ dịch",
+        "Sự có mặt thường xuyên của một bệnh trong một cộng đồng",
+        "Sự di chuyển của một bệnh nhiễm trùng từ nơi này qua nơi khác"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 146,
+      "text": "Khái niệm miễn dịch tập thể giúp giải thích một số hiện tượng sau đây, ngoại trừ:",
+      "options": [
+        "Tại sao một dịch xảy ra theo mùa trong năm",
+        "Tại sao một vụ dịch không xảy ra cho một nhóm người",
+        "Tại sao một vụ dịch không xảy ra cho một cộng đồng nào đó",
+        "Tại sao có vụ dịch sởi chỉ xảy ra cho người lớn mà không xảy ra cho trẻ em"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 147,
+      "text": "Gọi là dịch khi hiện tượng đó xảy ra:",
+      "options": [
+        "Bị giới hạn bởi thời gian, nhưng không bị giới hạn bởi không gian",
+        "Bị giới hạn bởi thời gian, và bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, nhưng bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, không bị giới hạn bởi không gian"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 148,
+      "text": "Gọi là đại dịch khi hiện tượng đó xảy ra:",
+      "options": [
+        "Bị giới hạn bởi thời gian, nhưng không bị giới hạn bởi không gian",
+        "Bị giới hạn bởi thời gian, và bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, nhưng bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, không bị giới hạn bởi không gian"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 149,
+      "text": "Gọi là dịch địa phương khi hiện tượng đó xảy ra:",
+      "options": [
+        "Bị giới hạn bởi thời gian, nhưng không bị giới hạn bởi không gian",
+        "Bị giới hạn bởi thời gian, và bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, nhưng bị giới hạn bởi không gian",
+        "Không bị giới hạn bởi thời gian, không bị giới hạn bởi không gian"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 150,
+      "text": "Một hiện tượng sức khỏe xảy ra bị giới hạn bởi thời gian, và bị giới hạn bởi không gian là:",
+      "options": [
+        "Dịch",
+        "Đại dịch",
+        "Dịch địa phương",
+        "Dịch nhiễm trùng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 151,
+      "text": "Một hiện tượng sức khỏe xảy ra bị giới hạn bởi thời gian, nhưng không bị giới hạn bởi không gian là:",
+      "options": [
+        "Dịch",
+        "Đại dịch",
+        "Dịch địa phương",
+        "Dịch nhiễm trùng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "text": "Một hiện tượng sức khỏe xảy ra bị giới hạn bởi không gian nhưng không bị giới hạn bởi thời gian là:",
+      "options": [
+        "Dịch",
+        "Đại dịch",
+        "Dịch địa phương",
+        "Dịch nhiễm trùng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 153,
+      "text": "Những nội dung nào sau đây không thuộc cơ chế lây lan của một bệnh nhiễm trùng",
+      "options": [
+        "Vi sinh vật lưu thông tự do trong cơ thể ký chủ và gây bệnh",
+        "Vi sinh vật ra khỏi cơ thể ký chủ",
+        "Tác nhân tồn tại ở môi trường bên ngoài",
+        "Tác nhân có thể phát triển ở môi trường bên ngoài"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 154,
+      "text": "Bệnh nào sau đây có thể được lây lan theo nhiều cơ chế hơn cả",
+      "options": [
+        "Dại",
+        "Thương hàn",
+        "Viêm gan siêu vi B",
+        "Cúm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 155,
+      "text": "“Môi trường” theo nghĩa rộng nhất được hiểu là:",
+      "options": [
+        "Tập hợp các yếu tố tự nhiên bao quanh con người.",
+        "Tập hợp các điều kiện và hiện tượng bên ngoài ảnh hưởng đến một vật thể hoặc sự kiện.",
+        "Không gian sống của sinh vật.",
+        "Các yếu tố con người tạo ra."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 156,
+      "text": "Theo Luật Bảo vệ môi trường Việt Nam (2005), môi trường bao gồm:",
+      "options": [
+        "Chỉ các yếu tố tự nhiên.",
+        "Chỉ các yếu tố nhân tạo.",
+        "Các yếu tố tự nhiên và vật chất nhân tạo bao quanh con người.",
+        "Các yếu tố xã hội và kinh tế."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 157,
+      "text": "Môi trường được chia thành mấy loại theo chức năng?",
+      "options": [
+        "2 loại",
+        "3 loại",
+        "4 loại",
+        "5 loại"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 158,
+      "text": "Sức khỏe theo định nghĩa của WHO (1978) bao gồm:",
+      "options": [
+        "Thể chất và tinh thần",
+        "Thể chất, tinh thần và xã hội",
+        "Không bệnh tật và không tàn phế",
+        "Khả năng thích nghi với môi trường"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 159,
+      "text": "Sinh vật sản xuất trong hệ sinh thái là:",
+      "options": [
+        "Động vật ăn cỏ",
+        "Động vật ăn thịt",
+        "Cây xanh, tảo lục và một số vi khuẩn",
+        "Nấm và vi khuẩn phân hủy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 160,
+      "text": "…………………….. là tổ hợp của một quần xã sinh vật với môi trường sống bao quanh quần xã, ở đấy các sinh vật tương tác với nhau và với môi trường để tạo nên các chu trình sinh địa hóa và tạo nên sự biến đổi năng lượng. Trong dấu \"……\" là từ:",
+      "options": [
+        "Sinh thái học",
+        "Hệ sinh thái",
+        "Quần thể",
+        "Quần xã"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 161,
+      "text": "Chọn đáp án sai: Một trong những ảnh hưởng trừ ảnh hưởng của con người lên một số quá trình diễn ra trong hệ sinh thái là, ngoại trừ",
+      "options": [
+        "Quá trình tạo đất.",
+        "Kiểm soát chu trình nước,",
+        "Phân giải các loại rác thải.",
+        "Dòng năng lượng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 162,
+      "text": "Chọn đáp án sai:Nước mưa bị nhiễm bẩn bởi:",
+      "options": [
+        "Không khí bị ô nhiễm,",
+        "Khói bụi giao thông",
+        "Khí CO",
+        "Cách thu hứng chứa đựng không đảm bảo vệ sinh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 163,
+      "text": "Hãy chọn đáp án đúng nhất …………………….. là tổ hợp của một quần xã sinh vật với môi trường sống bao quanh quần xã, ở đấy các sinh vật tương tác với nhau và với môi trường để tạo nên các chu trình sinh địa hóa và tạo nên sự biến đổi năng lượng. Trong dấu \"……\" là từ:",
+      "options": [
+        "Sinh thái học",
+        "Hệ sinh thái",
+        "Quần thể",
+        "Quần xã"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 164,
+      "text": "Người sống trong khu vực đất đá thừa nguyên tố cadmium sẽ có nguy cơ bị bệnh:",
+      "options": [
+        "Người lùn",
+        "Bướu cổ",
+        "Viêm khớp xương",
+        "Đau xương, tự gãy xương"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 165,
+      "text": "Khi đi qua HST, năng lượng sẽ giảm dần từ bậc dinh dưỡng này đến bậc dinh dưỡng kế tiếp. Điều đó xảy ra do nguyên nhân:",
+      "options": [
+        "Năng lượng mất đi giữa các bậc dinh dưỡng và năng lượng mất đi trong mỗi bậc dinh dưỡng.",
+        "Năng lượng mất đi giữa các bậc dinh dưỡng",
+        "Năng lượng mất đi trong mỗi bậc dinh dưỡng nhiều hơn năng lượng tăng lên giữa các bậc dinh dưỡng.",
+        "Năng lượng mất đi giữa các bậc dinh dưỡng nhiều hơn năng lượng tăng lên trong mỗi bậc dinh dưỡng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 166,
+      "text": "Một HST thường gồm các thành phần:",
+      "options": [
+        "Môi trường - sinh vật sản xuất - sinh vật tự dưỡng - sinh vật phân hủy.",
+        "Môi trường - sinh vật tiêu thụ - sinh vật dị dưỡng - sinh vật phân hủy.",
+        "Môi trường - sinh vật sản xuất - sinh vật tiêu thụ - sinh vật phân hủy",
+        "Sinh vật sản xuất - sinh vật tiêu thụ - sinh vật phân hủy - sinh vật hoại sinh."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 167,
+      "text": "Khi môi trường thay đổi đột ngột hoặc vượt quá giới hạn thích nghi thì:",
+      "options": [
+        "Cơ thể sống sẽ thay đổi đột ngột để thích nghi theo.",
+        "Cơ thể sống sẽ không thích ứng, giả thích ứng hoặc rối loạn thích ứng.",
+        "Có thể dẫn đến những hậu quả xấu, thậm chí tiêu diệt một vài giống loài sinh vật.",
+        "Cơ thể sống thích nghi nhanh theo làm cho quần thể, quần xã và HST phát triển và tiến hóa nhanh hơn."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 168,
+      "text": "Phát biểu nào dưới đây sai?",
+      "options": [
+        "Các HST tự nhiên nói chung đều có khả năng tự điều chỉnh riêng của mình, đó là khả năng tự lập lại cân bằng hay còn gọi là cân bằng sinh thái.",
+        "Sự tự điều chỉnh của HST không có giới hạn.",
+        "Nếu sự thay đổi của các nhân tố ngoại cảnh vượt quá giới hạn thì HST mất khả năng tự điều chỉnh và hậu quả là chúng bị phá hủy.",
+        "Ô nhiễm là hiện tượng chủ yếu do các hoạt động của con người tạo ra, dẫn đến sự thay đổi các nhân tố sinh thái, đưa các nhân tố này ra ngoài khoảng giới hạn sinh thái của cơ thể, của chủng quần, của quần xã."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 169,
+      "text": "Ô nhiễm môi trường là khi có một sự biến đổi của môi trường theo hướng",
+      "options": [
+        "Tiện nghi, có lợi đối với cuộc sống con người, động vật, thực vật.",
+        "Không tiện nghi, bất lợi đối với cuộc sống con người, động vật, thực vật.",
+        "Không tiện nghi, bất lợi đối với cuộc sống động vật, thực vật.",
+        "Tiện nghi, có lợi đối với cuộc sống con người, thực vật."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 170,
+      "text": "Môi trường là:",
+      "options": [
+        "Bao gồm các yếu tố tự nhiên như các yếu tố vật lí, hoá học và sinh học, tồn tại khách quan ngoài ý muốn con người.",
+        "Toàn bộ các yếu tố bao quanh một người hoặc một nhóm người và có tác động trực tiếp hoặc gián tiếp đến con người.",
+        "Tổng thể các quan hệ giữa người và người tạo nên sự thuận lợi hoặc trở ngại cho sự tồn tại và phát triển của các cá nhân và cộng đồng loài người.",
+        "Tất cả các yếu tố tự nhiên, xã hội do con người tạo nên và chịu sự chi phối của con người."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 171,
+      "text": "Người bị bệnh viêm khớp xương có thể là do trong vùng đất đá tại địa phương người đó sống:",
+      "options": [
+        "Thiếu selenium",
+        "Thừa selenium",
+        "Thiếu cadmium",
+        "Thừa cadmium"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 172,
+      "text": "Sự đáp ứng của cơ thể trước các tác động của môi trường phụ thuộc vào:",
+      "options": [
+        "Tất cả các đặc trưng của cơ thể mang tính chất cá nhân như tuổi, giới tính, chế độ dinh dưỡng, sự rèn luyện, chủng tộc, di truyền, điều kiện vật chất,…",
+        "Tuổi, giới tính, chủng tộc, điều kiện vật chất.",
+        "Chế độ dinh dưỡng, điều kiện vật chất, yếu tố di truyền, sự rèn luyện.",
+        "Yếu tố di truyền, sự rèn luyện, tuổi, giới tính, chủng tộc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 173,
+      "text": "Theo WHO thì Sức khỏe là trạng thái:",
+      "options": [
+        "khỏe mạnh, vạm vỡ, ăn uống luôn thấy ngon miệng của cơ thể.",
+        "không ốm đau, bệnh tật, ăn uống luôn thấy ngon miệng của cơ thể.",
+        "hoàn toàn thoải mái cả về thể chất và tâm thần, chứ không phải là chỉ là không có bệnh tật hay tàn phế.",
+        "hoàn toàn thoải mái cả về thể chất, tâm thần và xã hội, chứ không phải là chỉ là không có bệnh tật hay tàn phế."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 174,
+      "text": "Môi trường tác động lên cơ thể và cơ thể đáp ứng lại bằng:",
+      "options": [
+        "Phản xạ, thích ứng, không thích ứng",
+        "Chỉ phản xạ",
+        "Chỉ rối loạn thích ứng",
+        "Các cơ chế di truyền"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 175,
+      "text": "Ô nhiễm môi trường nước không gây ra bệnh nào dưới đây?",
+      "options": [
+        "Tả, lỵ, thương hàn",
+        "Ghẻ lở, đau mắt hột",
+        "Hen phế quản",
+        "Nhiễm giun sán"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 176,
+      "text": "Quần xã sinh vật được hiểu là:",
+      "options": [
+        "Các cá thể cùng loài sống cùng nhau.",
+        "Tập hợp các quần thể khác loài sống chung trong một sinh cảnh.",
+        "Sinh cảnh chứa nhiều cá thể khác nhau.",
+        "Mối quan hệ giữa sinh vật và môi trường."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 177,
+      "text": "Ô nhiễm môi trường không khí có thể gây ra:",
+      "options": [
+        "Viêm phế quản mạn tính, hen",
+        "Thương hàn",
+        "Bệnh đường tiêu hóa",
+        "Nhiễm giun móc"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 178,
+      "text": "Trong hệ sinh thái, sinh vật tiêu thụ cấp 1 là:",
+      "options": [
+        "Động vật ăn thịt",
+        "Vi khuẩn phân hủy",
+        "Động vật chỉ ăn thực vật",
+        "Con người"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 179,
+      "text": "Khi rừng nhiệt đới bị phá hủy để trồng trọt, hậu quả đầu tiên theo sinh thái học thường là:",
+      "options": [
+        "Tăng độ phì nhiêu của đất",
+        "Xói mòn và suy thoái đất",
+        "Khôi phục quần xã sinh vật",
+        "Tăng đa dạng sinh học"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 180,
+      "text": "Một cộng đồng sống cạnh khu công nghiệp thường mắc bệnh hô hấp. Yếu tố môi trường gây bệnh phù hợp nhất là:",
+      "options": [
+        "Ô nhiễm nước",
+        "Ô nhiễm không khí",
+        "Ô nhiễm đất",
+        "Ô nhiễm tiếng ồn"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 181,
+      "text": "Trong một hệ sinh thái, nếu sinh vật phân hủy bị suy giảm đột ngột, hậu quả dễ xảy ra nhất là:",
+      "options": [
+        "Thiếu thức ăn cho động vật ăn thịt",
+        "Tích tụ chất thải hữu cơ",
+        "Giảm ánh sáng trong môi trường",
+        "Suy giảm lượng muối khoáng trong phân tầng khí quyển"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 182,
+      "text": "Một vùng có tỷ lệ trẻ em bị bướu cổ cao. Nguyên nhân môi trường hợp lý nhất là:",
+      "options": [
+        "Thiếu Selenium trong đất",
+        "Thiếu Iod trong đất",
+        "Thừa Cadmium trong đất",
+        "Thiếu Kẽm trong đất"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 183,
+      "text": "Nước chiếm khoảng bao nhiêu phần trăm trọng lượng cơ thể người?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 184,
+      "text": "Theo QCVN 01:2009/BYT, hàm lượng tối đa cho phép của sắt (Fe2+, Fe3+) trong nước là:",
+      "options": [
+        "0,1 mg/L",
+        "0,3 mg/L",
+        "1,0 mg/L",
+        "1,5 mg/L"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 185,
+      "text": "Dấu hiệu nào cho thấy nước bị nhiễm phân người mới?",
+      "options": [
+        "Có mặt Clostridium perfringens",
+        "Có mặt thực khuẩn thể",
+        "Có mặt E.coli",
+        "Có mặt vi khuẩn đường ruột khác"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 186,
+      "text": "Nguồn nước nào trong tự nhiên có trữ lượng lớn nhất?",
+      "options": [
+        "Nước ngầm",
+        "Nước sông, hồ",
+        "Nước mưa",
+        "Nước biển và đại dương"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 187,
+      "text": "Ô nhiễm môi trường nước được định nghĩa là:",
+      "options": [
+        "Chỉ thay đổi về màu, mùi, vị",
+        "Chỉ thay đổi về vi sinh vật",
+        "Sự biến đổi lý tính, hoá tính, vi sinh vật làm nước trở nên độc hại",
+        "Chỉ do hoạt động công nghiệp"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 188,
+      "text": "Tại sao nước ngầm nông không ổn định về chất lượng?",
+      "options": [
+        "Do nằm sâu dưới đất",
+        "Vì ít tương tác với nước mặt",
+        "Vì liên quan mật thiết với nước mặt và nguồn ô nhiễm trên bề mặt",
+        "Vì chứa nhiều kim loại nặng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 189,
+      "text": "Nếu DO trong nước giảm mạnh, điều gì xảy ra?",
+      "options": [
+        "Sinh vật dưới nước phát triển mạnh",
+        "Các quá trình yếm khí tăng, sinh ra mùi hôi",
+        "Tăng sinh tảo",
+        "Không ảnh hưởng lớn đến hệ sinh thái"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 190,
+      "text": "Nước bị nhiễm Clostridium perfringens cho thấy:",
+      "options": [
+        "Nước mới nhiễm phân",
+        "Nước bị nhiễm phân lâu ngày",
+        "Nước bị nhiễm hóa chất",
+        "Nước có kim loại nặng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 191,
+      "text": "Ô nhiễm nước tại Việt Nam nghiêm trọng do yếu tố nào sau đây?",
+      "options": [
+        "Do khí hậu nóng ẩm",
+        "Do khai thác nước ngầm quá mức, ô nhiễm công nghiệp và nông nghiệp",
+        "Do thiếu sông ngòi",
+        "Do dân số ít"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 192,
+      "text": "Bệnh “tím tái trẻ em” liên quan đến yếu tố nào trong nước?",
+      "options": [
+        "Thừa flo",
+        "Thiếu iod",
+        "Thừa nitrat",
+        "Thiếu sắt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 193,
+      "text": "Một giếng nước ở vùng đồng bằng có mùi tanh và màu vàng nâu. Biện pháp xử lý phù hợp nhất là:",
+      "options": [
+        "Lọc qua than hoạt tính",
+        "Khử sắt bằng hệ thống lọc nhiều ngăn và làm thoáng",
+        "Đun sôi",
+        "Khử trùng bằng clo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 194,
+      "text": "Một hộ gia đình dùng nước giếng khoan nhưng trẻ em bị bệnh tiêu chảy nhiều lần. Kiểm tra thấy nước đục và có mùi. Nguyên nhân hợp lý nhất là:",
+      "options": [
+        "Nước có độ cứng cao",
+        "Nước nhiễm vi sinh vật và chất hữu cơ",
+        "Thiếu iod",
+        "Thừa flo"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 195,
+      "text": "Một nhà máy thải hóa chất ra sông gần khu dân cư. Chỉ số nào tăng cao nhất trong mẫu nước?",
+      "options": [
+        "DO",
+        "BOD",
+        "COD",
+        "Cl-"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 196,
+      "text": "Một khu vực xảy ra dịch tả do nước uống. Biện pháp phòng bệnh nhanh và hiệu quả nhất là:",
+      "options": [
+        "Dùng phèn lọc nước",
+        "Đun sôi hoặc khử trùng nước bằng clo",
+        "Giảm độ cứng của nước",
+        "Dùng nước mưa thay thế"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 197,
+      "text": "Một vùng núi cao thiếu nước sạch, nguồn nước duy nhất là nước khe núi. Biện pháp cung cấp nước phù hợp nhất là:",
+      "options": [
+        "Đào giếng sâu",
+        "Dùng hệ thống máng dẫn nước tự chảy",
+        "Lấy nước mưa tích trữ",
+        "Khoan giếng công nghiệp"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 198,
+      "text": "Trong quá trình xử lý nước ăn uống, sinh hoạt, con người đã làm giảm nồng các muối calci và magie trong nước với mục đích:",
+      "options": [
+        "Lọc nước và khử sắt",
+        "Làm mất mùi vị và dư vị",
+        "Tiệt khuẩn nước",
+        "Làm giảm độ cứng của nước"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 199,
+      "text": "Nguồn gây ô nhiễm nước lớn nhất là:",
+      "options": [
+        "Chất thải trong sinh hoạt hằng ngày.",
+        "Chất thải trong công nghiệp.",
+        "Chất bẩn do ngành nông nghiệp và chăn nuôi.",
+        "Chất thải từ ngành giao thông đường thủy, từ ô nhiễm không khí, ô nhiễm đất."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 200,
+      "text": "Phát biểu nào dưới đây sai?",
+      "options": [
+        "Bệnh thương hàn, tả, viêm gan A dễ lây lan thành dịch khi nước ăn uống bị nhiễm bẩn.",
+        "Bệnh sán máng và bệnh giun Guinea xuất hiện do việc ăn uống những con ốc bị nhiễm sinh vật gây bệnh.",
+        "Các bệnh ngoài da, mắt hột, viêm màng kết và lỵ trực khuẩn do Shigella là do thiếu nước trong tắm giặt, tạo điều kiện cho ký sinh trùng, virus, vi khuẩn, nấm mốc gây bệnh phát triển.",
+        "Các bệnh sốt rét, sốt xuất huyết Dengue, giun chỉ,… là các bệnh có liên quan đến nước vì nước đóng vai trò là môi trường sống của các loài muỗi truyền bệnh."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 201,
+      "text": "Yêu cầu về mặt chất lượng của nước ăn uống, sinh hoạt dưới đây không đúng là:",
+      "options": [
+        "Có tính cảm quan tốt, phải trong, không màu, không mùi, không vị.",
+        "Có thành phần hóa học không độc hại cho cơ thể con người, không chứa các chất độc, chất gây ung thư, chất phóng xạ,…",
+        "Không chứa các loại vi khuẩn, virus gây bệnh, các loại ký sinh trùng và các vi sinh vật khác.",
+        "Có tính cảm quan tốt, có thành phần hóa học không độc hại đối với cơ thể, có thể chứa một số loại sinh vật vì khi đun sôi chúng sẽ chết nên không gây hại cho người."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 202,
+      "text": "Để đánh giá mức độ nhiễm bẩn trong nước bởi các chất hữu cơ, người ta thường dùng 3 chỉ số DO - BOD - COD. 3 chỉ số trên lần lượt là:",
+      "options": [
+        "Nhu cầu oxy về sinh học - Nhu cầu oxy về hóa học - Nồng độ oxy hòa tan trong nước.",
+        "Nhu cầu oxy về hóa học - Nhu cầu oxy về sinh học - Nồng độ oxy hòa tan trong nước.",
+        "Nồng độ oxy hòa tan trong nước - Nhu cầu oxy về sinh học - Nhu cầu oxy về hóa học.",
+        "Nồng độ oxy hòa tan trong nước - Nhu cầu oxy về hóa học - Nhu cầu oxy về sinh học."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 203,
+      "text": "Theo mục tiêu của Bộ Nông nghiệp và Phát triển nông thôn, 100% dân số nước ta sẽ được cung cấp nước sạch vào năm:",
+      "options": [
+        "2020",
+        "2025",
+        "2030",
+        "2045"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 204,
+      "text": "Tiêu chuẩn về hàm lượng sắt (Fe) cho phép trong 1 lít nước là:",
+      "options": [
+        "0,1 mg",
+        "0,3 mg",
+        "0,5 mg",
+        "0,7 mg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 205,
+      "text": "Nguồn gây ra ô nhiễm hóa chất chủ yếu cho nguồn nước là:",
+      "options": [
+        "Các nhà máy điện hạt nhân.",
+        "Công nghiệp khai thác, chế biến dầu mỏ.",
+        "Công nghiệp sản xuất thuốc trừ sâu, diệt cỏ, bột giặt.",
+        "Công nghiệp luyện kim đen, luyện kim màu."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 206,
+      "text": "Để đánh giá mức độ nhiễm bẩn trong nước bởi các chất hữu cơ, người ta thường dùng 3 chỉ số DO, BOD, COD. Khi COD và BOD cao thì:",
+      "options": [
+        "DO giảm, có hại cho sinh vật sống trong nước và hệ sinh thái nước nói chung.",
+        "DO giảm, có lợi cho sinh vật sống trong nước và hệ sinh thái nước nói chung.",
+        "DO tăng, có hại cho sinh vật sống trong nước và hệ sinh thái nước nói chung.",
+        "DO tăng, có lợi cho sinh vật sống trong nước và hệ sinh thái nước nói chung."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 207,
+      "text": "Nguyên nhân chủ yếu gây ra bệnh ngoài da ở con người là do:",
+      "options": [
+        "Thiếu nước trong tắm, giặt hoặc nguồn nước tắm, giặt bị nhiễm bẩn.",
+        "Tiếp xúc với không khí bị ô nhiễm.",
+        "Ô nhiễm môi trường.",
+        "Ô nhiễm môi trường đất."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 208,
+      "text": "Khi sử dụng nguồn nước bị ô nhiễm, con người có thể có nguy cơ mắc một số bệnh như:",
+      "options": [
+        "Ung thư phổi, ung thư da, bệnh khí phế thủng, viêm mũi.",
+        "Viêm phế quản mạn tính, hen suyễn.",
+        "Tả, lỵ, thương hàn, viêm gan, bại liệt, giun sán, bệnh ngoài da và niêm mạc.",
+        "Dị ứng trên da, ung thư da, nám da, đục thuỷ tinh thể, thậm chí tử vong."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 209,
+      "text": "Trung bình mỗi ngày, lượng nước uống mỗi người cần là:",
+      "options": [
+        "1 - 1,5 lít",
+        "1,5 - 2,5 lít",
+        "2 - 3 lít",
+        "2,5 - 3,5 lít"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 210,
+      "text": "Một trong những nguyên nhân gây bệnh về răng ở người là do nguồn nước uống thiếu hoặc thừa:",
+      "options": [
+        "Kẽm",
+        "Flour",
+        "Calci",
+        "Nitrat"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 211,
+      "text": "Ở vùng ven biển, người ta thường đào giếng với độ sâu:",
+      "options": [
+        "20 - 30 m",
+        "5 - 10 m",
+        "3 - 4 m",
+        "100 - 300 m"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 212,
+      "text": "Thành phần chủ yếu của không khí gồm:",
+      "options": [
+        "O₂, CO₂, N₂, He",
+        "N₂, O₂, Ar, CO₂",
+        "N₂, O₂, CH₄",
+        "O₂, CO₂, hơi nước"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 213,
+      "text": "Tại sao ô nhiễm nước gây bệnh đường ruột?",
+      "options": [
+        "Do nước làm tăng độ ẩm môi trường",
+        "Do vi sinh vật gây bệnh tồn tại trong nước bẩn",
+        "Do nước thay đổi pH thực phẩm",
+        "Do nước làm tăng số lượng muỗi"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 214,
+      "text": "Nguồn gây ô nhiễm nước gồm:",
+      "options": [
+        "Nước mưa",
+        "Nước sông sạch",
+        "Nước thải sinh hoạt, công nghiệp, nông nghiệp",
+        "Nước chảy tràn"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 215,
+      "text": "Bệnh truyền qua nước nhiễm bẩn KHÔNG bao gồm:",
+      "options": [
+        "Tả",
+        "Lỵ trực khuẩn",
+        "Sởi",
+        "Thương hàn"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 216,
+      "text": "Định nghĩa ô nhiễm không khí là:",
+      "options": [
+        "Khi tồn tại bụi trong không khí",
+        "Khi có mặt chất lạ hoặc biến đổi quan trọng của thành phần không khí gây hại",
+        "Khi độ ẩm trong không khí tăng",
+        "Khi nồng độ CO₂ vượt 10%"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 217,
+      "text": "Nguồn gây ra ÔNKK trong gia đình là:",
+      "options": [
+        "Hoạt động sản xuất công nghiệp và thủ công nghiệp xen kẽ trong nội thành hoặc ở ven nội thành.",
+        "Hoạt động nấu nướng, dùng lò sưởi và hút thuốc lá, in và photo tài liệu.",
+        "Hoạt động xây dựng đô thị đặc biệt là ô nhiễm bụi, dùng lò sưởi, nấu nướng.",
+        "Hoạt động giao thông vận tải gây ra rất nhiều ô nhiễm như khói bụi, khí, tiếng ồn, in và photo tài liệu."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 218,
+      "text": "Lớp ozon nằm chủ yếu ở:",
+      "options": [
+        "Tầng đối lưu",
+        "Tầng bình lưu",
+        "Tầng trung lưu",
+        "Tầng điện ly"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 219,
+      "text": "Trong thành phần của không khí không chứa khí:",
+      "options": [
+        "CO2",
+        "Ar",
+        "SO2",
+        "H2"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 220,
+      "text": "Nguyên nhân làm cho nhiều công trình nhà cửa bị hủy hoại, cây cối bị chết và diện tích rừng giảm nhanh chóng là do:",
+      "options": [
+        "Hiệu ứng nhà kính",
+        "Lỗ thủng tầng ozon",
+        "Mưa acid",
+        "Khói quang hóa"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 221,
+      "text": "Tầng khí quyển chứa nhiều hiện tượng thời tiết nhất là:",
+      "options": [
+        "Tầng bình lưu",
+        "Tầng trung lưu",
+        "Tầng đối lưu",
+        "Tầng điện li"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 222,
+      "text": "Hiện tượng mưa acid xảy ra chủ yếu do:",
+      "options": [
+        "Khí SO₂ và NOx trong khí quyển phản ứng với hơi nước",
+        "Tầng ozon suy giảm",
+        "Lượng CO₂ tăng cao",
+        "Bụi mịn PM10"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 223,
+      "text": "Hiệu ứng nhà kính làm Trái Đất nóng lên vì:",
+      "options": [
+        "Tia UV xuyên qua tầng khí quyển",
+        "Nhiệt bị giữ lại bởi các khí như CO₂, CH₄",
+        "Gió mùa thay đổi",
+        "Núi lửa phun trào"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 224,
+      "text": "Nguyên nhân chính gây thủng tầng ozon:",
+      "options": [
+        "SO₂ từ đốt than",
+        "CO₂ từ giao thông",
+        "CFC và các hợp chất chứa clo",
+        "Khói bụi sinh hoạt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 225,
+      "text": "Ô nhiễm không khí trong nhà thường cao hơn ngoài trời vì:",
+      "options": [
+        "Nhà nhỏ nên nồng độ chất độc dễ tăng",
+        "Thiếu thông gió và nhiều nguồn sinh chất độc trong nhà",
+        "Có nhiều bụi PM10 từ ngoài vào",
+        "Không có cây xanh trong nhà"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 226,
+      "text": "Một gia đình sử dụng bếp than trong phòng kín bị đau đầu, khó thở. Nguyên nhân hợp lý nhất:",
+      "options": [
+        "Ô nhiễm bụi",
+        "Tăng nhiệt độ phòng",
+        "Nhiễm CO gây ngạt",
+        "Nhiễm SO₂"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 227,
+      "text": "Biện pháp nào dưới đây không được dùng để hạn chế ÔNKK, góp phần chống biến đổi khí hậu?",
+      "options": [
+        "Tiết kiệm giấy, tái chế bao ni lông, vỏ chai nhựa.",
+        "Khuyến khích người Việt dùng hàng Việt.",
+        "Dùng bếp ga thay thế bếp than hay bếp dầu; tiết kiệm điện, nước.",
+        "Khi sơn nhà nên phun sơn thay cho lăn và quét."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 228,
+      "text": "Tác hại dưới đây không phải do lỗ thủng tần ozon gây ra là:",
+      "options": [
+        "Gây kích thích, ho, đau đầu và các bệnh đường hô hấp.",
+        "Làm lóa mắt, đục thủy tinh thể, ung thư mắt.",
+        "Làm gia tăng các khối u ác tính.",
+        "Làm da cháy nắng, lão hóa da, ung thư da."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 229,
+      "text": "Các bệnh dị ứng trên da, ung thư da, đục thuỷ tinh thể, giảm khả năng miễn nhiễm, hoặc gây chết cho người chủ yếu là do:",
+      "options": [
+        "Các chất hạt và SO2 gây ra",
+        "Nhiễm nặng các chất phóng xạ",
+        "Nhiễm nặng các kim loại nặng",
+        "Thủng tầng ozon"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 230,
+      "text": "Nguồn gây ÔNKK chính là:",
+      "options": [
+        "Sản xuất công nghiệp và các nguồn trong nhà.",
+        "Sản xuất nông nghiệp và sản xuất công nghiệp.",
+        "Hoạt động giao thông và sản xuất công nghiệp.",
+        "Các nguồn trong nhà và hoạt động giao thông."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 231,
+      "text": "Hậu quả nào dưới đây không phải là tác hại của ÔNKK lên thời tiết khí hậu?",
+      "options": [
+        "Làm thay đổi màu hay hóa đen hoặc dẫn đến ăn mòn vật liệu.",
+        "Gia tăng hiệu ứng nhà kính, gây sự bất ổn về thời tiết trong phạm vi toàn cầu.",
+        "Lỗ thủng tầng ozon ngày càng lớn, gây mưa acid.",
+        "Làm giảm cường độ ánh sáng, tăng nhiệt độ, làm Trái Đất nóng dần lên."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 232,
+      "text": "Nguyên nhân chính làm cho tầng ozôn bị thủng là do trong không khí xuất hiện nhiều khí:",
+      "options": [
+        "SO2",
+        "CO2",
+        "CFC",
+        "CH4"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 233,
+      "text": "Tiếng ồn giao thông to hay nhỏ không phụ thuộc vào:",
+      "options": [
+        "Lưu lượng xe và thành phần xe.",
+        "Tốc độ và chất lượng xe.",
+        "Người tham gia giao thông.",
+        "Chất lượng đường và địa hình đường phố"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 234,
+      "text": "Biện pháp kiểm soát ÔNKK đạt hiệu suất từ 85 - 95%, nhưng cũng tiêu hao nhiều năng lượng (điện và nước) là:",
+      "options": [
+        "Buồng lắng bụi",
+        "Ly tâm bằng xyclon",
+        "Lọc tay áo",
+        "Lọc tĩnh điện"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 235,
+      "text": "Khi xử lý ô nhiễm dạng khí, để làm mất các chất gây ÔNKK có mùi hôi thì người ta thường dùng phương pháp:",
+      "options": [
+        "Oxy hóa - khử",
+        "Hấp phụ trong than hoạt tính",
+        "Hấp phụ trong than bùn hoặc phân rác",
+        "Phân hủy nhiệt"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 236,
+      "text": "Nguyên nhân chính gây ra hiện tượng hiệu ứng nhà kính là do trong không khí xuất hiện nhiều khí:",
+      "options": [
+        "CFC",
+        "CO2",
+        "SO2",
+        "CH4"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 237,
+      "text": "Tiếng ồn không phải là nguyên nhân của bệnh:",
+      "options": [
+        "Thần kinh, đau đầu",
+        "Tăng huyết áp",
+        "Giảm trí nhớ",
+        "Rối loạn chuyển hóa"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 238,
+      "text": "Tác hại chung nhất của hiệu ứng nhà kính là:",
+      "options": [
+        "Làm nhiệt độ Trái Đất nóng lên gây ra rất nhiều hậu quả nghiêm trọng khác.",
+        "Làm tan băng ở hai cực, do vậy mực nước biển sẽ tăng lên, dễ gây ra lũ lụt đối với các quốc gia có bờ biển thấp.",
+        "Làm tăng các quá trình chuyển hóa sinh học và hóa học, gây nên sự mất cân bằng về lượng và chất trong cơ thể sống, gây ra nhiều loại bệnh tật ở người và sinh vật.",
+        "Dễ xảy ra cháy rừng, hạn hán; làm tăng nhu cầu làm lạnh và giảm nhu cầu làm nóng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": 239,
+      "text": "Khi con người hít nhiều khí SO2 và các chất hạt thì có thể mắc bệnh:",
+      "options": [
+        "Hen suyễn",
+        "Viêm phế quản mạn tính",
+        "Khí phế thủng",
+        "A, B, C đều đúng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 240,
+      "text": "Các khí nào dưới đây khi được sinh ra trong khí quyển sẽ tương tác với ánh sáng mặt trời làm ozon tích tụ lại và sinh ra một số sản phẩm thứ cấp khác như formaldehyd, aldehyd, PAN gây ra khói quang hóa?",
+      "options": [
+        "CxHy và NOx",
+        "CxHy và SOx",
+        "COx và NOx",
+        "COx và SOx"
+      ],
+      "answer": 0
+    }
+  ]
+}
