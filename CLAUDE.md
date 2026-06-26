@@ -41,12 +41,6 @@ Source question docs (e.g. `Câu hỏi ôn tập ....docx`) are unzipped and par
 
 ## Harness: quiz-ops
 
-**Goal:** Coordinate all quiz app work — importing question sets from .docx, engine/UX changes to quiz.html, and validation.
+**Goal:** Coordinate all quiz app work — importing question sets from .doc/.docx, engine/UX changes to quiz.html, and validation.
 
 **Trigger:** When work related to adding/importing quizzes, modifying quiz.html, or validating quiz data is requested, use the `quiz-ops` skill. Simple questions can be answered directly.
-
-**Change log:**
-| Date | Change | Target | Reason |
-|------|--------|--------|--------|
-| 2026-06-27 | Initial setup | All | - |
-| 2026-06-27 | WPS .doc support + x-prefix answer key format | quiz-importer | First real import exposed both gaps |

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trắc Nghiệm</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 <style>
@@ -32,6 +33,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .btn-shuffle.on .material-icons-round{animation:spin .35s ease}
 .btn-shuffle .material-icons-round{font-size:15px}
 @keyframes spin{from{transform:rotate(0)}to{transform:rotate(180deg)}}
+@media(max-width:480px){.btn-shuffle span:not(.material-icons-round){display:none}}
 
 /* ── Progress strip ── */
 .progress-strip{height:4px;background:rgba(255,255,255,.2);position:sticky;top:56px;z-index:49}
@@ -101,14 +103,14 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .qmap-filter.active{border-color:var(--primary);background:var(--primary-light);color:var(--primary)}
 .qmap-search{display:flex;align-items:center;gap:6px;background:var(--bg);border:1.5px solid var(--border);border-radius:20px;padding:4px 10px;flex-shrink:0}
 .qmap-search .material-icons-round{font-size:14px;color:var(--text2)}
-.qmap-search input{border:none;background:transparent;font-size:12px;font-family:inherit;color:var(--text);width:56px;outline:none}
+.qmap-search input{border:none;background:transparent;font-size:12px;font-family:inherit;color:var(--text);width:72px;outline:none}
 .qmap-search input::placeholder{color:var(--text2)}
 .grid-wrap{max-height:180px;overflow-y:auto;padding-right:2px}
 .grid-wrap::-webkit-scrollbar{width:4px}
 .grid-wrap::-webkit-scrollbar-track{background:transparent}
 .grid-wrap::-webkit-scrollbar-thumb{background:var(--border);border-radius:4px}
 .grid{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
-.grid button{width:100%;height:30px;border:none;border-radius:6px;font-size:11px;font-weight:700;cursor:pointer;background:var(--bg);color:var(--text2);transition:all .15s;font-family:inherit;display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden}
+.grid button{width:100%;height:34px;border:none;border-radius:6px;font-size:11px;font-weight:700;cursor:pointer;background:var(--bg);color:var(--text2);transition:all .15s;font-family:inherit;display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden}
 .grid button:hover{background:var(--primary-light);color:var(--primary);transform:scale(1.1);z-index:1;position:relative}
 .grid button.cur{background:var(--primary);color:#fff;box-shadow:0 2px 8px rgba(67,97,238,.4);transform:scale(1.12);z-index:2;position:relative}
 .grid button.ok{background:var(--success);color:#fff}
@@ -119,10 +121,13 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .grid button.hidden{display:none}
 
 /* ── Actions ── */
-.actions{display:flex;gap:8px;margin-bottom:16px}
-.btn-action{flex:1;padding:11px 8px;border:1.5px solid var(--border);border-radius:12px;background:var(--surface);font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;color:var(--text2);transition:all .2s;font-family:inherit}
+.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:16px}
+.btn-action{padding:11px 8px;border:1.5px solid var(--border);border-radius:12px;background:var(--surface);font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:5px;color:var(--text2);transition:all .2s;font-family:inherit}
 .btn-action:hover{border-color:var(--error);color:var(--error);background:var(--error-light)}
 .btn-action .material-icons-round{font-size:16px}
+@media(max-width:480px){
+  .actions{grid-template-columns:repeat(2,1fr)}
+}
 
 /* ── Toast ── */
 .toast{position:fixed;bottom:76px;left:50%;transform:translateX(-50%) translateY(16px);background:#1e293b;color:#fff;padding:10px 20px;border-radius:12px;font-size:13px;font-weight:500;opacity:0;transition:all .25s;z-index:999;display:flex;align-items:center;gap:8px;pointer-events:none;white-space:nowrap}

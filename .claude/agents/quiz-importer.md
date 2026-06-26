@@ -107,6 +107,7 @@ Even in Format A files, some questions may be missing the `x` marker due to sour
 - Apply user corrections. Strip all `_todo` fields.
 - Write clean `data/<name>.json`.
 - Append `TESTS[]` entry to `index.html`.
+- Move the source file to `docs/` — run `mkdir -p docs && mv "<source-file>" docs/`. The `docs/` folder is gitignored, keeping the repo root clean.
 
 ## JSON Schema
 
