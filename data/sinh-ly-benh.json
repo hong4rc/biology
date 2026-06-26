@@ -1,0 +1,2751 @@
+{
+  "title": "Sinh Lý Bệnh và Miễn Dịch Học",
+  "storageKey": "slb_quiz_progress",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Ý nghĩa của chiến dịch \"Bàn tay sạch\" theo bệnh nguyên ?",
+      "options": [
+        "Phòng bệnh hơn chữa bệnh",
+        "Chăm sóc cộng đồng",
+        "Nguyên nhân gây bệnh",
+        "Ngăn chặn điều kiện phát sinh ra bệnh."
+      ],
+      "answer": 3
+    },
+    {
+      "id": 2,
+      "text": "Bệnh sinh là gì?",
+      "options": [
+        "Nguyên nhân sinh ra bệnh",
+        "Cơ chế phát sinh, phát triển của bệnh",
+        "Cơ chế phát sinh, phát triển, kết thúc của bệnh",
+        "Nguyên nhân và điều kiện phát sinh ra bệnh"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 3,
+      "text": "Quá trình bệnh lý có thể diễn tiến qua nhiều giai đoạn, trong đó giai đoạn toàn phát có thể tiến triển:",
+      "options": [
+        "Cấp tính",
+        "Mạn tính",
+        "Các triệu chứng xuất hiện rõ rệt.",
+        "Bán cấp"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 4,
+      "text": "Xơ vữa động mạch do các nguyên nhân sau, ngoại trừ?",
+      "options": [
+        "Mỡ máu tăng",
+        "VLDL giảm",
+        "Di truyền",
+        "Nồng độ oestrogen giảm"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 5,
+      "text": "Phòng ngừa xơ vữa động mạch có các biện pháp có thể can thiệp như sau, ngoại trừ?",
+      "options": [
+        "Chế độ ăn giảm béo, giảm đường, tăng chất xơ",
+        "Tăng cường hoạt động thể lực, giảm cân",
+        "Bỏ hút thuốc và hạn chế rượu bia",
+        "Tuổi cao"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 6,
+      "text": "Trên thế giới cứ mỗi 2 giây có 1 người tử vong do bệnh lý tim mạch, những nguyên nhân sau liên quan gần bệnh lý tim mạch, ngoại trừ ?",
+      "options": [
+        "Dị ứng",
+        "Đái tháo đường",
+        "Huyết áp cao",
+        "Rối loạn lipid/xơ vữa động mạch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 7,
+      "text": "Trong quá trình thực bào, bước nào được gọi là hiện tượng opsonin hóa (tạo thuận):",
+      "options": [
+        "Nhận diện và dính vi khuẩn vào đại thực bào",
+        "Nuốt vi khuẩn vào trong túi phagosome",
+        "Hòa màng phagosome với các lysosome",
+        "Phá hủy tế vào đích"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 8,
+      "text": "Nguyên nhân trực tiếp gây nên các biến chứng mạn tính của đái tháo đường như sau, ngoại trừ nội dung nào?",
+      "options": [
+        "Chuyển hoá đường cồn như sorbitol lắng đọng ở tổ chức",
+        "Tình trạng nhiễm toan",
+        "Xơ vữa động mạch do rối loạn chuyển hoá lipid",
+        "Đường hoá các protein huyết thanh và tổ chức (AGEs)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 9,
+      "text": "Quan điểm bệnh xảy ra có vai trò điều kiện phát sinh giúp người điều dưỡng tư vấn nhằm:",
+      "options": [
+        "Phòng ngừa được bệnh",
+        "Chẩn đoán điều dưỡng",
+        "Điều trị triệt để bệnh",
+        "Thực hiện kế hoạch chăm sóc"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 10,
+      "text": "Béo phì là điều kiện phát sinh một số bệnh như sau, ngoại trừ?",
+      "options": [
+        "Đái tháo đường",
+        "Ung thư",
+        "Bệnh lý tim mạch",
+        "Hội chứng thận hư"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 11,
+      "text": "Giai đoạn ủ bệnh đối với vi sinh vật xảy ra như thế nào?",
+      "options": [
+        "Vi khuẩn nhân lên trong tế bào",
+        "Các triệu chứng xuất hiện như mệt mỏi, chán ăn, sốt",
+        "Không thể lây nhiễm",
+        "Thường khó chẩn đoán bệnh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 12,
+      "text": "Quá trình bệnh lý có thể diễn tiến qua nhiều giai đoạn, nếu được phẫu thuật cắt ruột thừa viêm thì  giai đoạn kết thúc được gọi như thế nào?",
+      "options": [
+        "Khỏi hoàn toàn",
+        "Khỏi không hoàn toàn",
+        "Để lại di chứng",
+        "Để lại biến chứng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 13,
+      "text": "Tử vong là quá trình kết thúc bệnh trải qua nhiều giai đoạn: (1) trong đó khởi đầu là giai đoạn ngừng tạm thời, (2) có thể  phát hiện phản xạ mắt mất, đồng tử giãn, (3) có thể kéo dài  trong vài phút cho đến nửa giờ.",
+      "options": [
+        "(1),(3)",
+        "(1),(2)",
+        "(1),(2),(3)",
+        "(1)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 14,
+      "text": "Hình ảnh xơ hóa và dày dính ở tổ chức phổi sau khi điều trị minh họa cho nội dung gì trong quá trình kết thúc bệnh sinh?",
+      "options": [
+        "Khỏi bệnh không hoàn toàn",
+        "Biến chứng của lao phổi",
+        "Tổn thương tiến triển xấu",
+        "Di chứng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 15,
+      "text": "Việt Nam là một trong những nước có tỷ lệ nhiễm lao cao trên thế giới, trong chương trình phòng chống lao, Bộ Y tế quan tâm phát hiện những người đang nhiễm lao tiềm ẩn, như vậy có nghĩa Bộ Y tế đã vận dụng phương châm gì trong bệnh nguyen?",
+      "options": [
+        "Phòng bệnh hơn chữa bệnh",
+        "Phát hiện các yếu tố nguy cơ lây nhiễm lao",
+        "Phát hiện nguyên nhân gây bệnh",
+        "Phát hiện bệnh sớm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 16,
+      "text": "Giai đoạn hấp hối trong quá trình tử vong có thể kéo dài trong chừng bao lâu và được gọi là giai đoạn vàng để có thể cứu sống người bệnh?",
+      "options": [
+        "60-90 phút",
+        "30-40 phút",
+        "hai giờ",
+        "10 phút"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 17,
+      "text": "Chẩn đoán huyết thanh nhiễm dengue thứ phát týp 1: (1) NS1 dương tính, (2) anti-dengue IgG, (3) anti-dengue IgM",
+      "options": [
+        "(1),(2)",
+        "(1), (3)",
+        "(2), (3)",
+        "(1), (2), (3)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 18,
+      "text": "Sau đây là các điều kiện lây nhiễm CoVid-19 theo bệnh nguyên, ngoại trừ:",
+      "options": [
+        "Bệnh nền (đái tháo đường, béo phì.v.v.), độ ẩm không khí.v.v.",
+        "Giọt bắn đường hô hấp do tiếp xúc trực tiếp không bảo vệ",
+        "Khí dung với khoảng cách không an toàn",
+        "Qua tiếp xúc bề mặt nhiễm SARS-CoVi-2"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 19,
+      "text": "Trong đại dịch cao điểm CoVid-19 vừa qua, tại sao Bộ Y tế yêu cầu điều kiện chủng ngừa vaccine đủ 2 mũi trước khi lên máy bay và mũi cuối cùng ít nhất là đã 14 ngày .",
+      "options": [
+        "Theo yêu cầu của hãng vaccine",
+        "Thời gian đủ cho đáp ứng kháng thể hiệu quả",
+        "Tùy theo tình hình dịch tễ mà quy định hợp lý",
+        "Do thời gian ủ bệnh của SARS-CoV-2"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 20,
+      "text": "Khi chưa tìm ra được nguyên nhân, nội dung nào sau đây không phù hợp?",
+      "options": [
+        "Tiếp tục tìm kiếm nguyên nhân bằng nhiều biện pháp",
+        "Điều trị các triệu chứng",
+        "Nâng cao thể trạng cho người bệnh",
+        "Bệnh do phản ứng tính của mỗi người"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 21,
+      "text": "Các nội dung sau đây là đúng, ngoại trừ:",
+      "options": [
+        "Chấn thương là nguyên nhân có thể gây tổn thương nhiều cơ quan",
+        "Gan có thể tổn thương do rượu",
+        "Coronavirus là nguyên nhân gây CoVid-19",
+        "Tay bẩn là một trong những điều kiện phát sinh bệnh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 22,
+      "text": "Phản ứng viêm được xem là:",
+      "options": [
+        "Phản ứng cơ thể nhằm loại bỏ tác nhân gây hại",
+        "Cơ chế bảo vệ thuận lợi cho cơ thể",
+        "Phản ứng sinh lý chống lại tác nhân ngoại lai",
+        "Phản ứng bảo vệ không thuận lợi cho cơ thể"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 23,
+      "text": "Rèn luyện thể lực/tập thể dục đều đặn có lợi cho sức khỏe vì những lý do sau, ngoại trừ?",
+      "options": [
+        "Tăng HDL- cholesterol",
+        "Giảm đề kháng insulin",
+        "Giảm đường máu",
+        "Tăng VLDL-cholesterol"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 24,
+      "text": "Đáp ứng khởi động của đáp ứng viêm ?",
+      "options": [
+        "Vai trò của bạch cầu hạt trung tính",
+        "Vai trò của các tiểu cầu",
+        "Vai trò của các tiểu động mạch",
+        "Vai trò của các mao mạch"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 25,
+      "text": "Vì sao không nên chích rạch hoặc nặn các mụn nhọt giai đoạn sưng đỏ?",
+      "options": [
+        "Ngăn cản sự chảy máu",
+        "Tạo thuận cho sự xâm nhập vi khuẩn vào máu",
+        "Tạo thuận cho bội nhiễm vi khuẩn",
+        "Khởi động quá trình đông máu"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 26,
+      "text": "Hiện tượng dịch rĩ viêm do các cơ chế như sau, ngoại trừ?",
+      "options": [
+        "Tăng tính thấm tại ổ viêm",
+        "Nồng độ protein tăng ở ổ viêm",
+        "Tăng tuần hoàn tại ổ viêm",
+        "Giảm áp lực thẩm thấu tại ổ viêm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 27,
+      "text": "Khi bị nhọt (áp-xe) thường gây đau do cơ chế sau đây, ngoại trừ?",
+      "options": [
+        "Phản ứng viêm phù nề kích thích các mạt đoạn thần kinh",
+        "Tác dụng của bradykinin",
+        "Tác dụng của CRP",
+        "Tác dụng của prostaglandin"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 28,
+      "text": "Hoạt động gì xảy ra đầu tiên cho bạch cầu khi muốn xuyên mạch tại ổ viêm?",
+      "options": [
+        "Chuyển động lăn trên thành mạch",
+        "Bộc lộ phân tử dính trên bạch cầu và tế bào nội mạc mạch máu",
+        "Hóa hướng động bạch cầu",
+        "Tạo giả túc"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 29,
+      "text": "Bạch cầu nào là chỉ điểm của phản ứng viêm cấp trong công thức máu?",
+      "options": [
+        "Đại thực bào",
+        ".Bạch cầu hạt trung tính",
+        "Tế bào lympho",
+        "Bạch cầu đa nhân trung tính"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 30,
+      "text": "Đại thực bào tham gia vào phản ứng viêm bằng các phương thức sau, ngoại trừ?",
+      "options": [
+        "Tiết các cytokin khuếch đại đáp ứng viêm",
+        "Khả năng thực bào",
+        "Tham gia xử lý và trình diện kháng nguyên",
+        "Có thụ thể tiếp nhận các quyết định kháng nguyên"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 31,
+      "text": "CRP (C reactive protein)  và procalcitonin là các protein viêm do đâu sản xuất?",
+      "options": [
+        "Thận",
+        "Gan",
+        "Đại thực bào",
+        "Tế bào lympho"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 32,
+      "text": "Tại sao CRP và procalcitonin được xét nghiệm khi nghi ngờ có phản ứng viêm?",
+      "options": [
+        "Dễ xét nghiệm",
+        "Tăng sớm trong phản ứng viêm",
+        "Giảm nhanh trong phản ứng viêm",
+        "Đặc hiệu cho nhiễm vi khuẩn"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 33,
+      "text": "Nếu trẻ bị nhiễm virus viêm gan B (HBV) từ mẹ truyền sang, thì nguy cơ cao đến 90% là gì?",
+      "options": [
+        "Trở thành người mang HBV mạn tính",
+        "Tăng SGOT và SGPT",
+        "Vàng da kéo dài",
+        "Ung thư gan sau này"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 34,
+      "text": "Tiêu bản giải phẫu bệnh phát hiện có tế bào dạng biểu mô (tế bào Langhans), vậy tế bào này thể hiện....?. (Điền vào chổ trống)",
+      "options": [
+        "Phản ứng viêm cấp tính",
+        "Phản ứng đặc trưng của lao",
+        "Phản ứng viêm mãn tính",
+        "Phản ứng viêm đặc hiệu"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 35,
+      "text": "Tế bào khổng lồ (giant cells) ở các tổ chức viêm mạn tính có nguồn gốc từ tế bào nào?",
+      "options": [
+        "Bạch cầu hạt trung tính",
+        "Đại thực bào",
+        "Tổ chức bào",
+        "Tế bào diệt tự nhiên (Natural Killer cells)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 36,
+      "text": "Hình ảnh viêm tấy đỏ ở ngón chân chưa cho phép chà xát, nặn, tại sao?",
+      "options": [
+        "Sợ chảy máu",
+        "Hàng rào bảo vệ (các sợi fibrin) chưa hình thành",
+        "Gây tổn thương tổ chức",
+        "Ổ viêm chưa hình thành"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 37,
+      "text": "Trong các cytokin viêm do đại thực bào tiết ra sau khi nuốt các vi sinh vật, các chất sau đây tác dụng lên trung tâm điều nhiệt gây sốt gọi là chất gây sốt nội sinh, ngoại trừ?",
+      "options": [
+        "CRP",
+        "IL-6",
+        "TNF-alpha",
+        "IL-1"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 38,
+      "text": "Viêm là phản ứng trong hầu hết các bệnh lý, người điều dưỡng cần phải hạn chế phản ứng viêm trong các trường hợp sau, ngoại trừ?",
+      "options": [
+        "Người già",
+        "Đe dọa biến chứng",
+        "Tổn thương tổ chức nặng nề",
+        "Viêm kéo dài"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 39,
+      "text": "Chăm sóc bệnh nhân bị viêm phổi, điều dưỡng có những động tác vỗ rung ở ngực nhằm để làm gì (cơ chế miễn dịch tự nhiên) ?",
+      "options": [
+        "Kích thích cơ ngực hoạt động trở lại",
+        "Tăng cường kích thích để bệnh nhân khạc đàm",
+        "Tạo cảm giác dễ chịu cho bệnh nhân",
+        "Hỗ trợ cho hoạt động hô hấp"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 40,
+      "text": "Để giải thích tại sao áp -xe nóng đỏ ở giai đoạn đầu phản ứng viêm?",
+      "options": [
+        "Sung huyết mạch máu tại ổ viêm",
+        "Tăng tính thấm thành mạch",
+        "Dịch rĩ viêm hình thành",
+        "Hóa hướng động bạch cầu"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 41,
+      "text": "Nhận định cần thiết khi có giảm nặng protid huyết tương?",
+      "options": [
+        "Da xanh tái, vã mồ hôi (biểu hiện hệ giao cảm)",
+        "Tăng cân",
+        "Hồng cầu khối tăng (Hct)",
+        "Phù toàn, trắng mềm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 42,
+      "text": "Phản ứng viêm cấp tính xảy ra theo trình tự?",
+      "options": [
+        "Pha mạch máu, pha tế bào, pha tạo sẹo",
+        "Pha tế bào, pha tạo sẹo",
+        "Pha mạch máu, pha tạo sẹo",
+        "Pha tế bào, pha mạch máu, pha tạo sẹo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 43,
+      "text": "Dùng dao có khi vô ý cắt vào ngón tay, phản ứng cơ thể nào xảy ra lập tức tại vết thương?",
+      "options": [
+        "Máu chảy ra",
+        "Tiểu động mạch co lại",
+        "Các tiểu tĩnh mạch co lại",
+        "Các tiểu cầu bít tắt vết thương"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 44,
+      "text": "Cơ chế xơ vữa động  mạch liên quan chủ yếu các thành phần nào sau đây?",
+      "options": [
+        "Tế bào bọt, tế bào lympho, LDL-cholesterol",
+        "Đại thực bào, tế bào nội mạc mạch, LDL-cholesterol",
+        "Đại thực bào, tế bào nội mạc mạch, VLDL-cholesterol",
+        "Tế bào bọt, tế bào lympho, VLDL-cholesterol"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 45,
+      "text": "Bạch cầu trung tính có thể thoát mạch đến ổ viêm nhờ vào yếu tố sau đây, ngoại trừ ?",
+      "options": [
+        "Hóa hướng động do đại thực bào và vi khuẩn tiết ra",
+        "Chuyển động lăn trên vách mạch máu",
+        "Biểu lộ các phân tử dính trên bề mặt bạch cầu và tế bào nội mạc",
+        "Biểu lộ các thụ thể nhận diện vi khuẩn đặc hiệu"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 46,
+      "text": "Đáp ứng miễn dịch bẩm sinh thường xảy ra ở đâu đối với vi sinh vật?",
+      "options": [
+        "Trong máu",
+        "Da niêm mạc",
+        "Gian bào",
+        "Nơi xâm nhập của vi sinh vật"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 47,
+      "text": "Tế bào trình diện kháng nguyên sau khi xử lý kháng nguyên, sẽ trình diện cho tế bào lympho B và lympho T ở đâu?",
+      "options": [
+        "Trong máu",
+        "Hạch lympho và lách",
+        "Khoảng kẻ",
+        "Nơi xâm nhập của vi sinh vật"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 48,
+      "text": "Trẻ sơ sinh theo dõi nhiễm trùng sử dụng xét nghiệm nào là ưu tiên?",
+      "options": [
+        "Số lượng bạch cầu",
+        "Số lượng bạch cầu trung tính",
+        "Nồng độ CRP và procalcitonin",
+        "Tốc độ lắng máu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 49,
+      "text": "Cơ chế bệnh sinh bệnh thương hàn điển hình cho đáp ứng miễn dịch thu được (đặc hiệu),  bác sĩ muốn gì khi chỉ định siêu âm bụng nhằm chẩn đoán sớm?",
+      "options": [
+        "Phát hiện tổn thương hoại tử ruột",
+        "Kiểm tra tình trạng tắc ruột",
+        "Tìm kiếm tổn thương túi mật",
+        "Hình ảnh các hạch lympho mạc treo"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 50,
+      "text": "Một trong 5 đặc trưng của viêm là mất chức năng. Vậy đối với viêm phổi do SARS-CoVi-2 có thể nhận thấy ở nội dung nào sau đây đối với đặc trưng trên?",
+      "options": [
+        "Sốt, ho, khó thở",
+        "Ho, khó thở, mệt mỏi",
+        "Đau ngực, ho, khó thở",
+        "Hình ảnh kính mờ trên phim X quang"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 51,
+      "text": "Trong bộ đồ bảo hộ, nhân viên y tế tham gia chống dịch CoVid-19 bị ngất xỉu. Trong trường hợp này, nội dung nào sau đây là nguyên nhân?",
+      "options": [
+        "Rối loạn trung tâm điều nhiệt",
+        "Sốc nhiệt (heat stroke)",
+        "Sốt",
+        "Thiếu nước"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 52,
+      "text": "Lách là?",
+      "options": [
+        "Tổ chức lympho không có vỏ bọc",
+        "Tổ chức hủy hoại hồng cầu",
+        "Vị trí nhận diện kháng nguyên của tế bào B",
+        "Tổ chức lympho trung ương"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 53,
+      "text": "Trong quá trình theo dõi sốt, khi phát hiện bệnh nhân đi tiểu nhiều, vã mồ hôi, da ửng đỏ thì đó là giai đoạn?",
+      "options": [
+        "Sốt tăng",
+        "Sốt đứng",
+        "Sốt lui",
+        "Xảy ra khi bệnh toàn phát"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 54,
+      "text": "Biểu hiện sốt còn tiếp tục tăng là?",
+      "options": [
+        "Vã mồ hôi",
+        "Đi tiểu nhiều",
+        "Da lạnh xanh tái",
+        "Da ửng đỏ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 55,
+      "text": "Khi bệnh nhân sốt, cần tạo thuận cho sự thải nhiệt đối lưu (truyền nhiệt gián tiếp) bằng cách:",
+      "options": [
+        "Thay đổi luồng không khí bằng quạt mát",
+        "Lau mát cơ thể",
+        "Cởi hết áo quần",
+        "Hạ nhiệt bằng viên đặt hậu môn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 56,
+      "text": "Khi thân nhiệt bệnh nhân giảm trong sốt, cần phải lưu ý bù nước và điện giải hoặc nước trái cây, vì sao?.",
+      "options": [
+        "Nâng cao thể trạng",
+        "Mất nước qua đường hô hấp",
+        "Mất nước qua mồ hôi, qua nước tiểu",
+        "Huyết áp giảm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 57,
+      "text": "Thân nhiệt tăng cao hơn nhiệt độ môi trường thì biện pháp thải nhiệt nào là chủ yếu?",
+      "options": [
+        "Thải nhiệt qua bức xạ",
+        "Thải nhiệt qua không khí",
+        "Thải nhiệt qua mồ hôi",
+        "Thải nhiệt qua tiếp xúc"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 58,
+      "text": "Các yếu tố sau đây tham gia điều hòa thân nhiệt, ngoại trừ ?",
+      "options": [
+        "Trung tâm điều nhiệt ở vùng dưới đồi trước",
+        "CRP (protein phản ứng C)",
+        "Trung tâm điều nhiệt ở vùng dưới đồi sau",
+        "Các thụ thể nhận cảm nhiệt ở da"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 59,
+      "text": "Tại sao khi ra ngoài lạnh, ta lại sởn da gà (goose sign)?",
+      "options": [
+        "Do co mạch",
+        "Giảm thải nhiệt do tăng bề dày của da",
+        "Cơ chế tăng sản nhiệt",
+        "Tăng tuần hoàn dưới da"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 60,
+      "text": "Tại sao khi ra ngoài lạnh, da tái xanh?",
+      "options": [
+        "Da tái xanh vì run",
+        "Da tái xanh vì gió",
+        "Da tái xanh vì mất nhiệt",
+        "Da tái xanh vì co mạch dưới da"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 61,
+      "text": "Tại sao không nên để trẻ em mặc áo quần ướt hoặc dầm mưa lâu?",
+      "options": [
+        "Tránh tăng thân nhiệt",
+        "Tránh giảm thân nhiệt",
+        "Tránh nhiễm lạnh do mất nhiệt tiếp xúc",
+        "Tránh giảm thân nhiệt do tăng thải nhiệt bức xạ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 62,
+      "text": "Phòng họp kín và đông người sẽ cảm thấy nóng bức. Nguyên nhân chủ yếu?",
+      "options": [
+        "Thải nhiệt qua bức xạ",
+        "Không thoáng khí",
+        "Độ ẩm thấp",
+        "Hơi người"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 63,
+      "text": "Mùa đông giá rét, những người lang thang cơ nhỡ không tìm được nơi trú ẩn, không đủ áo ấm che thân, có thể bị giảm thân nhiệt do?",
+      "options": [
+        "Rối loạn trung tâm điều nhiệt",
+        "Rối loạn điều nhiệt sinh lý",
+        "Giảm thân nhiệt xã hội",
+        "Giảm thân nhiệt nhân tạo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 64,
+      "text": "Bệnh sinh xơ vữa động mạch liên quan các yếu tố sau, ngoại trừ? Cholesterol máu tăng",
+      "options": [
+        "Tổn thương tế bào nội mạc mạch",
+        "Đại thực bào",
+        "Các cytokin kháng viêm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 65,
+      "text": "Lạm dụng bia rượu có thể dẫn đến tử vong đột ngột, nhất là khi gặp lạnh nhưng không do:",
+      "options": [
+        "Giãn mạch",
+        "Ngừng tim",
+        "Hạ đường máu",
+        "Tổn thương gan"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 66,
+      "text": "Tại sao không dùng thuốc giảm sốt có Ibuprofen trong vùng dịch tễ có sốt xuất huyết?",
+      "options": [
+        "Giá thành đắt",
+        "Chống ngưng tập tiểu cầu",
+        "Nằm trong danh mục cấm sử dụng",
+        "Tổn thương gan"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 67,
+      "text": "Ngày hè nắng nóng, ta cảm thấy oi bức nếu môi trường có độ ẩm tăng, vì sao?",
+      "options": [
+        "Thải nhiệt qua mồ hôi khó khăn",
+        "Hạn chế sinh nhiệt",
+        "Giảm thông khí",
+        "Giảm thải nhiệt"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 68,
+      "text": "Có thể ngất xỉu khi phải ở ngoài môi trường nắng nóng và do cơ chế nào sau đây?",
+      "options": [
+        "Thất bại cơ chế điều nhiệt",
+        "Rối loạn tại trung tâm điều nhiệt ở vùng dưới đồi",
+        "Độ ẩm môi trường giảm",
+        "Làm việc quá sức"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 69,
+      "text": "Định nghĩa sốt?",
+      "options": [
+        "Nâng điểm điều nhiệt do độc tố vi khuẩn",
+        "Điểm cân bằng nhiệt cơ thể tăng do tác dụng cytokin viêm",
+        "Một biểu hiện của tăng thân nhiệt",
+        "Rối loạn cân bằng nhiệt"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 70,
+      "text": "Đo thân nhiệt ở đâu thì không phải cộng thêm 0,5oC?",
+      "options": [
+        "Nách",
+        "Miệng",
+        "Hậu môn",
+        "Tai"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 71,
+      "text": "Dịch rỉ viêm (DRV) có các tính chất sau, ngoại trừ?",
+      "options": [
+        "Phản ứng Rivalta dương tính",
+        "Nồng độ protein tăng",
+        "Số lượng tế bào tăng",
+        "Tỷ protein (DRV/huyết thanh < 0,5"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 72,
+      "text": "Sốt giao động là sốt như thế nào khi cặp nhiệt trong ngày?",
+      "options": [
+        "Thân nhiệt trong ngày thay đổi ≥ 1oC và > 37oC khi lấy nhiệt ở nách",
+        "Thân nhiệt trong ngày thay đổi > 1oC",
+        "Thân nhiệt trong ngày thay đổi ≥ 1oC và luôn trên 39oC",
+        "Thân nhiệt trong ngày thay đổi ≤ 1oC và luôn dưới 39oC"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 73,
+      "text": "Sốt liên tục là sốt như thế nào?",
+      "options": [
+        "Thân nhiệt trong ngày thay đổi ≥ 1oC và  > 37oC khi lấy nhiệt ở nách",
+        "Thân nhiệt trong ngày thay đổi < 1oC và  > 37oC khi lấy nhiệt ở nách",
+        "Thân nhiệt trong ngày thay đổi ≥  1oC và luôn trên 39oC",
+        "Thân nhiệt trong ngày thay đổi ≤ 1oC và luôn dưới 39oC"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 74,
+      "text": "Mùa hè nắng nóng, công nhân lao động nặng nhọc ngoài trời, mất nước qua đường mồ hôi có thể thuộc loại mất nước nào?",
+      "options": [
+        "Ưu trương",
+        "Nhược trương",
+        "Dịch mồ hôi ưu trương so với ngoại bào.",
+        "Đẳng trương"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 75,
+      "text": "Mất nước trong đái tháo đường là mất nước:",
+      "options": [
+        "Ưu trương",
+        "Nhược trương",
+        "Mất nước kèm mất điện giải",
+        "Đẳng trương"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 76,
+      "text": "Trong giai đoạn sốt cao thường kèm mất nước:",
+      "options": [
+        "Đường hô hấp",
+        "Đường da",
+        "Đường tiêu hóa",
+        "Nước tiểu"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 77,
+      "text": "Chăm sóc bệnh nhi ở  giai đoạn sốt lui thường tăng thải nhiệt qua các phương thức sau đây, ngoại trừ?",
+      "options": [
+        "Tăng thông khí",
+        "Đổ mồ hôi",
+        "Thải qua đường ruột",
+        "Nước tiểu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 78,
+      "text": "Tình trạng ứ nước tế bào gây tăng áp lực nội sọ, có thể nhận định sớm qua kết quả:",
+      "options": [
+        "Làm điện tim (ECG)",
+        "Làm điện não (EEG)",
+        "Soi đáy mắt",
+        "Chụp phim cắt lớp (CT)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 79,
+      "text": "Nhận định phù do tăng áp lực thẩm thấu muối thường gặp trong các bệnh lý sau, ngoại trừ ?",
+      "options": [
+        "Viêm",
+        "Bệnh lý cầu thận gây giảm lọc",
+        "Bệnh lý ống thận tăng tái hấp thu",
+        "Tăng aldosteron"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 80,
+      "text": "Nhận định phù do tăng áp lực thuỷ tĩnh có thể gặp trong các trường hợp sau, ngoại trừ?",
+      "options": [
+        "Thai kỳ",
+        "Viêm tắc động mạch",
+        "Hẹp van hai lá (thấp tim)",
+        "Suy tim phải"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 81,
+      "text": "Nhận định phù do giảm áp lực thẩm thấu keo có đặc điểm gì?",
+      "options": [
+        "Tương quan chặt chẻ giữa nồng độ giảm protein và triệu chứng phù,",
+        "Nồng độ globulin huyết tương có vai trò quan trọng",
+        "Phù toàn thân.",
+        "Nồng độ albumin huyết tương quyết định"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 82,
+      "text": "Nhận định phù do cản trở tuần hoàn bạch huyết có đặc điểm sau, ngoại trừ:",
+      "options": [
+        "Phù toàn thân",
+        "Nguyên nhân có thể giun chỉ",
+        "Phù áo khoác trong phẫu thuật nạo vét hạch lympho ở nách",
+        "Phù cứng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 83,
+      "text": "Nhận định phù bằng cách xem mí mắt khi bệnh nhân thức dậy, tại sao?",
+      "options": [
+        "Do bệnh nhân ngủ tư thế nằm",
+        "Tổ chức hốc mắt, mi mắt lỏng lẻo",
+        "Ngủ trong thời gian dài",
+        "Do cơ địa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 84,
+      "text": "Cơ chế khởi động của phù phổi cấp (chẩn đoán điều dưỡng):",
+      "options": [
+        "Tăng áp lực thẩm thấu muối",
+        "Tăng áp lực thủy tĩnh lòng mạch",
+        "Giảm áp lực keo ở gian bào",
+        "Tăng tính thấm mao mạch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 85,
+      "text": "Cơ chế khởi động của phù trong viêm cầu thận (chẩn đoán điều dưỡng):",
+      "options": [
+        "Tăng áp lực thẩm thấu muối",
+        "Giảm áp lực thẩm thấu keo",
+        "Tăng áp lực thuỷ tĩnh",
+        "Tăng tính thấm mao mạch"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 86,
+      "text": "Cơ chế khởi động của cổ chướng (bụng báng) trong xơ gan (chẩn đoán điều dưỡng):",
+      "options": [
+        "Tăng áp lực thẩm thấu keo máu",
+        "Tăng áp lực thuỷ tĩnh ở tĩnh mạch cửa",
+        "Cản trở tuần hoàn bạch huyết.",
+        "Tăng tính thấm mao mạch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 87,
+      "text": "Tiêu chảy nặng dễ dẫn đến nhiễm toan do:",
+      "options": [
+        "Dịch ruột chứa các ion kiềm",
+        "Dịch ruột chứa các ion toan",
+        "Dịch ruột chứa nhiều nước",
+        "Dịch ruột chứa nhiều muối"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 88,
+      "text": "Nước có thể chiếm tỷ lệ bao nhiêu trong cơ thể trẻ sơ sinh?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 89,
+      "text": "Định nghĩa hạ đường máu: (1) glucose máu < 0,7g/L, (2) glucose máu giảm đột ngột, (3) chỉ có ý nghĩa khi kèm theo các triệu chứng lâm sàng.",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 90,
+      "text": "Biểu hiện sau đây xảy ra khi hạ đường máu sớm, ngoại trừ?",
+      "options": [
+        "Tim đập chậm và ngất xỉu",
+        "Run tay, đổ mồ hôi",
+        "Mắt mờ, đồng tử giãn",
+        "Tăng tiết mồ hôi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 91,
+      "text": "Dị nguyên có vai trò chủ yếu trong quá mẫn phụ thuộc IgE?",
+      "options": [
+        "Dị nguyên mạt bụi nhà (Dermaphagoids)",
+        "Khói thuốc lá",
+        "Con gián",
+        "Phấn hoa"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 92,
+      "text": "Triệu chứng của hạ đường máu sớm là do cơ chế nào?",
+      "options": [
+        "Tổn thương vỏ não",
+        "Rối loạn hành não",
+        "Rối loạn hệ phó giao cảm",
+        "Kích thích hệ giao cảm"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 93,
+      "text": "(1điểm) Hệ bạch huyết có những chức năng sau, ngoại trừ?",
+      "options": [
+        "Thu hút lượng dịch huyết tương tại gian bào",
+        "Thu hút protein thoát ra từ mao mạch",
+        "Vận chuyển tế bào lympho",
+        "Vận chuyển protein đến tổ chức"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 94,
+      "text": "Triệu chứng đái nhiều trong đái tháo đường là do :",
+      "options": [
+        "do uống nhiều",
+        "do ăn nhiều",
+        "do đường trong nước tiểu kéo nước",
+        "do thận tổn thương"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 95,
+      "text": "Tại sao gầy nhiều trong bệnh đái tháo đường type 1?",
+      "options": [
+        "do huy động protein và mỡ cơ thể làm năng lượng",
+        "do đường không sử dụng được tại tế bào",
+        "do chán ăn",
+        "do nhiễm trùng kèm theo như lao phổi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 96,
+      "text": "Nguyên nhân gây viêm nội sinh như sau, ngoại trừ nội dung nào?",
+      "options": [
+        "Phức hợp miễn dịch (KN-KT) trong bệnh lupus ban đỏ hệ thống",
+        "Tổ chức nhồi máu cơ tim",
+        "Cytokin, tự ngạt, ung thư",
+        "Ngón chân cái sưng đỏ do tinh thể urat lắng đọng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 97,
+      "text": "Giảm thân nhiệt thường xảy ra trong các trường hợp sau, ngoại trừ?",
+      "options": [
+        "Người già",
+        "Sốc nhiễm trùng gram (-)",
+        "Hội chứng cường giáp",
+        "Ngâm cơ thể trong nước lạnh"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 98,
+      "text": "Đặc điểm bệnh nguyên của Đái tháo đường type 2?",
+      "options": [
+        "Phá hủy tế bào beta đảo tụy gây giảm insulin máu",
+        "Yếu tố béo phì và ít vận động",
+        "Xuất hiện một kháng thể",
+        "Vai trò của một số virus"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 99,
+      "text": "Tại sao bệnh nhân đái tháo đường type 1 dễ nhiễm toan ceton hơn ? Rối loạn lipid máu",
+      "options": [
+        "Do xảy ra ở người trẻ",
+        "Do xảy ra ở người gầy",
+        "Do thiếu insulin tương đối"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 100,
+      "text": "Cơ chế bệnh sinh của đái tháo đường type 1 liên quan:",
+      "options": [
+        "Di truyền, lối sống tĩnh tại, miễn dịch",
+        "Sự phá hủy của tế bào beta đảo tụy",
+        "Béo phì, ít vận động, di truyền",
+        "Miễn dịch, béo phì, ít vận động"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 101,
+      "text": "Đặc điểm dị ứng cá như sau, ngoại trừ?",
+      "options": [
+        "Dị ứng cá thường kèm theo dị ứng loài giáp xác",
+        "Dị ứng cá thường xảy  ra ở người trưởng thành",
+        "Giả dị ứng có thể do độc tố gặp khi cá ươn",
+        "Dị ứng cá thường tồn tại lâu dài"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 102,
+      "text": "Ở những người xơ gan có thể giảm đường huyết do:",
+      "options": [
+        "Gan không dự trữ được glucose",
+        "Giảm tiết insulin",
+        "Tế bào tăng sử dụng glucose",
+        "Rối loạn tân sinh đường"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 103,
+      "text": "HbA1C là một trong các tiêu chuẩn chẩn đoán đái tháo đường, vậy HbA1C là gì?",
+      "options": [
+        "Hemoglobin thẩm nhuận đường",
+        "Hemoglobin A1",
+        "Hemoglobin chuổi C",
+        "Hemoglobin bất thường"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 104,
+      "text": "Khi trẻ bị tiêu chảy, tình trạng mất nước chủ yếu ở khu vực ngoại bào: (1) giảm thể tích tuần hoàn gây hạ huyết áp, (2) tiểu ít, (3) nhiễm kiềm có thể xảy ra",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 105,
+      "text": "Người điều dưỡng theo dõi phù bằng các cách sau, ngoại trừ nội dung nào?",
+      "options": [
+        "Theo dõi cân nặng",
+        "Thực hiện dấu hiệu Godet",
+        "Kiểm soát chế độ ăn giảm muối",
+        "Xem kết quả xét nghiệm ure và creatinin"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 106,
+      "text": "Biến chứng nhiễm trùng trong bệnh đái tháo đường là do : (1) giảm sức đề kháng của cơ thể, (2) đường máu tăng cao đột ngột, (3) thường gặp là lao phổi, nhiễm trùng đường tiểu,bàn chân …",
+      "options": [
+        "(1)",
+        "(2)",
+        "(1), (3)",
+        "(1), (2), (3)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 107,
+      "text": "Người bệnh đái tháo đường được tư vấn sử dụng chế độ ăn nào là tốt nhất?",
+      "options": [
+        "Hạn chế đường",
+        "Chế độ ăn nhiều chất xơ",
+        "Chế độ ăn nhiều rau, trái cây, củ quả,  cá, thịt ít béo và loại bỏ da",
+        "Chế độ ăn nhiều thịt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 108,
+      "text": "Cứ mỗi 2 giây có 1 người tử vong do bệnh lý tim mạch, những nguyên nhân sau liên quan gần bệnh lý tim mạch, ngoại trừ ?",
+      "options": [
+        "Hội chứng phân ly",
+        "Đái tháo đường",
+        "Huyết áp cao",
+        "Rối loạn lipid/xơ vữa động mạch"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 109,
+      "text": "Người điều dưỡng thực hiện nghiệm pháp đường huyết đói để chẩn đoán đái tháo đường thì đói được nhắc nhở như sau đây, ngoại trừ?",
+      "options": [
+        "Nhịn đói ít nhất 8 giờ trước khi lấy máu xét nghiệm",
+        "Bệnh nhân không nạp năng lượng ít nhất là 8 giờ trước khi lấy máu xét nghiệm",
+        "Bệnh nhân không được uống cà phê trước khi làm xét nghiệm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 110,
+      "text": "HbA1C phản ánh đường máu trong khoảng thời gian nào?",
+      "options": [
+        "15 tháng trước thời điểm xét nghiệm",
+        "20 tháng trước thời điểm xét nghiệm",
+        "2-3 tháng trước thời điểm xét nghiệm",
+        "1 tháng trước thời điểm xét nghiệm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 111,
+      "text": "Khi chăm sóc bàn chân đái tháo đường, người điều dưỡng không nên làm điều gì? Tuyệt đối không đi chân trần",
+      "options": [
+        "Mang tất vớ và giày vải vừa chân",
+        "Bôi kem giữ ẩm ở các kẻ ngón chân",
+        "Không sử dụng nước nóng rửa chân"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 112,
+      "text": "Năng lượng cần thiết cho hoạt động cơ thể chủ yếu từ nguồn nào?",
+      "options": [
+        "Đường (glucid)",
+        "Đạm (protein)",
+        "Mỡ (lipid)",
+        "Acid béo"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 113,
+      "text": "Nguồn năng lượng dự trữ lớn nhất của cơ thể?",
+      "options": [
+        "Glycogene",
+        "Protein",
+        "Triglyceride",
+        "Acid béo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 114,
+      "text": "Khi bị đái tháo đường có thể tử vong do nhiễm toan cetone, bệnh nhân có hơi thở mùi cetone, vậy cetone từ đâu mà có?",
+      "options": [
+        "Đường (glucid)",
+        "Đạm (protein)",
+        "Mỡ (lipid)",
+        "Acid béo"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 115,
+      "text": "Mỡ được dự trữ ở tổ chức liên kết dưới da, các nội tạng dưới dạng nào?",
+      "options": [
+        "Cholesterol",
+        "Triglycerid",
+        "Acid béo",
+        "Glycerol"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 116,
+      "text": "Acid Oleic (Omega 9) có nhiều ở dầu olive là acid béo: (1) có nối đôi giữa hai carbon, (2) acid béo bảo hòa, (3) hạn chế tăng cholesterol máu, giảm xơ vữa động mạch",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2), (3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 117,
+      "text": "Gan cung cấp cholesterol cho cơ thể với tỷ lệ bao nhiêu?",
+      "options": [
+        "30%",
+        "50%",
+        "75%",
+        "25%"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 118,
+      "text": "Lipoprotein chứa cholesterol nhiều nhất?",
+      "options": [
+        "LDL",
+        "HDL",
+        "Chylomicron",
+        "VLDL"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 119,
+      "text": "Lipoprotein chứa triglycerid nhiều nhất?",
+      "options": [
+        "LDL",
+        "HDL",
+        "Chylomicron",
+        "VLDL"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 120,
+      "text": "Lipoprotein được gọi là cholesterol xấu (bad cholesterol)?",
+      "options": [
+        "LDL",
+        "HDL",
+        "Chylomicron",
+        "VLDL"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 121,
+      "text": "Lipoprotein được gọi là cholesterol tốt (good cholesterol)?",
+      "options": [
+        "LDL",
+        "HDL",
+        "Chylomicron",
+        "VLDL"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 122,
+      "text": "Các nội dung nào sau đây đúng với lipoprotein, ngoại trừ?",
+      "options": [
+        "Protein vận chuyển lipid",
+        "Protein ở các dạng apoprotein",
+        "Lõi của lipoprotein chứa triglyceride và cholesterol ester",
+        "Lipid giúp protein hòa tan để vận chuyển"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 123,
+      "text": "Tiêu chuẩn chẩn đoán béo phì đối với người Châu Á",
+      "options": [
+        "Tăng kích thước tế bào mỡ",
+        "Tăng số lượng tế bào mỡ",
+        "BMI ≥ 25",
+        "Tất cả các nội dung đã nêu"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 124,
+      "text": "Giai đoạn hạ đường huyết sớm nếu không kịp can thiệp thì có thể ngất xỉu do:",
+      "options": [
+        "Thiếu máu não",
+        "Thiếu máu cơ tim",
+        "Tổn thương vỏ não",
+        "Kích thích hệ phó giao cảm (dây thần kinh X)"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 125,
+      "text": "Tính BMI của một phụ nữ Việt Nam cao 165cm và nặng 65kg, Phân loại BMI theo tiêu chuẩn Tổ chức Y tế Thế giới?",
+      "options": [
+        "23,9 và bình thường",
+        "22,0 và bình thường",
+        "23,9 và thừa cân",
+        "26,0 và béo phì"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 126,
+      "text": "Một số bệnh nhân sau những chấn thương tại não bộ trở nên ăn nhiều hơn và béo phì, nguyên nhân có thể do:",
+      "options": [
+        "Hậu quả của thời gian nằm viện ít hoạt động",
+        "Kích hoạt trung tâm thèm ăn của vùng dưới đồi",
+        "Chế độ ăn không hợp lý cho người bệnh",
+        "Không do những lý do đã nêu"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 127,
+      "text": "Khi dùng corticoid dài ngày trong điều trị bệnh nhân hội chứng thận hư, có thể phát hiện:",
+      "options": [
+        "Giảm cân",
+        "Tái phân bố lượng mỡ",
+        "Tích mỡ ở mặt và vai gáy (Hội chứng Cushing )",
+        "Bướu mỡ ở gáy"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 128,
+      "text": "Tổ chức mỡ dự trữ năng lượng, tuy nhiên còn có chức năng (1) nội tiết, (2) miễn dịch, (3) thần kinh",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2), (3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 129,
+      "text": "Tại sao “Vòng bụng càng dài thì tuổi đời càng ngắn”",
+      "options": [
+        "Vòng eo và/ hoặc bụng tương ứng lượng mỡ ở phủ tạng",
+        "Vòng bụng thường nhỏ hơn vòng mông",
+        "Tuổi đời tỷ lệ nghịch với vòng bụng",
+        "Vòng bụng có liên quan đến yếu tố di truyền"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 130,
+      "text": "Chàm do tiếp xúc (ví dụ dị ứng với chất tẩy rửa) thuộc quá mẫn:",
+      "options": [
+        "Type I",
+        "Type II",
+        "Type III",
+        "Type IV"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 131,
+      "text": "Lipid bao gồm nhiều chất (a. béo, cholesterol, phospholipid, triglycerid), ăn nhiều acid béo bảo hòa sẽ trực tiếp dẫn đến:.",
+      "options": [
+        "Nhồi máu cơ tim",
+        "Xơ vữa động mạch",
+        "Bệnh đái tháo đường",
+        "Bệnh thống phong (gout)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 132,
+      "text": "Cần hỗ trợ các a. amin như cholin, lecithin, methionin để làm gì khi gan nhiễm mỡ?",
+      "options": [
+        "Tăng cường vận chuyển mỡ ra khỏi gan",
+        "Tăng cường tổng hợp mỡ nâu",
+        "Làm giảm ứ mỡ tại gan",
+        "Làm giảm sản xuất triglyceride ở gan"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 133,
+      "text": "Nguyên nhân gây rối loạn lipid máu có thể  phòng ngừa bằng biện pháp sau đây, ngoại trừ?",
+      "options": [
+        "Tập thể dục đều đặn (ít nhất 150 phút trong tuần)",
+        "Hạn chế lòng đỏ trứng",
+        "Sử dụng mỡ ngang (trans-fat acid)",
+        "Không hút thuốc"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 134,
+      "text": "Tại sao bệnh nhân đái tháo đường lại kiêng ăn nhiều cơm?",
+      "options": [
+        "Tinh bột là thức ăn khó tiêu",
+        "Tinh bột tạo nên năng lượng",
+        "Tinh bột có thể chuyển hóa thành lipid",
+        "Cơm có thể gây bón"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 135,
+      "text": ".Acid bão hòa nào có thể ở dạng lỏng (chiếm 80%)?",
+      "options": [
+        "Dầu dừa",
+        "Dầu đậu nành",
+        "Margarine",
+        "Dầu Olive"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 136,
+      "text": "Ai là người phát hiện sự thực bào, cha đẻ của miễn dịch bẩm sinh?",
+      "options": [
+        "Edward Jenner",
+        "Metchnikoff",
+        "Virchov",
+        "Louis Pasteur"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 137,
+      "text": "Bệnh nhân nữ đi khám bệnh do có cảm giác mệt mỏi, đau nhức các khớp ngón tay; khám thấy các cử động ngón tay khó khăn, vụng về khi cầm nắm vật gì; chụp phim X quang các ngón tay có hình ảnh tổn thương ở một số khớp xương ngón tay. Vậy bệnh nhân có triệu chứng gì theo các nội dung đã nêu?",
+      "options": [
+        "Mệt mỏi, hình ảnh tổn thương trên phim X quang",
+        "Đau nhức các khớp và có hình ảnh tổn thương khớp",
+        "Mệt mỏi và đau nhức các khớp ngón tay",
+        "Khám thấy các cử động ngón tay vụng về"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 138,
+      "text": "Trong giai đoạn sốt giảm cần thiết bổ sung nước và điện giải vì sẽ có mất nước:  (1) qua đường tiết niệu, (2) qua đường mồ hôi, (3) do tăng thải nhiệt.",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 139,
+      "text": "Tích nước ưu trương:  (1) Là tích natri nhiều hơn tích nước, (2) áp lực thẩm thấu máu tăng, (3) thường gặp trong suy tim, bệnh thận do không thải được natri.",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 140,
+      "text": "Chẩn đoán điều dưỡng “Phù  do tăng áp lực thẩm thấu muối” trong trường hợp nào?:  (1) Cầu thận giảm lọc, (2) ống thận tăng tái hấp thu, (3) gây phù tế bào.",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 141,
+      "text": "Chẩn đoán điều dưỡng “phù do giảm áp lực thẩm thấu keo máu” có đặc điểm gì?",
+      "options": [
+        "Tương quan chặt chẻ giữa nồng độ giảm protein và triệu chứng phù,",
+        "Nồng độ globulin huyết tương có vai trò quan trọng",
+        "Thường gây phù toàn thân.",
+        "Nồng độ albumin ngoại bào quyết định"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 142,
+      "text": "Chẩn đoán huyết thanh của bệnh lupus ban đỏ hệ thống (SLE) được Bảo hiểm Y tế chi trả:",
+      "options": [
+        "Kháng thể kháng nhân (ANAs) và kháng ds-DNA",
+        "Kháng thể kháng nhân (ANAs) và kháng ss-DNA",
+        "Kháng thể kháng nhân (CCP) và kháng ds-DNA",
+        "Kháng thể kháng nhân (CCP) và kháng ss-DNA"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 143,
+      "text": "Hen phế quản phản vệ thuộc quá mẫn:",
+      "options": [
+        "Típ I (quá mẫn nhanh/quá mẫn phản vệ)",
+        "Típ II (quá mẫn hoạt hóa bổ thể)",
+        "Típ III (quá mẫn do lắng đọng phức hợp miễn dịch)",
+        "Típ IV (quá mẫn qua trung gian tế bào)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 144,
+      "text": "Người điều dưỡng có thể làm tổn thương hệ miễn dịch bẩm sinh trong các trường hợp sau đây, ngoại trừ?",
+      "options": [
+        "Đặt sonde tiểu",
+        "Vổ rung cho bệnh nhân khạc đàm",
+        "Đặt kim luồn",
+        "Sử dụng kháng sinh"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 145,
+      "text": "Nhận định phù trong viêm cầu thận cấp giúp chẩn đoán điều dưỡng?",
+      "options": [
+        "Phù do tăng áp lực thẩm thấu muối",
+        "Phù do giảm protein máu",
+        "Phù do tăng áp lực thuỷ tĩnh máu",
+        "Phù do tăng tính thấm mao mạch"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 146,
+      "text": "Nhận định phù trong cổ chướng (bụng báng) / xơ gan giúp chẩn đoán điều dưỡng sau đây, ngoại trừ?",
+      "options": [
+        "Nồng độ protein máu giảm",
+        "Protein nước tiểu tăng",
+        "Vàng da, vàng mắt",
+        "Xuất hiện tuần hoàn bàng hệ ở bụng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 147,
+      "text": "Khi nhận định có phù ở người bệnh, người điều dưỡng quan tâm đến dấu hiệu gì?",
+      "options": [
+        "Khó thở",
+        "Theo dõi cân nặng",
+        "Tình trạng nhiễm trùng",
+        "Chế độ ăn nhiều dinh dưỡng"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 148,
+      "text": "Béo phì là điều kiện phát sinh một số bệnh sau, ngoại trừ?",
+      "options": [
+        "Đái tháo đường",
+        "Ung thư",
+        "Bệnh lý tim mạch",
+        "Hội chứng thận hư"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 149,
+      "text": "Cơ chế bệnh sinh của đái tháo đường type 2 liên quan đến các yếu tố sau, ngoại trừ:",
+      "options": [
+        "Insulin tăng trường diễn trong máu",
+        "Đề kháng insulin ngoại vi",
+        "Thiếu hụt các thụ thể tiếp nhận insulin",
+        "Tăng tiết glucagon"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 150,
+      "text": "Thực phẩm chức năng Omega 3,6,9 được quảng bá rộng rãi, vậy nội dung nào không đúng sau đây?",
+      "options": [
+        "Omega 3,6,9 là các acid béo chưa no (có chứa nối đôi)",
+        "Omega 6,9 có tác dụng tốt cho thần kinh và mắt",
+        "Cơ thể chỉ tổng hợp được Omega 9",
+        "Các Omega 3,6,9 bảo vệ tim mạch"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 151,
+      "text": "Nhận định nào sau đây đúng về quá mẫn:",
+      "options": [
+        "Quá mẫn không liên quan đến viêm",
+        "Quá mẫn là phản ứng miễn dịch quá mức không cần thiết đối với kháng nguyên",
+        "Phân loại quá mẫn không dựa vào thời gian",
+        "Phân loại quá mẫn không tùy vào bản chất kháng nguyên"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 152,
+      "text": "Hormone được gọi là hormon “đói”?",
+      "options": [
+        "Adrenalin",
+        "Glucagon",
+        "Amylin",
+        "Insulin"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 153,
+      "text": "Protein viêm tăng sớm nhất và tiêu chí chẩn đoán sớm nhiễm trùng huyết?",
+      "options": [
+        "Haptoglobin",
+        "CRP",
+        "IL-1",
+        "Procalcitonin"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 154,
+      "text": "Đáp ứng miễn dịch bẩm sinh bao gồm các cơ chế sau, ngoại trừ?",
+      "options": [
+        "Các hàng rào bảo vệ da và niêm mạc",
+        "Mảng Peyer ở ruột",
+        "Đại thực bào",
+        "Lactobaccillus acidophilus."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 155,
+      "text": "Bệnh nguyên chủ yếu của bệnh  lý tim mạch liên quan chặt chẻ đến các yếu tố nguy cơ sau đây, ngoại trừ?",
+      "options": [
+        "Cholesterol và HDL tăng",
+        "Bệnh đái tháo đường",
+        "Béo phì",
+        "Tăng huyết áp"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 156,
+      "text": "Rửa tay khử khuẩn là một trong quy định 5K của chống lây nhiễm SARS-CoV2, vậy theo bệnh nguyên bệnh sinh nội dung nào đúng nhất?",
+      "options": [
+        "Phòng bệnh hơn chữa bệnh",
+        "Ngăn ngừa điều kiện phát sinh",
+        "Ngăn ngừa nguyên nhân gây bệnh",
+        "Một trong các biện pháp chống lây nhiễm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 157,
+      "text": "Trong 5 nội dung của 5K phòng CoviD-19 có một nội dung dựa vào điều kiện lây nhiễm gián tiếp?",
+      "options": [
+        "Khử khuẩn tay thường xuyên",
+        "Không tập trung",
+        "Khoảng cách",
+        "Mang khẩu trang"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 158,
+      "text": "Trans-fat acid (acid béo có chứa nhánh ngang hydro). Nội dung nào không đúng với trans-fat acid?",
+      "options": [
+        "Có nhiều trong thức ăn chiên rán",
+        "Có nhiều trong thức ăn qua chế biến",
+        "Có nhiều trong margarin (bơ thực vật)",
+        "Có nhiều trong dừa (80-90%)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 159,
+      "text": "Các quy luật nhân quả về bệnh nguyên như sau, ngoại trừ?",
+      "options": [
+        "Mỗi hậu quả đều có nguyên nhân và nguyên nhân có sau hậu quả",
+        "Có nguyên nhân nhưng không nhất thiết phải có hậu quả nếu như không có điều kiên",
+        "Cùng một nguyên nhân có thể có nhiều hậu quả khác nhau tùy điều kiện cụ thể",
+        "Một hậu quả có thể do nhiều nguyên nhân gây ra"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 160,
+      "text": "Ý nghĩa của phương châm “ Chăm sóc/Điều trị người bệnh chứ không phải điều trị bệnh”",
+      "options": [
+        "Phòng bệnh hơn chữa bệnh",
+        "Quan tâm đến hoàn cảnh người bệnh",
+        "Điều trị người bệnh vì bệnh xảy ra ở con người",
+        "Tính chất toàn diện của điều trị (phản ứng tính, hoàn cảnh và môi trường người bệnh)"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 161,
+      "text": "Mối quan hệ giữa nguyên nhân và điều kiện gây bệnh như sau, ngoại trừ?",
+      "options": [
+        "Nguyên nhân quyết định, điều kiện phát huy tác dụng của nguyên nhân",
+        "Trong những hoàn cảnh nhất định, nguyên nhân có thể trở thành điều kiện",
+        "Có nguyên nhân nhưng không nhất thiết có hậu quả nếu như không có điều kiên",
+        "Điều kiện gây bệnh quyết định vai trò nguyên nhân"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 162,
+      "text": "Hệ thống đông máu  tạo nên lưới fibrin tại ổ viêm có mục đích như sau, ngoại trừ?",
+      "options": [
+        "Ngăn chặn sự lan rộng của nhiễm trùng",
+        "Hình thành vỏ bọc giữ dịch rĩ viêm và vi khuẩn",
+        "Tạo tiền đề cho sự phục hồi và làm lành vết thương",
+        "Ngăn cản sự thực bào của bạch cầu trung tính"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 163,
+      "text": "Dịch rỉ viêm?",
+      "options": [
+        "Có nồng độ protein < 30mg/L",
+        "Có nhiều tế bào và protein",
+        "Là loại dịch thấm",
+        "Không chứa kháng thể"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 164,
+      "text": "Histamin do tế bào mast vỡ hạt có các tính chất như sau, ngoại trừ?",
+      "options": [
+        "Giãn các mạch máu nhỏ (tiểu động mạch, tiểu tĩnh mạch và mao mạch)",
+        "Co thắt cơ trơn tiểu phế quản",
+        "Tăng tính thấm mao mạch",
+        "Chống ngưng tập tiểu cầu"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 165,
+      "text": "Có những kích thích có thể hoạt hóa tế bào mast vỡ hạt mà không cần có kháng thể IgE đặc hiệu như sau, ngoại trừ?",
+      "options": [
+        "Tổn thương cơ học (ma sát)",
+        "Chất cản quang (chụp hình ảnh)",
+        "Vận động thể lực mạnh",
+        "Phấn hoa"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 166,
+      "text": "Dấu hiệu và triệu chứng toàn thân của viêm như sau, ngoại trừ?",
+      "options": [
+        "Tăng bạch cầu",
+        "Tăng protein viêm",
+        "Sốt",
+        "Tổn thương mô"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 167,
+      "text": "Ý nghĩa sinh học của sốt như sau, ngoại trừ? Ức chế hoạt động của virus",
+      "options": [
+        "Tăng sức đề kháng của cơ thể",
+        "Tăng các hoạt động chức năng",
+        "Tủy xương kém hoạt động"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 168,
+      "text": "Khởi đầu pha tế bào là bạch cầu xuyên mạch, bạch cầu nào xuyên mạch đến ổ viêm sớm nhất?",
+      "options": [
+        "Đại thực bào",
+        "Bạch cầu hạt trung tính",
+        "Tế bào lympho",
+        "Tế bào đơn nhân"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 169,
+      "text": "Khi nồng độ kali trong máu < 3,5mEq/L thì điện tâm đồ có thể xuất hiện :",
+      "options": [
+        "Đoạn PR thu hẹp",
+        "Sóng T dẹt, ST chênh",
+        "Sóng P mất",
+        "Sóng U mất"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 170,
+      "text": "Biểu hiện công thức máu trong mất nước đẳng trương như sau, ngoại trừ?",
+      "options": [
+        "Thể tích hồng cầu giảm (MCV)",
+        "Hemoglobin tăng (Hb)",
+        "Hematocrite tăng (Hct)",
+        "Thể tích hồng cầu bình thường"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 171,
+      "text": "Tình trạng béo phì làm tăng nguy cơ mắc một số bệnh, ngoại trừ?",
+      "options": [
+        "Bệnh đái đường",
+        "Bệnh tim mạch",
+        "Bệnh viêm phổi",
+        "Bệnh sỏi mật"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 172,
+      "text": "Nếu bilan lipid cho thấy khi cholesterol máu tăng cao trường diễn thì có thể xảy  ra các triệu chứng như sau, ngoại trừ?",
+      "options": [
+        "Vòng kem ở kết mạc",
+        "Ban vàng mí mắt",
+        "U vàng ở gân",
+        "Huyết thanh có vòng kem"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 173,
+      "text": "Rối loạn lipid máu thứ phát thường gặp do các nguyên nhân sau, ngoại trừ?",
+      "options": [
+        "Đái tháo đường",
+        "Hội chứng thận hư",
+        "Nghiện rượu",
+        "Cường giáp"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 174,
+      "text": "Tổn thương thận trong đái tháo đường?",
+      "options": [
+        "Do tổn thương mạch máu (vi mạch)",
+        "Do máu qua thận ít làm suy thận",
+        "Do rối loạn chuyển hóa điện giải",
+        "Là biến chứng ít gặp trong đái tháo đường"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 175,
+      "text": "Các hậu quả của béo phì như sau, ngoại trừ?",
+      "options": [
+        "Giảm nhạy cảm của thụ thể đối với insulin có thể dẫn đến bệnh đái đường",
+        "Xơ vữa động mạch có thể đẫn đến bệnh tim mạch",
+        "Tăng quá trình thông khí",
+        "Giảm sức đề kháng miễn dịch"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 176,
+      "text": "Về béo phì, các nội dung sau đây là đúng, ngoại trừ?",
+      "options": [
+        "Là sự tích mỡ quá nhiều trong cơ thể",
+        "Gọi là béo bụng khi vòng bụng trên vòng mông lớn hơn 1 đối với nam",
+        "Gọi là béo mông khi vòng bụng trên vòng mông nhỏ hơn 0,8 đối với nữ",
+        "Béo mông nguy hiểm hơn béo bụng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 177,
+      "text": "Các nội dung sau đây về hậu quả của béo phì là đúng, ngoại trừ?",
+      "options": [
+        "Tăng nguy cơ bị đái tháo đường típ 2",
+        "Tăng nguy cơ bệnh tim mạch (Huyết áp cao, nhồi máu não và tim)",
+        "Giảm tỷ lệ bị sỏi mật",
+        "Thoái hóa khớp do vi chấn thương"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 178,
+      "text": "Gan nhiễm mỡ có thể gặp trong các trường hợp sau, ngọai trừ?",
+      "options": [
+        "Nghiện rượu",
+        "Chế độ ăn nhiều chất béo no",
+        "Bệnh đái tháo nhạt",
+        "Chế độ ăn quá nhiều năng lượng"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 179,
+      "text": "Cơ chế làm giảm glucose máu của insulin, ngoại trừ?",
+      "options": [
+        "Tăng sử dụng glucose bằng cách giúp cho glucose đi vào tế bào",
+        "Tăng tạo glycogen",
+        "Tăng sinh đường mới từ protid, lipid",
+        "Tăng sinh lipid từ glucid"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 180,
+      "text": "Chẩn đoán điều dưỡng “Phù  do tăng áp lực thẩm thấu muối” trong trường hợp nào:  (1) Cầu thận giảm lọc, (2) hạn chế muối tối đa, (3) gặp trong viêm cầu thận cấp.",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 181,
+      "text": "Trong đáp ứng miễn dịch (ĐƯMD) đối với vật chủ, phát biểu nào sau đây không phù hợp?",
+      "options": [
+        "ĐƯMD đặc hiệu luôn có lợi cho vật chủ",
+        "ĐƯMD đặc hiệu có thể gây tổn thương vật chủ",
+        "ĐƯMD đặc hiệu có thể chống lại thành phần cấu trúc của chính cơ thể vật chủ",
+        "ĐƯMD có vai trò tầm soát các tế bào ung thư phát sinh trong cơ thể vật chủ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 182,
+      "text": "Hệ thống miễn dịch bao gồm:",
+      "options": [
+        "Miễn dịch bẩm sinh và miễn dịch thu được",
+        "Miễn dịch thụ động và miễn dịch chủ đông",
+        "Miễn dịch mắc phải và miễn dịch tế bào",
+        "Miễn dịch bẩm sinh và miễn dịch tự nhiên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 183,
+      "text": "Hệ thống miễn dịch bẩm sinh sử dụng phương thức miễn dịch?",
+      "options": [
+        "Phương thức miễn dịch không đặc hiệu",
+        "Phương thức miễn dịch thu được",
+        "Phương thức miễn dịch đặc hiệu",
+        "Phương thức miễn dịch tự nhiên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 184,
+      "text": "Hệ thống bổ thể được hoạt hóa khi có sự tiếp xúc của vi khuẩn: (1) có khả năng tiêu diệt vi khuẩn trực tiếp, (2)  bằng cơ chế miễn dịch đặc hiệu nghĩa là cần có tiếp xúc trước vi khuẩn, (3) và chọc thủng màng vi khuẩn gây ly giải vi khuẩn",
+      "options": [
+        "(1), (2)",
+        "(1), (3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 185,
+      "text": "Đáp ứng miễn dịch bao gồm:",
+      "options": [
+        "Miễn dịch dịch thể với tế bào B và miễn dịch trung gian tế bào với tế bào T",
+        "Miễn dịch dịch thể với tế bào T và miễn dịch trung gian tế bào với tế bào B.",
+        "Miễn dịch dịch thể với các thực bào và tế bào NK và miễn dịch trung gian tế bào với tế bào lympho",
+        "Miễn dịch dịch thể với tế bào B và miễn dịch trung gian tế bào với các thực bào"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 186,
+      "text": "Khi có thai người mẹ được tiêm chủng vaccin uốn ván có mục đích gì?",
+      "options": [
+        "Phòng bệnh uốn ván cho con",
+        "Phòng bệnh uốn ván cho mẹ và con",
+        "Tạo miễn dịch chủ động bảo vệ mẹ",
+        "Tạo miễn dịch thụ động bảo vệ con"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 187,
+      "text": "Lớp Ig nào có vai trò trong sốc phản vệ?",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgE",
+        "IgM"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 188,
+      "text": "Tại sao sau 6 tháng tuổi trẻ thường dễ bị nhiễm trùng?",
+      "options": [
+        "Trẻ có cơ hội tiếp xúc môi trường chung quanh",
+        "Trẻ bắt đầu phát triển đáp ứng miễn dịch",
+        "Đáp ứng miễn dịch thụ động của trẻ bắt đầu suy giảm",
+        "Đáp ứng miễn dịch của trẻ chủ yếu là dịch thể"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 189,
+      "text": "Tế bào lympho T được huấn luyện ở đâu để trưởng thành?",
+      "options": [
+        "Tuyến ức",
+        "Tủy xương",
+        "Hạch lympho",
+        "Tổ chức lách"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 190,
+      "text": "Lách là tổ chức lympho?",
+      "options": [
+        "Tổ chức lympho không có vỏ bọc",
+        "Tổ chức hủy hoại hồng cầu",
+        "Nơi nhận diện kháng nguyên từ máu",
+        "Tổ chức lympho trung ương"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 191,
+      "text": "Sau chủng ngừa vaccine viêm gan B, ta cần phải làm xét nghiệm gì để đánh giá hiệu quả đáp ứng miễn dịch của cơ thể?",
+      "options": [
+        "Anti HBs",
+        "HBsAg",
+        "HBeAg",
+        "Anti HBc"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 192,
+      "text": "Trước khi chủng ngừa vaccine viêm gan B ta nên xét nghiệm sàng lọc gì để biết cần tiêm chủng?",
+      "options": [
+        "Anti HBs và anti HBc",
+        "HBsAg và anti HBs",
+        "HBeAg và anti HBe",
+        "Anti HBc và HBsAg"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 193,
+      "text": "Vaccine bại liệt Sabin được sử dụng bằng đường uống do:",
+      "options": [
+        "Kích thích đáp ứng miễn dịch của ống tiêu hoá và toàn thân",
+        "Vaccine kích thích đáp ứng miễn dịch toàn thân",
+        "Dùng cho trường hợp dị ứng với vaccine đường tiêm",
+        "Vaccine kích thích đáp ứng miễn dịch ống tiêu hoá"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 194,
+      "text": "Đáp ứng miễn dịch loại bỏ vi khuẩn nội bào ( lao, phong) có vai trò:",
+      "options": [
+        "Tế bào lympho T và đại thực bào",
+        "Đại thực bào và globulin miễn dịch (Ig)",
+        "Tế bào lympho T",
+        "Tế bào T và tế bào B"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 195,
+      "text": "Các globulin miễn dịch do tế bào nào tạo ra:",
+      "options": [
+        "Tế bào lympho B sau khi tiếp xúc kháng nguyên",
+        "Tế bào lympho B",
+        "Đại thực bào",
+        "Tế bào gốc"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 196,
+      "text": "Lớp Ig trong sữa mẹ cần thiết nhất cho trẻ sau sinh?",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgM",
+        "IgD"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 197,
+      "text": "Phù trong dị ứng do ong đốt có cơ chế:",
+      "options": [
+        "Tăng áp lực thủy tỉnh",
+        "Tăng áp lực thẩm thấu ngoại bào",
+        "Giảm áp lực keo",
+        "Tăng tính thấm thành mạch"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 198,
+      "text": "Tại sao khi chủng ngừa vaccine thường có mũi tiêm nhắc lại?",
+      "options": [
+        "Tiêm cho đủ lượng kháng nguyên",
+        "Tiêm cho đủ lượng kháng thể",
+        "Tăng cường ký ức miễn dịch",
+        "Tránh tai biến của vaccine"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 199,
+      "text": "Hệ thống bổ thể tham gia đáp ứng miễn dịch có thể tiêu diệt vi khuẩn bằng cơ chế nào?",
+      "options": [
+        "Hoại tử",
+        "Phá hủy vi khuẩn bằng chọc thủng màng tế bào",
+        "Phá hủy acid nhân (DNA)",
+        "Teo tế bào"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 200,
+      "text": "Trong các lớp globulin miễn dịch (Ig) thì lớp Ig nào có thể đi qua nhau thai để cung cấp miễn dịch thụ động cho trẻ sau khi sinh ra?",
+      "options": [
+        "IgG",
+        "IgA",
+        "IgM",
+        "IgD"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 201,
+      "text": "Trong 4 type quá mẫn, quá mẫn nào được gọi là quá mẫn qua trung gian tế bào hay còn gọi quá mẫn muộn?",
+      "options": [
+        "Quá mẫn type I",
+        "Quá mẫn type II",
+        "Quá mẫn type III",
+        "Quá mẫn type IV"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 202,
+      "text": "Điển hình cho quá mẫn type I là phản vệ, cơ chế phản vệ liên quan:",
+      "options": [
+        "Tế bào mast có thụ thể mảnh Fc của IgG",
+        "Vai trò của histamin do tế bào mast vỡ hạt tiết ra",
+        "Histamin tăng tính thấm tĩnh mạch thoát huyết tương",
+        "Sử dụng corticoid điều trị ưu tiên"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 203,
+      "text": "Theo Thông tư 51/2017/TT-BYT về hướng dẫn phòng, chẩn đoán, và xử trí phản vệ: , chỉ thực hiện test thử thuốc kháng sinh khi có chỉ định của bác sĩ. Anh/chị thử nêu lý do?",
+      "options": [
+        "Hiện tượng phản vệ có thể xảy ra ở các mũi tiêm về sau",
+        "Sốc phản vệ vẫn xảy ra trong lần thử test",
+        "Dị nguyên gây dị ứng có thể là dị nguyên đã chuyển hóa trong cơ thể",
+        "Tất cả các câu trên đều đúng"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 204,
+      "text": "Các vi sinh vật có khả năng lẫn tránh đáp ứng miễn dịch như sau, ngoại trừ?",
+      "options": [
+        "Giảm khả năng trình diện kháng nguyên của tế bào vật chủ",
+        "Ngăn cản sự hòa màng của túi nội bào",
+        "Kích hoạt sản xuất cytokin viêm",
+        "Tồn tại trong u hạt"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 205,
+      "text": "Kháng huyết thanh thường được sử dụng để điều trị bệnh tay chân miệng (intravenous Immunoglobulin) chủ yếu thuộc lớp nào?",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgE"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 206,
+      "text": "Tế bào mast có nhiều ở đâu?",
+      "options": [
+        "Tô chức nội tạng",
+        "Đường tiêu hóa",
+        "Đường hô hấp",
+        "Tô chức dưới da và niêm mạc"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 207,
+      "text": "Đặc điểm của tế bào mast?",
+      "options": [
+        "Tế bào có nhiều hạt ái kiềm ở bào tương",
+        "Tế bào có các thụ thể gắn với mảnh Fc của IgG",
+        "Tế bào có thụ thể gắn với kháng thể IgE",
+        "Tế bào ái kiềm có thụ thể gắn với kháng thể IgE"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 208,
+      "text": "Phản ứng Widal trong chẩn đoán huyết thanh bệnh thương hàn nhằm phát hiện gì ?",
+      "options": [
+        "Kháng thể anti O (O là kháng nguyên thân của vi khuẩn)",
+        "Kháng thể anti H (H là kháng nguyên lông của vi khuẩn)",
+        "Kháng thể anti O và anti H",
+        "Kháng thể anti O, anti H, và anti-Vi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 209,
+      "text": "Điều kiện phát sinh bệnh như sau, ngoại trừ?",
+      "options": [
+        "Lây nhiễm trực tiếp qua giọt bắn vào đường hô hấp",
+        "Lây nhiễm qua bề mặt nhiễm bẩn (nắm cửa, bàn tay...)",
+        "Lây nhiễm qua không khí (khí dung)",
+        "Lây nhiễm qua nguồn nước nhiễm bẩn"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 210,
+      "text": "Lớp kháng thể nào có nhiều trong các dịch tiết niêm mạc (đường tiêu hóa, đường hô hấp)?",
+      "options": [
+        "IgG",
+        "IgM",
+        "IgA",
+        "IgE"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 211,
+      "text": "Hiện tượng nào sau đây không thuộc biểu hiện của đáp ứng miễn dịch?",
+      "options": [
+        "Viêm đặc hiệu",
+        "Cơn bão cytokin",
+        "Sốc mất máu",
+        "Thải ghép"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 212,
+      "text": "Thành phần nào tham gia vào đáp ứng miễn dịch dịch thể:",
+      "options": [
+        "Bổ thể",
+        "Interferon",
+        "Globulin miễn dịch",
+        "Cytokin"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 213,
+      "text": "Tế bào nào có thụ thể nhận diện kháng nguyên ( miễn dịch đặc hiệu)?",
+      "options": [
+        "Bạch cầu hạt trung tính",
+        "Bạch cầu đơn nhân",
+        "Tế bào mast (dưỡng bào)",
+        "Tế bào lympho B và T"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 214,
+      "text": "Chẩn đoán huyết thanh sốt xuất huyết dengue sớm có thể sử dụng:",
+      "options": [
+        "Kháng thể NS1 của virus dengue",
+        "Kháng nguyên NS1 của virus dengue",
+        "Kháng thể anti-dengue IgG",
+        "Kháng thể anti-dengue IgA"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 215,
+      "text": "Chủng ngừa uốn ván cho bà mẹ mang thai nhằm các mục đích sau, ngoại trừ?",
+      "options": [
+        "Phòng ngừa uốn ván cho người mẹ",
+        "Tăng cường đáp ứng miễn dịch cho mẹ",
+        "Phòng ngừa uốn ván cho con",
+        "Gây miễn dịch chủ động cho con"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 216,
+      "text": "Yếu tố nào sau đây không thuộc hàng rào lý hóa của miễn dịch bẩm sinh?",
+      "options": [
+        "thân nhiệt",
+        "da",
+        "lớp nhầy niêm mạc",
+        "HCl dịch vị"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 217,
+      "text": "Chức năng của hệ thống miễn dịch như sau, ngoại trừ?",
+      "options": [
+        "Loại bỏ kháng nguyên lạ",
+        "Dung thứ (chấp nhận) kháng nguyên bản thân",
+        "Kiểm soát nội môi (loại bỏ tế bào đột biến)",
+        "Loại bỏ các tự kháng nguyên"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 218,
+      "text": "Cơ chế bệnh sinh bệnh tự miễn có liên quan như sau, ngoại trừ?",
+      "options": [
+        "Sự “bắt chước” kháng nguyên bản thân của các vi sinh vật (ĐTĐ típ 1)",
+        "Sự xuất hiện các kháng nguyên vốn “ẩn dấu” như bệnh nhãn viêm giao cảm",
+        "Bệnh không liên quan yếu tố gene",
+        "Sự thất bại dung thứ miễn dịch với kháng nguyên bản thân"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 219,
+      "text": "Viêm tổ chức liên kết trong bệnh tự miễn toàn thân (không đặc hiệu cơ quan) xảy ra ở các bệnh sau, ngoại trừ:",
+      "options": [
+        "Viêm đa khớp dạng thấp",
+        "Bệnh lupus ban đỏ hệ thống",
+        "Bệnh đái tháo đường type 1",
+        "Bệnh xơ cứng bì hệ thống"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 220,
+      "text": "Bệnh tự miễn đặc hiệu cơ quan gồm những bệnh sau, ngoại trừ:",
+      "options": [
+        "Hội chứng khô tuyến",
+        "Viêm tuyến giáp Hashimoto",
+        "Bệnh Basedow",
+        "Bệnh xuất huyết giảm tiểu cầu tự miễn"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 221,
+      "text": "Xét nghiệm huyết thanh phát hiện kháng thể kháng IgG trong bệnh viêm đa khớp dạng thấp ?",
+      "options": [
+        "RF (Rhumatoid factors)",
+        "IgG (Immunoglobulin G)",
+        "IgM(Immunoglobulin M)",
+        "IgA(Immunoglobulin A)"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 222,
+      "text": "Kháng thể anti-CCP (Cyclic Citrullinated Peptide) là gì?",
+      "options": [
+        "Kháng thể là một trong các tiêu chuẩn chẩn đoán bệnh lupus ban đỏ",
+        "Kháng thể là một trong các tiêu chuẩn chẩn đoán bệnh viêm khớp dạng thấp",
+        "Kháng thể là một trong các tiêu chuẩn chẩn đoán bệnh xơ cứng bì",
+        "Kháng thể là tiêu chuẩn chẩn đoán bệnh Basedow"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 223,
+      "text": "Dấu hiệu điển hình cho bệnh lupus ban đỏ :",
+      "options": [
+        "Sốt kéo dài",
+        "Ban đỏ hình cánh bướm ở mặt, nhạy cảm với ánh sáng",
+        "Đau khớp",
+        "Mệt mỏi, chán ăn"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 224,
+      "text": "Tổn thương nào sau đây là tiên lượng bệnh nặng trong bệnh lupus ban đỏ?",
+      "options": [
+        "Tổn thương khớp",
+        "Tổn thương da",
+        "Tổn thương thận",
+        "Ban đỏ hình cánh  bướm"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 225,
+      "text": "Một số người thợ xây dựng bị viêm da tiếp xúc ở bàn tay, bàn chân.v.v. do tiếp xúc với xi măng, người ta đã xác định chất gây dị ứng là Dichromate Kali có trong xi măng, vậy Dichromate Kali gọi là gì?",
+      "options": [
+        "Hapten (Bán kháng nguyên)",
+        "Kháng nguyên",
+        "Kim loại nặng",
+        "Dị nguyên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 226,
+      "text": "Tại sao Albumin là thành phần quan trọng trong cấu thành áp lực keo?",
+      "options": [
+        "Albumin có trọng lượng phân tử  cao hơn globulin",
+        "Albumin có trọng lượng phân tử là 75-89 kDa",
+        "Albumin chiếm nồng độ cao trong huyết tương",
+        "Albumin có trọng lượng phân tử thấp nhất trong các protein"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 227,
+      "text": "Bệnh nguyên của  bệnh Thalassamie?",
+      "options": [
+        "Đột biến điểm ở cấu trúc các chuổi globin",
+        "Rối loạn gen điều hoà tổng hợp các chuổi globin",
+        "Ví dụ bệnh hồng cầu hình bia bắn do chuổi globin alpha thay bằng chuổi gamma",
+        "Ví dụ bệnh HbS vị trí a.amin số 6 là glutamine thay thế bởi valine"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 228,
+      "text": "Về mặt di truyền, nếu cha và  mẹ là người lành mang gene bệnh thalasemia thì kết quả con như thế nào?",
+      "options": [
+        "bị bệnh 0% và 50% mang gene bệnh",
+        "bị bệnh 50% và 50% mang gene bệnh",
+        "bị bệnh 25% và 50% mang gene bệnh",
+        "bị bệnh 100%"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 229,
+      "text": "Từ những hiểu biết về bệnh nguyên và bệnh sinh tan máu bẩm sinh thalassemia, anh/chị tư vấn cho người trưởng thành có yếu tố nguy cơ như sau, ngoại trừ?",
+      "options": [
+        "Cần được tư vấn và xét nghiệm di truyền tiền hôn nhân",
+        "Xét nghiệm sàng lọc và di truyền trước sinh nếu đã kết hôn",
+        "Có thể đình chỉ thai nếu nguy cơ thalassemia thể nặng",
+        "Không nên kết hôn nếu hai người có mang gene bệnh"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 230,
+      "text": "Bệnh sinh của quá mẫn hoạt hóa bổ thể (quá mẫn type II ) như sau, ngoại trừ?",
+      "options": [
+        "Do kết hợp dị nguyên và kháng thể sẽ hoạt hóa bổ thể",
+        "Kháng thể tham gia thuộc lớp Ig E",
+        "Bổ thể khởi động phản ứng viêm và hình thành phức hợp tấn công màng",
+        "Có thể gặp trong bệnh tan máu tự miễn do dị ứng với penicillin"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 231,
+      "text": "Quá mẫn do phức hợp miễn dịch (típ III) có thể gặp trong các bệnh sau, ngoại trừ?",
+      "options": [
+        "Viêm cầu thận cấp",
+        "Viêm da tiếp xúc (chàm)",
+        "Viêm khớp dạng thấp",
+        "Bệnh lupus ban đỏ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 232,
+      "text": "Hệ bạch huyết có những chức năng sau, ngoại trừ?",
+      "options": [
+        "Thu vét lượng dịch huyết tương tại gian bào",
+        "Thu vét protein ở gian bào",
+        "Vận chuyển tế bào lympho",
+        "Vận chuyển các khí oxy và carbonic"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 233,
+      "text": "Cơ chế bệnh sinh biến chứng bàn chân đái tháo đường như sau, ngoại trừ?",
+      "options": [
+        "Rối loạn cảm giác và tổn thương dây thần kinh ngoại vi",
+        "Xơ vữa động mạch",
+        "Không chăm sóc kỹ hàng ngày",
+        "Thiếu oxy tại tổ chức"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 234,
+      "text": "Chọn câu đúng nhất về vị trí của môn học Sinh lý bệnh trong y học?",
+      "options": [
+        "Sinh lý bệnh là cầu nối giữa y học cơ sở và y học lâm sàng",
+        "Sinh lý bệnh là môn học về quy luật hoạt động của các chức năng",
+        "Sinh lý bệnh là cầu nối giữa y học lý thuyết và y học thực hành",
+        "Sinh lý bệnh là môn học nghiên cứu về các biện pháp dự phòng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 235,
+      "text": "Quan niệm khoa học về bệnh nguyên sẽ dẫn đến sự tích cực của công tác điều trị và dự phòng như sau, ngoại trừ?",
+      "options": [
+        "Áp dụng phương châm phòng bệnh hơn chữa bệnh.",
+        "Có nguyên nhân chưa chắc là đã có bệnh.",
+        "Phản ứng tính có vai trò thứ yếu trong bệnh nguyên",
+        "Tích cực tìm ra nguyên nhân và ngăn ngừa các điều kiện phát sinh"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 236,
+      "text": "Định nghĩa về vòng xoắn bệnh lý?",
+      "options": [
+        "Các khâu của quá trình bệnh tác động theo thứ tự trước sau",
+        "Các khâu sau tác động trở lại khâu trước và làm nặng nề khâu trước",
+        "Các khâu trước tác động đến các khâu sau",
+        "Nguyên nhân gây bệnh tất yếu dẫn đến hậu quả bệnh"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 237,
+      "text": "Bệnh nguyên của thalassemia như sau, ngoại trừ?",
+      "options": [
+        "Nhiễm độc dioxin",
+        "Rối loạn tổng hợp các chuổi globin",
+        "Rối loạn cấu trúc các acid amin chuổi globin",
+        "Vai trò của coxsackie virus B"
+      ],
+      "answer": 1
+    },
+    {
+      "id": 238,
+      "text": "Thời kỳ ủ bệnh ?",
+      "options": [
+        "Các triệu chứng xuất hiện rõ ràng",
+        "Các rối loạn của cơ thể đã xuất hiện",
+        "Bệnh có thể kết thúc ở giai đoạn này",
+        "Bệnh luôn tiến triển đến thời kỳ khởi phát"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 239,
+      "text": "Thời kỳ khởi phát của bệnh sinh?",
+      "options": [
+        "Bắt đầu xuất hiện các triệu chứng đầu tiên",
+        "Các triệu chứng chính của bệnh đã xuất hiện",
+        "Bệnh không bao giờ kết thúc ở giai đoạn này",
+        "Bệnh luôn tiến triển đến thời kỳ toàn phát"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 240,
+      "text": "Thời kỳ toàn phát của bệnh sinh?",
+      "options": [
+        "Bệnh có thể kết thúc ở giai đoạn này",
+        "Cơ thể thích nghi sự thay đổi của bệnh mà không có hoạt động gì",
+        "Bệnh có thể cục bộ hay toàn thân",
+        "Tương đối dễ chẩn đoán vì các triệu chứng xuất hiện rõ rệt"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 241,
+      "text": "Thời kỳ kết thúc của bệnh",
+      "options": [
+        "Khỏi bệnh không hoàn toàn coi như chuyển sang mạn tính",
+        "Để lại di chứng coi như là chuyển sang mạn tính",
+        "Nhiều bệnh không bao giờ chuyển sang mạn tính",
+        "Thời kỳ này không bao giờ kéo dài"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 242,
+      "text": "Tế bào nào sau không cần insulin khi thu nhận glucose?",
+      "options": [
+        "Tế bào cơ vân",
+        "Tế bào cơ trơn",
+        "Tế bào cơ tim",
+        "Tế bào não"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 243,
+      "text": "Bệnh nhân xơ gan có rối loạn chuyển hóa glucose do các nguyên nhân sau, ngoại trừ?",
+      "options": [
+        "Giảm dự trữ glycogene trong gan",
+        "Giảm tiết glucose từ gan vào máu",
+        "Giảm tạo glucose từ các nguồn khác.",
+        "Tăng tiêu thụ glucose"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 244,
+      "text": "Vai trò virus Coxsakie liên quan bệnh sinh của đái đường type 1 được thể hiện bởi:",
+      "options": [
+        "Kháng thể anti-GAD65",
+        "Hình ành giải phẫu bệnh học của viêm đảo tụy do vi khuẩn",
+        "Một số vi khuẩn có khả năng phá hủy tế bào bêta tuyến tụy trong môi trường nuôi cấy",
+        "Kháng thể kháng insulin"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 245,
+      "text": "Thương tổn mạch máu trong đái tháo đường như sau, ngoại trừ?",
+      "options": [
+        "Do tích tụ các protein bị đường hóa do thẩm thấu",
+        "Do các sản phẩm đường cồn (sorbitol)",
+        "Không có vai trò của các vi huyết khối",
+        "Rối loạn lipid máu kết hợp"
+      ],
+      "answer": 2
+    },
+    {
+      "id": 246,
+      "text": "Nhận định về phù do giảm protid huyết tương như sau, ngoại trừ?",
+      "options": [
+        "Phù toàn thân.",
+        "Phù tím cứng.",
+        "Phù có dấu ấn lõm rõ.",
+        "Phù không theo tư thế."
+      ],
+      "answer": 1
+    },
+    {
+      "id": 247,
+      "text": "Nhận định phù trong suy dinh dưỡng như sau, ngoại trừ nội dung nào?",
+      "options": [
+        "Phù thay đổi theo tư thế",
+        "Dấu ấn lõm  (Godet’s sign)",
+        "Phù không liên quan thời gian",
+        "Phù ít liên quan chế độ ăn muối"
+      ],
+      "answer": 0
+    },
+    {
+      "id": 248,
+      "text": "Chàm do tiếp xúc thuộc quá mẫn:",
+      "options": [
+        "Típ I",
+        "Típ II",
+        "Típ III",
+        "Típ IV"
+      ],
+      "answer": 3
+    },
+    {
+      "id": 249,
+      "text": "Quá mẫn típ III là quá mẫn có những đặc điểm sau, ngoại trừ?",
+      "options": [
+        "Phức hợp miễn dịch (KN+KT) là nguyên nhân",
+        "Thành phần hiệu ứng là IgG",
+        "Kháng nguyên ở màng tế bào",
+        "Tổn thương thường ở da, mạch máu, khớp, thận."
+      ],
+      "answer": 2
+    },
+    {
+      "id": 250,
+      "text": "Sau khi hoàn tất vai trò trong loại bỏ kháng nguyên thì các tế bào lympho đặc hiệu làm gì? (1) đi vào cơ chế tự tiêu apoptosis, (2) lưu giữ những tế bào như là những tế bào “nhớ”, (3) Tồn lưu tại tổ chức lympho ngoại vi, tuỷ xương.v.v",
+      "options": [
+        "(1),(2)",
+        "(1),(3)",
+        "(2),(3)",
+        "(1),(2),(3)"
+      ],
+      "answer": 3
+    }
+  ]
+}

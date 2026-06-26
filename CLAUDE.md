@@ -38,3 +38,15 @@ node test/validate-quizzes.mjs
 ## Importing questions from a .docx
 
 Source question docs (e.g. `Câu hỏi ôn tập ....docx`) are unzipped and parsed in throwaway Python scripts; only the resulting `data/<name>.json` is committed. The Word docs are messy: mixed `Câu N.` and bare `N.` numbering, option A occasionally glued into the stem, True/False (2-option) questions, and gaps/duplicates in source numbering — so questions are re-`id`'d sequentially 1..N. **Source docs typically carry no answer key**; correct answers are filled from domain knowledge and should be flagged for review when uncertain.
+
+## Harness: quiz-ops
+
+**Goal:** Coordinate all quiz app work — importing question sets from .docx, engine/UX changes to quiz.html, and validation.
+
+**Trigger:** When work related to adding/importing quizzes, modifying quiz.html, or validating quiz data is requested, use the `quiz-ops` skill. Simple questions can be answered directly.
+
+**Change log:**
+| Date | Change | Target | Reason |
+|------|--------|--------|--------|
+| 2026-06-27 | Initial setup | All | - |
+| 2026-06-27 | WPS .doc support + x-prefix answer key format | quiz-importer | First real import exposed both gaps |
