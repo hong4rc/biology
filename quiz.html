@@ -34,6 +34,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 .btn-shuffle .material-icons-round{font-size:15px}
 @keyframes spin{from{transform:rotate(0)}to{transform:rotate(180deg)}}
 @media(max-width:480px){.btn-shuffle span:not(.material-icons-round){display:none}}
+@media(max-width:360px){.topbar-actions{gap:4px}}
 
 /* ── Progress strip ── */
 .progress-strip{height:4px;background:rgba(255,255,255,.2);position:sticky;top:56px;z-index:49}
@@ -188,6 +189,10 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
       <span class="material-icons-round">shuffle</span>
       <span id="shuffle-label">Trộn</span>
     </button>
+    <button class="btn-shuffle" id="opt-shuffle-btn" onclick="toggleOptShuffle()" title="Đảo ngẫu nhiên thứ tự đáp án trong mỗi câu">
+      <span class="material-icons-round">swap_vert</span>
+      <span id="opt-shuffle-label">Đảo đáp án</span>
+    </button>
   </div>
 </div>
 <div class="progress-strip"><div class="progress-strip-fill" id="prog-fill" style="width:0%"></div></div>
@@ -296,6 +301,10 @@ let current = 0;           // current display position (index into `order`)
 let answers = {};          // keyed by ORIGINAL question index (stable across shuffle)
 let flags = {};            // keyed by ORIGINAL question index (bookmarked questions)
 let shuffleEnabled = false;
+let optionShuffleEnabled = false;
+// optionOrder[qi] = array of original option indices in display order, stable per question.
+// Built lazily when a question is first rendered with option-shuffle on.
+let optionOrder = {};
 let autoAdvance = true;     // auto-jump to next question after answering
 let advanceTimer = null;
 let activeFilter = 'all';
@@ -321,6 +330,24 @@ function buildOrder(shuffle) {
   return idx;
 }
 
+// Return the display-order permutation for question qi's options.
+// If optionShuffleEnabled is on, build + cache it (stable across renders).
+// If off, return the identity permutation so rendering is uniform.
+function getOptOrder(qi) {
+  if (!optionShuffleEnabled) {
+    return questions[qi].options.map((_, i) => i);
+  }
+  if (!optionOrder[qi]) {
+    const idx = questions[qi].options.map((_, i) => i);
+    for (let i = idx.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [idx[i], idx[j]] = [idx[j], idx[i]];
+    }
+    optionOrder[qi] = idx;
+  }
+  return optionOrder[qi];
+}
+
 async function loadQuestions() {
   const res = await fetch('data/' + dataParam + '.json');
   const data = await res.json();
@@ -341,6 +368,8 @@ function load() {
       current = d.current || 0;
       order = Array.isArray(d.order) ? d.order : [];
       shuffleEnabled = !!d.shuffleEnabled;
+      optionShuffleEnabled = !!d.optionShuffleEnabled;
+      optionOrder = (d.optionOrder && typeof d.optionOrder === 'object') ? d.optionOrder : {};
       autoAdvance = d.autoAdvance !== false;   // default on
     } catch(e) {}
   }
@@ -348,7 +377,9 @@ function load() {
 
 function save() {
   localStorage.setItem(STORAGE_KEY, JSON.stringify({
-    answers, flags, current, order, shuffleEnabled, autoAdvance,
+    answers, flags, current, order, shuffleEnabled,
+    optionShuffleEnabled, optionOrder,
+    autoAdvance,
     timestamp: new Date().toISOString()
   }));
 }
@@ -368,6 +399,25 @@ function toggleShuffle() {
   current = pos >= 0 ? pos : 0;
   updateShuffleButton();
   toast(shuffleEnabled ? 'Đã trộn thứ tự câu hỏi' : 'Thứ tự câu hỏi ban đầu', 'shuffle');
+  render();
+}
+
+function updateOptShuffleButton() {
+  const btn = document.getElementById('opt-shuffle-btn');
+  btn.classList.toggle('on', optionShuffleEnabled);
+}
+
+function toggleOptShuffle() {
+  optionShuffleEnabled = !optionShuffleEnabled;
+  if (!optionShuffleEnabled) {
+    // Turning off: clear all cached permutations so they reset to identity next render
+    optionOrder = {};
+  } else {
+    // Turning on: clear any existing (stale) permutations so they are freshly built
+    optionOrder = {};
+  }
+  updateOptShuffleButton();
+  toast(optionShuffleEnabled ? 'Đã đảo thứ tự đáp án' : 'Thứ tự đáp án ban đầu', 'swap_vert');
   render();
 }
 
@@ -409,12 +459,17 @@ function render() {
   const q = questions[qi];
   const answered = answers[qi] !== undefined;
 
-  const optionsHtml = q.options.map((opt, oi) => {
+  // optPerm[displayPos] = originalOptionIndex; display iterates over positions 0..N-1
+  const optPerm = getOptOrder(qi);
+  const optionsHtml = optPerm.map((origOi, displayPos) => {
+    const opt = q.options[origOi];
     let cls = answered ? 'disabled' : '';
-    if (answered && oi === q.answer) cls += ' correct';
-    if (answered && answers[qi] === oi && oi !== q.answer) cls += ' wrong';
-    return `<div class="option ${cls}" onclick="pick(${oi})">
-      <div class="opt-letter">${letters[oi]}</div>
+    // After answering: highlight the correct original option wherever it ended up displayed
+    if (answered && origOi === q.answer) cls += ' correct';
+    // Highlight the user's chosen original option as wrong if it wasn't the correct one
+    if (answered && answers[qi] === origOi && origOi !== q.answer) cls += ' wrong';
+    return `<div class="option ${cls}" onclick="pick(${origOi})">
+      <div class="opt-letter">${letters[displayPos]}</div>
       <div class="opt-text">${fmt(opt)}</div>
     </div>`;
   }).join('');
@@ -449,6 +504,7 @@ function render() {
 
   renderGrid();
   updateShuffleButton();
+  updateOptShuffleButton();
   updateAutoButton();
   save();
 }
@@ -473,12 +529,16 @@ function renderGrid() {
 }
 
 function pick(oi) {
+  // oi is always the ORIGINAL option index (from onclick="pick(${origOi})" in render())
   const qi = order[current];
   if (answers[qi] !== undefined) return;
   answers[qi] = oi;
   render();
   const isCorrect = oi === questions[qi].answer;
-  const correctLetter = letters[questions[qi].answer];
+  // Correct-answer letter shown to user reflects DISPLAY position, not original index
+  const optPerm = getOptOrder(qi);
+  const correctDisplayPos = optPerm.indexOf(questions[qi].answer);
+  const correctLetter = letters[correctDisplayPos >= 0 ? correctDisplayPos : questions[qi].answer];
   toast(isCorrect ? 'Chính xác!' : `Sai! Đáp án: ${correctLetter}`, isCorrect ? 'check_circle' : 'cancel');
 
   if (Object.keys(answers).length === questions.length) { showDone(); return; }
@@ -533,14 +593,21 @@ function exportJSON() {
     answered: Object.keys(answers).length,
     correct: Object.keys(answers).filter(k => answers[k] === questions[k].answer).length,
     shuffled: shuffleEnabled,
-    results: questions.map((q, i) => ({
-      position: order.indexOf(i) + 1,   // slot shown in the app (Câu N), reflects shuffle
-      question: q.id, text: q.text,
-      selected: answers[i] !== undefined ? letters[answers[i]] : null,
-      correct: letters[q.answer],
-      isCorrect: answers[i] === q.answer,
-      ...(q.uncertain ? {uncertain: true} : {})
-    }))
+    results: questions.map((q, i) => {
+      // Compute display position of each original option index for this question
+      const perm = getOptOrder(i);   // safe to call even after session ends
+      const selOrigIdx = answers[i];
+      const selDisplayPos = selOrigIdx !== undefined ? perm.indexOf(selOrigIdx) : -1;
+      const corrDisplayPos = perm.indexOf(q.answer);
+      return {
+        position: order.indexOf(i) + 1,   // slot shown in the app (Câu N), reflects shuffle
+        question: q.id, text: q.text,
+        selected: selOrigIdx !== undefined ? letters[selDisplayPos >= 0 ? selDisplayPos : selOrigIdx] : null,
+        correct: letters[corrDisplayPos >= 0 ? corrDisplayPos : q.answer],
+        isCorrect: answers[i] === q.answer,
+        ...(q.uncertain ? {uncertain: true} : {})
+      };
+    })
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
   const a = document.createElement('a');
@@ -568,8 +635,10 @@ function showModal(action) {
       const p = order.findIndex(qi => wrongKeys.includes(String(qi)));  // first wrong in display order
       if (p >= 0) current = p;
     } else {
-      answers = {}; current = 0;
-      if (action === 'reset') { flags = {}; localStorage.removeItem(STORAGE_KEY); }
+      answers = {}; current = 0; optionOrder = {};
+      if (action === 'reset') {
+        flags = {}; localStorage.removeItem(STORAGE_KEY);
+      }
     }
     render(); hideModal();
     toast(action === 'retry-wrong' ? `Đã xóa ${wrongCount} câu sai!` : 'Đã xóa thành công!', 'check_circle');
@@ -603,6 +672,8 @@ function reviewWrong() {
 function restartFromDone() {
   hideDone();
   answers = {}; current = 0;
+  // When restarting, clear cached option permutations so each question gets a fresh shuffle
+  optionOrder = {};
   render();
   toast('Đã làm lại từ đầu!', 'refresh');
 }
@@ -613,7 +684,12 @@ document.addEventListener('keydown', e => {
   if (e.key === 'ArrowRight') go(1);
   if (e.key === 'ArrowLeft') go(-1);
   const n = parseInt(e.key);
-  if (n >= 1 && n <= (questions[order[current]]?.options.length || 0)) pick(n - 1);
+  if (n >= 1 && n <= (questions[order[current]]?.options.length || 0)) {
+    // n-1 is the display position; convert to original option index via the permutation
+    const qi = order[current];
+    const perm = getOptOrder(qi);
+    pick(perm[n - 1]);
+  }
 });
 
 async function init() {
